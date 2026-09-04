@@ -74,7 +74,9 @@
       "flagshipWhy": "Scaffolds and validates new skills. Apache-2.0.",
       "install": {
         "skillsCli": "anthropics/skills",
-        "claudePlugin": "/plugin marketplace add anthropics/skills && /plugin install example-skills@anthropic-agent-skills"
+        "claudePlugin": "/plugin marketplace add anthropics/skills && /plugin install example-skills@anthropic-agent-skills",
+        "pluginRoot": false,
+        "note": "Not in our marketplace: the repo root has no plugin.json; use the command above."
       },
       "whyIncluded": "The spec everything else follows."
     },
@@ -167,7 +169,9 @@
       "flagship": "connect-apps",
       "flagshipWhy": "Lets the agent take real actions across 1000+ apps via Composio.",
       "install": {
-        "claudePlugin": "git clone https://github.com/ComposioHQ/awesome-claude-skills && claude --plugin-dir ./awesome-claude-skills/connect-apps-plugin"
+        "claudePlugin": "git clone https://github.com/ComposioHQ/awesome-claude-skills && claude --plugin-dir ./awesome-claude-skills/connect-apps-plugin",
+        "pluginRoot": false,
+        "note": "Not in our marketplace: the repo root has no plugin.json; use the command above."
       },
       "whyIncluded": "The largest discovery list in the ecosystem."
     },
