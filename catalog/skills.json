@@ -1,0 +1,193 @@
+{
+  "note": "Hand-edited source of truth. Star counts live in catalog/stars.json (generated). Never type numbers here.",
+  "entries": [
+    {
+      "repo": "obra/superpowers",
+      "author": "Jesse Vincent (obra)",
+      "authorUrl": "https://github.com/obra",
+      "title": "Superpowers",
+      "summary": "An opinionated software-development methodology delivered as composable skills: brainstorm, plan, TDD, debug, review, ship. Session hooks make the agent actually use them.",
+      "license": "MIT",
+      "licenseNote": "",
+      "type": "framework",
+      "skillCount": 14,
+      "flagship": "brainstorming",
+      "flagshipWhy": "Forces intent and requirements exploration before any creative work. The entry point to the whole methodology.",
+      "install": {
+        "skillsCli": "obra/superpowers",
+        "claudePlugin": "/plugin install superpowers@claude-plugins-official",
+        "codex": "codex plugin marketplace add obra/superpowers-marketplace",
+        "gemini": "gemini extensions install https://github.com/obra/superpowers",
+        "cursor": "/add-plugin superpowers"
+      },
+      "whyIncluded": "Most-starred skills repo. Broadest harness support of any entry (13+ agents)."
+    },
+    {
+      "repo": "mattpocock/skills",
+      "author": "Matt Pocock",
+      "authorUrl": "https://github.com/mattpocock",
+      "title": "Skills for Real Engineers",
+      "summary": "Small, composable engineering skills straight from Matt's .agents directory. Explicitly against process-owning frameworks.",
+      "license": "MIT",
+      "licenseNote": "",
+      "type": "collection",
+      "skillCount": 37,
+      "flagship": "grill-with-docs",
+      "flagshipWhy": "Interrogates you to close the alignment gap before building, then writes a shared-language CONTEXT.md and ADRs.",
+      "install": {
+        "skillsCli": "mattpocock/skills",
+        "claudePlugin": "claude plugins install mattpocock-skills",
+        "note": "Install via ONE path only. The upstream README warns against installing both the plugin and the npx copy."
+      },
+      "whyIncluded": "Second most-starred. Pushed most recently of the ten."
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "author": "multica-ai (formerly forrestchang)",
+      "authorUrl": "https://github.com/multica-ai",
+      "title": "Andrej Karpathy Skills",
+      "summary": "A single skill distilled from Karpathy's observations on LLM coding pitfalls: think first, simplicity, surgical changes, goal-driven execution.",
+      "license": "Unlicensed (README says MIT)",
+      "licenseNote": "No LICENSE file in the repo. We link only.",
+      "type": "single",
+      "skillCount": 1,
+      "flagship": "karpathy-guidelines",
+      "flagshipWhy": "Four rules that measurably reduce over-engineering.",
+      "install": {
+        "skillsCli": "multica-ai/andrej-karpathy-skills",
+        "claudePlugin": "/plugin marketplace add multica-ai/andrej-karpathy-skills && /plugin install andrej-karpathy-skills@karpathy-skills",
+        "cursor": "Copy .cursor/rules/karpathy-guidelines.mdc from the repo"
+      },
+      "whyIncluded": "Third most-starred; the canonical behavioral-guidelines skill."
+    },
+    {
+      "repo": "anthropics/skills",
+      "author": "Anthropic",
+      "authorUrl": "https://github.com/anthropics",
+      "title": "Anthropic Agent Skills",
+      "summary": "The official reference collection, the Agent Skills spec, and the skill template. Home of skill-creator and mcp-builder.",
+      "license": "Per-skill (Apache-2.0 / proprietary)",
+      "licenseNote": "docx, pdf, pptx and xlsx are all-rights-reserved and may not be redistributed. We link only; nothing is copied.",
+      "type": "official",
+      "skillCount": 19,
+      "flagship": "skill-creator",
+      "flagshipWhy": "Scaffolds and validates new skills. Apache-2.0.",
+      "install": {
+        "skillsCli": "anthropics/skills",
+        "claudePlugin": "/plugin marketplace add anthropics/skills && /plugin install example-skills@anthropic-agent-skills"
+      },
+      "whyIncluded": "The spec everything else follows."
+    },
+    {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "author": "nextlevelbuilder",
+      "authorUrl": "https://github.com/nextlevelbuilder",
+      "title": "UI/UX Pro Max",
+      "summary": "Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator.",
+      "license": "MIT",
+      "licenseNote": "Requires Python 3 for its local search script (stdlib only, no network).",
+      "type": "collection",
+      "skillCount": 7,
+      "flagship": "ui-ux-pro-max",
+      "flagshipWhy": "The umbrella design skill; design-system is the v2 headline.",
+      "install": {
+        "skillsCli": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "claudePlugin": "/plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill && /plugin install ui-ux-pro-max@ui-ux-pro-max-skill",
+        "cli": "npm i -g ui-ux-pro-max-cli && uipro init --ai claude"
+      },
+      "whyIncluded": "Most-starred design skill; its own CLI supports about 20 agents."
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "author": "Julius Brussee",
+      "authorUrl": "https://github.com/JuliusBrussee",
+      "title": "Caveman",
+      "summary": "Cuts about 65% of output tokens by making the agent talk like a caveman while keeping technical accuracy. Plus subagent presets and memory-file compression.",
+      "license": "MIT (skills) / BSL-1.1 (engine, proxy)",
+      "licenseNote": "\"Caveman\" and the rock logo are trademarks of Julius Brussee. The optional CLI sends telemetry by default (DO_NOT_TRACK=1 disables it).",
+      "type": "collection",
+      "skillCount": 20,
+      "flagship": "caveman",
+      "flagshipWhy": "The namesake compression mode with lite, full and ultra intensities.",
+      "install": {
+        "skillsCli": "JuliusBrussee/caveman",
+        "claudePlugin": "claude plugin marketplace add JuliusBrussee/caveman && claude plugin install caveman@caveman",
+        "gemini": "gemini extensions install https://github.com/JuliusBrussee/caveman"
+      },
+      "whyIncluded": "The token-efficiency skill everyone else copies."
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "author": "Addy Osmani",
+      "authorUrl": "https://github.com/addyosmani",
+      "title": "Agent Skills by Addy Osmani",
+      "summary": "Production-grade engineering skills organized as a lifecycle: define, plan, build, verify, review, ship. Includes slash commands and agent personas.",
+      "license": "MIT",
+      "licenseNote": "Per-skill npx install drops the shared references/ dir (upstream issue #361). Install the whole repo.",
+      "type": "collection",
+      "skillCount": 25,
+      "flagship": "spec-driven-development",
+      "flagshipWhy": "Spec before code; the head of the documented lifecycle.",
+      "install": {
+        "skillsCli": "addyosmani/agent-skills",
+        "claudePlugin": "/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@addy-agent-skills",
+        "codex": "codex plugin marketplace add addyosmani/agent-skills",
+        "gemini": "gemini skills install https://github.com/addyosmani/agent-skills"
+      },
+      "whyIncluded": "The most complete lifecycle collection; clean MIT."
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "author": "Leonxlnx",
+      "authorUrl": "https://github.com/Leonxlnx",
+      "title": "Taste Skill",
+      "summary": "Gives your AI good taste: stops generic frontend slop with brief inference, variance/motion/density dials, and a design-system map.",
+      "license": "MIT",
+      "licenseNote": "",
+      "type": "collection",
+      "skillCount": 13,
+      "flagship": "design-taste-frontend",
+      "flagshipWhy": "The default anti-slop frontend skill (v2).",
+      "install": {
+        "skillsCli": "Leonxlnx/taste-skill",
+        "skillsCliOne": "npx skills@1 add Leonxlnx/taste-skill --skill design-taste-frontend"
+      },
+      "whyIncluded": "Most-starred single-purpose design-taste skill."
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "author": "Composio",
+      "authorUrl": "https://github.com/ComposioHQ",
+      "title": "Awesome Claude Skills",
+      "summary": "A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway.",
+      "license": "Unlicensed (README says Apache-2.0)",
+      "licenseNote": "No LICENSE file. Contains vendored copies of Anthropic's restricted document skills. We link only.",
+      "type": "list",
+      "skillCount": 865,
+      "flagship": "connect-apps",
+      "flagshipWhy": "Lets the agent take real actions across 1000+ apps via Composio.",
+      "install": {
+        "claudePlugin": "git clone https://github.com/ComposioHQ/awesome-claude-skills && claude --plugin-dir ./awesome-claude-skills/connect-apps-plugin"
+      },
+      "whyIncluded": "The largest discovery list in the ecosystem."
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "author": "ayghri",
+      "authorUrl": "https://github.com/ayghri",
+      "title": "I Have ADHD",
+      "summary": "Ten output rules that stop the agent burying the answer: lead with the next action, number steps, cap lists at five, no preamble.",
+      "license": "MIT",
+      "licenseNote": "",
+      "type": "single",
+      "skillCount": 1,
+      "flagship": "i-have-adhd",
+      "flagshipWhy": "The only skill here about the shape of answers, and it helps everyone, not only ADHD users.",
+      "install": {
+        "skillsCli": "ayghri/i-have-adhd",
+        "claudePlugin": "claude plugin marketplace add ayghri/i-have-adhd && claude plugin install i-have-adhd@i-have-adhd"
+      },
+      "whyIncluded": "Fastest-growing single skill of 2026; packaged for seven harnesses."
+    }
+  ]
+}
