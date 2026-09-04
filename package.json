@@ -1,0 +1,13 @@
+{
+  "name": "@aiescu/agent-skills",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/ && bash tests/install.test.sh",
+    "build": "node scripts/build.mjs",
+    "build:check": "node scripts/build.mjs --check",
+    "stars": "node scripts/fetch-stars.mjs"
+  }
+}
