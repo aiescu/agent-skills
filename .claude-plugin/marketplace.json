@@ -1,0 +1,139 @@
+{
+  "name": "aiescu-agent-skills",
+  "owner": {
+    "name": "aiescu",
+    "url": "https://github.com/aiescu"
+  },
+  "metadata": {
+    "description": "Curated marketplace of the most popular agent skills. Every plugin installs from its original upstream repository.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superpowers",
+      "description": "An opinionated software-development methodology delivered as composable skills: brainstorm, plan, TDD, debug, review, ship. Session hooks make the agent actually use them.",
+      "author": {
+        "name": "Jesse Vincent (obra) (original), curated by aiescu",
+        "url": "https://github.com/obra"
+      },
+      "homepage": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/obra/superpowers.git"
+      }
+    },
+    {
+      "name": "skills",
+      "description": "Small, composable engineering skills straight from Matt's .agents directory. Explicitly against process-owning frameworks.",
+      "author": {
+        "name": "Matt Pocock (original), curated by aiescu",
+        "url": "https://github.com/mattpocock"
+      },
+      "homepage": "https://github.com/mattpocock/skills",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mattpocock/skills.git"
+      }
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "description": "A single skill distilled from Karpathy's observations on LLM coding pitfalls: think first, simplicity, surgical changes, goal-driven execution.",
+      "author": {
+        "name": "multica-ai (formerly forrestchang) (original), curated by aiescu",
+        "url": "https://github.com/multica-ai"
+      },
+      "homepage": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "license": "Unlicensed (README says MIT)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills.git"
+      }
+    },
+    {
+      "name": "skills",
+      "description": "The official reference collection, the Agent Skills spec, and the skill template. Home of skill-creator and mcp-builder.",
+      "author": {
+        "name": "Anthropic (original), curated by aiescu",
+        "url": "https://github.com/anthropics"
+      },
+      "homepage": "https://github.com/anthropics/skills",
+      "license": "Per-skill (Apache-2.0 / proprietary)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anthropics/skills.git"
+      }
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "description": "Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator.",
+      "author": {
+        "name": "nextlevelbuilder (original), curated by aiescu",
+        "url": "https://github.com/nextlevelbuilder"
+      },
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
+      }
+    },
+    {
+      "name": "caveman",
+      "description": "Cuts about 65% of output tokens by making the agent talk like a caveman while keeping technical accuracy. Plus subagent presets and memory-file compression.",
+      "author": {
+        "name": "Julius Brussee (original), curated by aiescu",
+        "url": "https://github.com/JuliusBrussee"
+      },
+      "homepage": "https://github.com/JuliusBrussee/caveman",
+      "license": "MIT (skills) / BSL-1.1 (engine, proxy)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JuliusBrussee/caveman.git"
+      }
+    },
+    {
+      "name": "agent-skills",
+      "description": "Production-grade engineering skills organized as a lifecycle: define, plan, build, verify, review, ship. Includes slash commands and agent personas.",
+      "author": {
+        "name": "Addy Osmani (original), curated by aiescu",
+        "url": "https://github.com/addyosmani"
+      },
+      "homepage": "https://github.com/addyosmani/agent-skills",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/addyosmani/agent-skills.git"
+      }
+    },
+    {
+      "name": "awesome-claude-skills",
+      "description": "A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway.",
+      "author": {
+        "name": "Composio (original), curated by aiescu",
+        "url": "https://github.com/ComposioHQ"
+      },
+      "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "license": "Unlicensed (README says Apache-2.0)",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills.git"
+      }
+    },
+    {
+      "name": "i-have-adhd",
+      "description": "Ten output rules that stop the agent burying the answer: lead with the next action, number steps, cap lists at five, no preamble.",
+      "author": {
+        "name": "ayghri (original), curated by aiescu",
+        "url": "https://github.com/ayghri"
+      },
+      "homepage": "https://github.com/ayghri/i-have-adhd",
+      "license": "MIT",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ayghri/i-have-adhd.git"
+      }
+    }
+  ]
+}
