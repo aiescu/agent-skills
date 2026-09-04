@@ -31,6 +31,22 @@ it defines the file layout, install conventions, and task order.
 
 ## Commands
 
-No build or test tooling exists yet. The plan defines the installer (`install.sh` / `npx`) and a
-`scripts/sync-upstream.sh` that regenerates the catalog and README tables. Update this section
-when those land.
+```bash
+npm test              # node:test suites + installer contract test
+npm run stars         # refresh catalog/stars.json from GitHub API (needs gh or GITHUB_TOKEN)
+npm run build         # regenerate README.md, SOURCES.md, marketplaces
+npm run build:check   # CI gate: fail if generated files are stale
+bash install.sh --agent claude-code --dry-run
+node --test tests/render.test.mjs   # single test file
+```
+
+Run `gh` as `env -u GH_TOKEN -u GITHUB_TOKEN gh ...` so keyring auth is used.
+
+## Architecture
+
+`catalog/skills.json` is the only hand-edited content. `scripts/build.mjs` renders it through pure
+functions in `scripts/lib/` (`catalog.mjs` load/validate, `render.mjs` markdown, `marketplace.mjs`
+plugin manifest) into every user-facing file. `install.sh` carries a baked-in copy of the repo list
+for the curl-pipe path; `tests/install.test.sh` fails if it drifts from the catalog. The marketplace
+deliberately omits per-plugin `version`: a literal value would pin plugins instead of tracking upstream.
+`.lycheeignore` holds the aiescu.com/agent-skills link until that page is live; remove it then.
