@@ -1,0 +1,55 @@
+{
+  "fetchedAt": "2026-09-04",
+  "stars": {
+    "obra/superpowers": {
+      "stars": 281692,
+      "pushedAt": "2026-09-03T18:00:53Z",
+      "spdx": "MIT"
+    },
+    "mattpocock/skills": {
+      "stars": 249413,
+      "pushedAt": "2026-09-04T08:45:43Z",
+      "spdx": "MIT"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "stars": 210101,
+      "pushedAt": "2026-04-20T10:05:04Z",
+      "spdx": null
+    },
+    "anthropics/skills": {
+      "stars": 173976,
+      "pushedAt": "2026-09-03T16:37:14Z",
+      "spdx": null
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "stars": 124927,
+      "pushedAt": "2026-09-03T14:13:39Z",
+      "spdx": "MIT"
+    },
+    "JuliusBrussee/caveman": {
+      "stars": 103432,
+      "pushedAt": "2026-09-04T00:31:14Z",
+      "spdx": "NOASSERTION"
+    },
+    "addyosmani/agent-skills": {
+      "stars": 92222,
+      "pushedAt": "2026-09-04T06:45:55Z",
+      "spdx": "MIT"
+    },
+    "Leonxlnx/taste-skill": {
+      "stars": 84269,
+      "pushedAt": "2026-08-24T15:23:56Z",
+      "spdx": "MIT"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "stars": 74459,
+      "pushedAt": "2026-08-10T21:45:44Z",
+      "spdx": null
+    },
+    "ayghri/i-have-adhd": {
+      "stars": 27069,
+      "pushedAt": "2026-09-01T20:49:17Z",
+      "spdx": "MIT"
+    }
+  }
+}
