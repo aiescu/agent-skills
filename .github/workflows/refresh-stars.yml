@@ -1,0 +1,20 @@
+name: Refresh stars
+on:
+  schedule: [{ cron: '0 6 * * 1' }]
+  workflow_dispatch:
+permissions: { contents: write, pull-requests: write }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm run stars && npm run build
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+      - uses: peter-evans/create-pull-request@v8
+        with:
+          branch: chore/refresh-stars
+          title: "chore: refresh star counts"
+          commit-message: "chore: refresh star counts"
+          body: "Automated weekly refresh from the GitHub API."
