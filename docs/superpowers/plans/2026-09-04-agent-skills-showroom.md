@@ -21,8 +21,6 @@ Three Opus research agents ran on 2026-09-04. Findings that decide the design:
 5. **Installer:** `npx skills` is MIT, ~9M weekly downloads, maintains a 77-agent path table. Wrap it, don't rewrite it. `~/.codex/skills` is deprecated; Codex reads `.agents/skills/`. Awesome-list norms: not AI-generated, CC license on the list content, `contributing.md`, inclusion criteria.
 6. **Product link:** Keebye is the only aiescu product whose audience *is* terminal-driven agent users. It gets the primary footer link; Pavleur and GeekBye ride as a trailing mention. `aiescu/agent-skills` already exists, public, with empty description/homepage/topics.
 
-**Prerequisite warning (outside this repo):** the research agent diffed the private `aiescu/super-ai-skills` repo and found its `NOTICE` says "No source files were copied" while `brainstorming`, `writing-plans`, `verification-before-completion` and others are near-verbatim from `obra/superpowers` (MIT, not listed in NOTICE), and the repo has no LICENSE. Fix that before anything from it is made public. This plan does not depend on it.
-
 ---
 
 ## The 10 repos (verified 2026-09-04)
