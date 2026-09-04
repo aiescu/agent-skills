@@ -26,3 +26,15 @@ test('plugins are not pinned to a fake version', () => {
   const p = buildMarketplace([e]).plugins[0];
   assert.equal(Object.hasOwn(p, 'version'), false);
 });
+
+test('repos without a root plugin manifest are excluded', () => {
+  const noRoot = { ...e, repo: 'anthropics/skills', install: { claudePlugin: 'x', pluginRoot: false } };
+  assert.equal(buildMarketplace([e, noRoot]).plugins.length, 1);
+});
+
+test('colliding basenames get an owner prefix', () => {
+  const a = { ...e, repo: 'mattpocock/skills' };
+  const b = { ...e, repo: 'anthropics/skills' };
+  const names = buildMarketplace([a, b, e]).plugins.map(p => p.name);
+  assert.deepEqual(names, ['mattpocock-skills', 'anthropics-skills', 'superpowers']);
+});

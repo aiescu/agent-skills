@@ -138,6 +138,8 @@ npx skills@1 add anthropics/skills
 /plugin marketplace add anthropics/skills && /plugin install example-skills@anthropic-agent-skills
 ```
 
+> Not in our marketplace: the repo root has no plugin.json; use the command above.
+
 > **License note:** docx, pdf, pptx and xlsx are all-rights-reserved and may not be redistributed. We link only; nothing is copied.
 
 ### UI/UX Pro Max ([nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill))
@@ -245,6 +247,8 @@ A curated awesome-list of about 180 skills plus 800+ app-automation skills for C
 # Claude Code plugin
 git clone https://github.com/ComposioHQ/awesome-claude-skills && claude --plugin-dir ./awesome-claude-skills/connect-apps-plugin
 ```
+
+> Not in our marketplace: the repo root has no plugin.json; use the command above.
 
 > **License note:** No LICENSE file. Contains vendored copies of Anthropic's restricted document skills. We link only.
 

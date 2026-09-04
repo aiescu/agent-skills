@@ -52,20 +52,6 @@
       }
     },
     {
-      "name": "skills",
-      "description": "The official reference collection, the Agent Skills spec, and the skill template. Home of skill-creator and mcp-builder.",
-      "author": {
-        "name": "Anthropic (original), curated by aiescu",
-        "url": "https://github.com/anthropics"
-      },
-      "homepage": "https://github.com/anthropics/skills",
-      "license": "Per-skill (Apache-2.0 / proprietary)",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/anthropics/skills.git"
-      }
-    },
-    {
       "name": "ui-ux-pro-max-skill",
       "description": "Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator.",
       "author": {
@@ -105,20 +91,6 @@
       "source": {
         "source": "url",
         "url": "https://github.com/addyosmani/agent-skills.git"
-      }
-    },
-    {
-      "name": "awesome-claude-skills",
-      "description": "A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway.",
-      "author": {
-        "name": "Composio (original), curated by aiescu",
-        "url": "https://github.com/ComposioHQ"
-      },
-      "homepage": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "license": "Unlicensed (README says Apache-2.0)",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/ComposioHQ/awesome-claude-skills.git"
       }
     },
     {
