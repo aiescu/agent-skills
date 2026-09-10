@@ -24,11 +24,6 @@ sends referral traffic to aiescu products. The SEO landing page is `aiescu.com/a
 - Never mention Claude, Claude Code, or Anthropic in commit messages or PR descriptions.
 - Base branch is `main`. Work on feature branches; never push to `main` directly.
 
-## Planning docs
-
-Implementation plans live in `docs/superpowers/plans/`. Read the latest plan before starting work;
-it defines the file layout, install conventions, and task order.
-
 ## Commands
 
 ```bash
