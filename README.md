@@ -16,6 +16,8 @@ its original license, and credits its original author. This repo is the map, not
 
 <sub>Maintained by <a href="https://github.com/aiescu">aiescu</a>. Star counts are fetched weekly from the GitHub API, never typed by hand.</sub>
 
+We use these skills every day. [See what we built with them ↓](#built-with-these-skills)
+
 ## Quick start
 
 ```bash
@@ -298,12 +300,83 @@ It gets fixed first.
 Per-repo attribution and license notes are in [SOURCES.md](SOURCES.md). Code in this repo is MIT;
 the list and descriptions are CC BY 4.0. The skills themselves belong to their authors.
 
+## Built with these skills
+
+The maintainers of this list ship three products, and the skills above are how we build them.
+Here is what each one does and which skills did the work.
+
+<table>
+<tr>
+<td width="104" align="center" valign="top">
+<a href="https://geekbye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card"><img src="assets/products/geekbye.png" width="88" height="88" alt="GeekBye logo"></a>
+</td>
+<td valign="top">
+
+### [GeekBye](https://geekbye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card): a real-time interview assistant
+
+**How GeekBye helps you in interviews**
+
+- **Before:** practice with the [interview question bank](https://geekbye.com/interview-questions?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card), where every question comes with a detailed answer, and build your resume in the [resume builder](https://geekbye.com/tools/resume-builder?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card).
+- **During:** live help with coding, behavioral and system-design questions, based on your screen and the conversation. Works with Zoom, Microsoft Teams and Google Meet. No bot joins the call, and GeekBye stays out of screen shares and recordings.
+- **After:** check your offer against market rates with the [salary negotiation calculator](https://geekbye.com/tools/salary-negotiation-calculator?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card).
+
+**How we built it**
+
+- [Superpowers](https://github.com/obra/superpowers): the in-call widget UX, the speech-to-text quality work, the meeting-mode orchestrator and the product docs hub were each brainstormed, written up as a spec and turned into an implementation plan before any code.
+- [`frontend-design`](https://github.com/anthropics/skills/tree/main/skills/frontend-design) from Anthropic's skills: the docs hub layout.
+- [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) and [Taste Skill](https://github.com/Leonxlnx/taste-skill): landing page design.
+- [Caveman](https://github.com/JuliusBrussee/caveman): runs in every agent session to cut output tokens.
+
+**[Try GeekBye →](https://geekbye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card)**
+
+</td>
+</tr>
+<tr>
+<td width="104" align="center" valign="top">
+<a href="https://keebye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card"><img src="assets/products/keebye.png" width="88" height="88" alt="Keebye logo"></a>
+</td>
+<td valign="top">
+
+### [Keebye](https://keebye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card): push-to-talk dictation for people who drive coding agents
+
+Hold a key, say the thing, and the text lands in whichever window has focus: Claude Code, Cursor,
+a terminal, Slack. Speech-to-text runs on your Mac and audio never leaves the machine. Optional
+synthetic typing works over SSH and inside tmux. macOS, with a 14-day free trial.
+
+**How we built it**
+
+- [Superpowers](https://github.com/obra/superpowers): the site rebuild, the billing and docs work, and the discount logic were each specced and planned before implementation.
+- [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) and [Taste Skill](https://github.com/Leonxlnx/taste-skill): landing page design.
+- [Caveman](https://github.com/JuliusBrussee/caveman): runs in every agent session to cut output tokens.
+
+**[Try Keebye →](https://keebye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card)**
+
+</td>
+</tr>
+<tr>
+<td width="104" align="center" valign="top">
+<a href="https://pavleur.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card"><img src="assets/products/pavleur.png" width="88" height="88" alt="Pavleur logo"></a>
+</td>
+<td valign="top">
+
+### [Pavleur](https://pavleur.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card): an AI meeting copilot for Mac
+
+Captures every customer call (screen recording, transcript, screenshots, slides) and pulls out the
+decisions and action items. Works with Zoom, Google Meet, Microsoft Teams and anything else on your
+screen, and no bot joins the call. Recordings stay on your Mac or your own Google Drive, never on
+our servers.
+
+**How we built it**
+
+- [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) and [Taste Skill](https://github.com/Leonxlnx/taste-skill): landing page design.
+- [Caveman](https://github.com/JuliusBrussee/caveman): runs in every agent session to cut output tokens.
+
+**[Try Pavleur →](https://pavleur.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card)**
+
+</td>
+</tr>
+</table>
+
 ---
 
-<sub>Built by <a href="https://github.com/aiescu">aiescu</a>, makers of
-<a href="https://keebye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills">Keebye</a>
-(local push-to-talk dictation for people who drive coding agents from the terminal),
-<a href="https://pavleur.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills">Pavleur</a>
-(AI meeting copilot) and
-<a href="https://geekbye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills">GeekBye</a>
-(real-time interview assistant).</sub>
+<sub>Built by <a href="https://github.com/aiescu">aiescu</a>.</sub>
