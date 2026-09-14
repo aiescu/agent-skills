@@ -1,6 +1,6 @@
 # Sources and attribution
 
-Generated 2026-09-04. Every entry links to its upstream repository; nothing is vendored here.
+Generated 2026-09-14. Every entry links to its upstream repository; nothing is vendored here.
 If you recognize your work and the credit is wrong, open an issue and it will be fixed first.
 
 | Repository | Author | License | Notes |
