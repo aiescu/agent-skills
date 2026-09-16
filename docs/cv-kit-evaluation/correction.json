@@ -1,0 +1,12 @@
+{
+  "date": "2026-09-16",
+  "case": "ambiguous-dates",
+  "condition": "skill-fixed",
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "correction": "Explicitly forbid inferred graduation status/tense from a date alone.",
+  "promptSha256": "a01d6d6af7abdaa3b7bec930543d13f284ba18939a38afa5e9a9102bfe3e1683",
+  "outputSha256": "d641589cdf587de4bdae2887375b7e708e5d5f714d220103492d323eff25e2a8",
+  "letterBodyWords": 254,
+  "review": "No inferred education status remains; unresolved date/status asks appear in questions. Original dates retained; unsupported Kubernetes and React scope handled explicitly."
+}

@@ -2,3 +2,14 @@ node_modules/
 .DS_Store
 CLAUDE.md
 AGENTS.md
+
+# Local planning and operational records are not public package documentation.
+docs/plans/
+docs/superpowers/
+docs/*handoff*
+docs/*handover*
+docs/*local-install.json
+docs/*remote-install*.json
+*.local.md
+.env
+.env.*

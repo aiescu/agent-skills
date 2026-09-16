@@ -1,0 +1,1875 @@
+{
+  "checkedAt": "2026-09-16",
+  "queries": [
+    {
+      "query": "application",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "975bde15c121d8ca65ce9e145179ced314cdc93520eed8cb7e5b725fb5a5919b"
+    },
+    {
+      "query": "ats",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "7aa5c66eca2d35ac65bbf271355362cd2fe91901c1e110e8d36a35e3b0d4a906"
+    },
+    {
+      "query": "cv",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "f4c9ddb5452fe56681c512ab512850cbb1eb78e4edd3a991aac293804a9bb988"
+    },
+    {
+      "query": "geekbye-cv-kit",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "08fe7b7b0deca63f21280c2abd95d71aa3e33ebe04e5f88478a21e48788e5239"
+    },
+    {
+      "query": "latex",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "e9c5e5ee57a9541daf03a76535c6b9cceef7a277264e1a2ec325344a1e43006c"
+    },
+    {
+      "query": "resume tailoring",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "344ed6eea89d15a2ee781ba1855881cf4f8b4acdf1772e29a0329cf64226e2f9"
+    },
+    {
+      "query": "resume",
+      "endpoint": "https://www.skills.sh/api/search",
+      "returned": 100,
+      "responseSha256": "21908eca01d163037b140390e8187aa22bf5373097e69513ee4a139e25d86c36"
+    }
+  ],
+  "errors": [
+    {
+      "query": "cover letter",
+      "result": "HTTP 500"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "paramchoudhary/resumeskills/application-form-filler",
+      "name": "application-form-filler",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "application",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "onewave-ai/claude-skills/job-application-optimizer",
+      "name": "job-application-optimizer",
+      "source": "onewave-ai/claude-skills",
+      "queries": [
+        "application"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "curiositech/some_claude_skills/job-application-optimizer",
+      "name": "job-application-optimizer",
+      "source": "curiositech/some_claude_skills",
+      "queries": [
+        "application",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "moizibnyousaf/ai-agent-skills/job-application",
+      "name": "job-application",
+      "source": "moizibnyousaf/ai-agent-skills",
+      "queries": [
+        "application"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "madslorentzen/ai-job-search/job-application-assistant",
+      "name": "job-application-assistant",
+      "source": "madslorentzen/ai-job-search",
+      "queries": [
+        "application"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-ats-optimizer",
+      "name": "resume-ats-optimizer",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "ats",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-formatter",
+      "name": "resume-formatter",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "ats",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/creative-portfolio-resume",
+      "name": "creative-portfolio-resume",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "ats",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "chasen-liao/resume-skills/resume-ats-optimizer",
+      "name": "resume-ats-optimizer",
+      "source": "chasen-liao/resume-skills",
+      "queries": [
+        "ats",
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "curiositech/some_claude_skills/cv-creator",
+      "name": "cv-creator",
+      "source": "curiositech/some_claude_skills",
+      "queries": [
+        "ats",
+        "cv",
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/academic-cv-builder",
+      "name": "academic-cv-builder",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "rendercv/rendercv-skill/rendercv",
+      "name": "rendercv",
+      "source": "rendercv/rendercv-skill",
+      "queries": [
+        "cv"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "claude-office-skills/skills/cv-builder",
+      "name": "cv-builder",
+      "source": "claude-office-skills/skills",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "jmsktm/claude-settings/resumecv-creator",
+      "name": "resume/cv creator",
+      "source": "jmsktm/claude-settings",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "trfi/skills/cv-resume",
+      "name": "cv-resume",
+      "source": "trfi/skills",
+      "queries": [
+        "cv",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "arthurzakirov/proofstack/rendercv-resume-handoff",
+      "name": "rendercv-resume-handoff",
+      "source": "arthurzakirov/proofstack",
+      "queries": [
+        "cv",
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jurgendn/agent-skills/apply-cv-builder",
+      "name": "apply-cv-builder",
+      "source": "jurgendn/agent-skills",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "eddiebe147/claude-settings/resume/cv-creator",
+      "name": "resume/cv creator",
+      "source": "eddiebe147/claude-settings",
+      "queries": [
+        "cv",
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wisdom-in-a-nutshell/agents/cv-creator",
+      "name": "cv-creator",
+      "source": "wisdom-in-a-nutshell/agents",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit",
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/cv-builder",
+      "name": "cv-builder",
+      "source": "skills.volces.com",
+      "queries": [
+        "cv",
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "mohitagw15856/pm-claude-skills/job-application",
+      "name": "job-application",
+      "source": "mohitagw15856/pm-claude-skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "terminalskills/skills/cv-builder",
+      "name": "cv-builder",
+      "source": "terminalskills/skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "claude-office-skills/skills-hub/cv-builder",
+      "name": "cv-builder",
+      "source": "claude-office-skills/skills-hub",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills-il/communication/israeli-cv-builder",
+      "name": "israeli-cv-builder",
+      "source": "skills-il/communication",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "berkaybuharali/cv-builder/cv-builder",
+      "name": "cv-builder",
+      "source": "berkaybuharali/cv-builder",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "marcellobarile/claude-skills/cv-builder",
+      "name": "cv-builder",
+      "source": "marcellobarile/claude-skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "widnyana/eyay-toolkits/cv-builder",
+      "name": "cv-builder",
+      "source": "widnyana/eyay-toolkits",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smithery.ai/cv-builder",
+      "name": "cv-builder",
+      "source": "smithery.ai",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "festnoze/squad-ai/cv-builder",
+      "name": "cv-builder",
+      "source": "festnoze/squad-ai",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "silvanatrabalon/my-skills/cv-builder",
+      "name": "cv-builder",
+      "source": "silvanatrabalon/my-skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "neskor-b/skills/cv-creator-reviewer",
+      "name": "cv-creator-reviewer",
+      "source": "neskor-b/skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/cv-creator",
+      "name": "cv-creator",
+      "source": "modelscope.cn",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smithery.ai/cv-creator",
+      "name": "cv-creator",
+      "source": "smithery.ai",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ethan-rio/skills/cv-builder",
+      "name": "cv-builder",
+      "source": "ethan-rio/skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jurgendn/agent-skills/academic-cv-builder",
+      "name": "academic-cv-builder",
+      "source": "jurgendn/agent-skills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ericgandrade/career-superskills/academic-cv-builder",
+      "name": "academic-cv-builder",
+      "source": "ericgandrade/career-superskills",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "splash0047/resume-generator/academic-cv-builder",
+      "name": "academic cv builder",
+      "source": "splash0047/resume-generator",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "nullagent07/career-positioning-builder/golden-cv-builder",
+      "name": "golden-cv-builder",
+      "source": "nullagent07/career-positioning-builder",
+      "queries": [
+        "geekbye-cv-kit"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "robdmc/claude_skills/latex-pdf-compiler",
+      "name": "latex-pdf-compiler",
+      "source": "robdmc/claude_skills",
+      "queries": [
+        "latex"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "marswangyang/roger/resume-latex-pdf-generator",
+      "name": "resume-latex-pdf-generator",
+      "source": "marswangyang/roger",
+      "queries": [
+        "latex",
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "composiohq/awesome-claude-skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "composiohq/awesome-claude-skills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "varunr89/resume-tailoring-skill/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "varunr89/resume-tailoring-skill",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "eyadsibai/ltk/resume-generator",
+      "name": "resume-generator",
+      "source": "eyadsibai/ltk",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "melodic-software/claude-code-plugins/resume-optimization",
+      "name": "resume-optimization",
+      "source": "melodic-software/claude-code-plugins",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "eigent-ai/agent-skills/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "eigent-ai/agent-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "amit-t/skills/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "amit-t/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "infrasity-labs/dev-gtm-claude-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "infrasity-labs/dev-gtm-claude-skills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "proficientlyjobs/proficiently-claude-skills/tailor-resume",
+      "name": "tailor-resume",
+      "source": "proficientlyjobs/proficiently-claude-skills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "amanattar/resume-tailoring-skill/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "amanattar/resume-tailoring-skill",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "borghei/claude-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "borghei/claude-skills",
+      "queries": [
+        "resume",
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "dwaynerichards/resume-optimize-cli/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "dwaynerichards/resume-optimize-cli",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "sarthak22gaur/tailord/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "sarthak22gaur/tailord",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "kaustubhtrivedi/agent-skills/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "kaustubhtrivedi/agent-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "josephcooperhc/codex-skills/resume-tailoring",
+      "name": "resume-tailoring",
+      "source": "josephcooperhc/codex-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ericgandrade/claude-superskills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "ericgandrade/claude-superskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "vignzpie/resume-agent-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "vignzpie/resume-agent-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/resume-tailor",
+      "name": "resume-tailor",
+      "source": "skills.volces.com",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smithery.ai/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "smithery.ai",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "davila7/claude-code-templates/resume-tailor",
+      "name": "resume-tailor",
+      "source": "davila7/claude-code-templates",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "olegvg/resume-tailor-plugin/resume-tailor",
+      "name": "resume-tailor",
+      "source": "olegvg/resume-tailor-plugin",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "swesan123/resumes/latex-resume-tailoring",
+      "name": "latex-resume-tailoring",
+      "source": "swesan123/resumes",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "gpttang/skill-atlas/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "gpttang/skill-atlas",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ericgandrade/claude-superskills/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "ericgandrade/claude-superskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "founderjourney/claude-skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "founderjourney/claude-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ahpxex/resume-cli/agent-resume",
+      "name": "agent-resume",
+      "source": "ahpxex/resume-cli",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "ericgandrade/career-superskills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "ericgandrade/career-superskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "davila7/claude-code-templates/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "davila7/claude-code-templates",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "ericgandrade/career-superskills/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "ericgandrade/career-superskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "tylergibbs1/resumetailor/tailoring-resumes",
+      "name": "tailoring-resumes",
+      "source": "tylergibbs1/resumetailor",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "mayhopar/jobsearch/tailoring-resume",
+      "name": "tailoring-resume",
+      "source": "mayhopar/jobsearch",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "splash0047/resume-generator/resume-tailor",
+      "name": "resume tailor",
+      "source": "splash0047/resume-generator",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "didixuxu/didi-skills/tailor-resume",
+      "name": "tailor-resume",
+      "source": "didixuxu/didi-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "proyecto26/thejobinterviewguide/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "proyecto26/thejobinterviewguide",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "splash0047/resume-generator/resume-version-manager",
+      "name": "resume version manager",
+      "source": "splash0047/resume-generator",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "monetize.fluxapay.xyz/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "monetize.fluxapay.xyz",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "sankaiai/ats-optimized-resume-agent-skill/build-tailored-resume",
+      "name": "build-tailored-resume",
+      "source": "sankaiai/ats-optimized-resume-agent-skill",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wexxwuther/job-hunter/resume-tailor",
+      "name": "resume-tailor",
+      "source": "wexxwuther/job-hunter",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "insight68/skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "insight68/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "questnova502/claude-skills-sync/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "questnova502/claude-skills-sync",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "easyvibecoding/vibe-resume/ai-used-resume",
+      "name": "ai-used-resume",
+      "source": "easyvibecoding/vibe-resume",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "tstapler/dotfiles/resume-tailor",
+      "name": "resume tailor",
+      "source": "tstapler/dotfiles",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "0xsojalsec/resumeskills/resume-tailor",
+      "name": "resume tailor",
+      "source": "0xsojalsec/resumeskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smile-xyy/resume-tailor/resume-tailor",
+      "name": "resume-tailor",
+      "source": "smile-xyy/resume-tailor",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "speciliam/codexskills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "speciliam/codexskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "mikehenken/resume-tailor-agent-skill/resume-tailor",
+      "name": "resume-tailor",
+      "source": "mikehenken/resume-tailor-agent-skill",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "nishilbhave/ats-resume-tailor/resume-tailor",
+      "name": "resume-tailor",
+      "source": "nishilbhave/ats-resume-tailor",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "michaeltarasov02/skills/resume-tailor",
+      "name": "resume tailor",
+      "source": "michaeltarasov02/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "landedjobs/ai-job-hunt-os/resume-tailor",
+      "name": "resume-tailor",
+      "source": "landedjobs/ai-job-hunt-os",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hosseinmirzapur/opencode-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "hosseinmirzapur/opencode-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smithery.ai/resume-tailor",
+      "name": "resume-tailor",
+      "source": "smithery.ai",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "aravindbharathy/searchparty/resume-tailor",
+      "name": "resume-tailor",
+      "source": "aravindbharathy/searchparty",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jrhoades1/dark-software-factory/resume-tailor",
+      "name": "resume-tailor",
+      "source": "jrhoades1/dark-software-factory",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "remotivated/job-hunt-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "remotivated/job-hunt-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "mr-j90/ai-skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "mr-j90/ai-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "chezou/skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "chezou/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "naman-student/resume-agent/resume-tailor",
+      "name": "resume-tailor",
+      "source": "naman-student/resume-agent",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "tstapler/dotfiles/resume-version-manager",
+      "name": "resume version manager",
+      "source": "tstapler/dotfiles",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "zws33/career-bot/resume-tailor",
+      "name": "resume-tailor",
+      "source": "zws33/career-bot",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jjfeore/job-hunt/resume-tailor",
+      "name": "resume-tailor",
+      "source": "jjfeore/job-hunt",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "matellez/claude-skills/resume-optimizer",
+      "name": "resume-optimizer",
+      "source": "matellez/claude-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "nimadorostkar/claude-skills-collection/resume",
+      "name": "resume",
+      "source": "nimadorostkar/claude-skills-collection",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hosseinmirzapur/opencode-skills/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "hosseinmirzapur/opencode-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "0xsojalsec/resumeskills/resume-version-manager",
+      "name": "resume version manager",
+      "source": "0xsojalsec/resumeskills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smithery.ai/resume-version-manager",
+      "name": "resume version manager",
+      "source": "smithery.ai",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "grahama1970/agent-skills/resume",
+      "name": "resume",
+      "source": "grahama1970/agent-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "cesasol/skills/resume-pdf",
+      "name": "resume-pdf",
+      "source": "cesasol/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/resume-tailor",
+      "name": "resume-tailor",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "mit9/job-search-skills/resume-writing",
+      "name": "resume-writing",
+      "source": "mit9/job-search-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "luyu2026/skill-bible/resume-jd-tailor",
+      "name": "resume-jd-tailor",
+      "source": "luyu2026/skill-bible",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/resume-optimization",
+      "name": "resume-optimization",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smile-xyy/resume-tailor/resume-tailor-analyze",
+      "name": "resume-tailor-analyze",
+      "source": "smile-xyy/resume-tailor",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "smile-xyy/resume-tailor/resume-tailor-write",
+      "name": "resume-tailor-write",
+      "source": "smile-xyy/resume-tailor",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "rioredwards/portfolio/resume-variant",
+      "name": "resume-variant",
+      "source": "rioredwards/portfolio",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "leoyeai/openclaw-master-skills/resume-builder",
+      "name": "resume-builder",
+      "source": "leoyeai/openclaw-master-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/resume-builder-ai",
+      "name": "resume-builder-ai",
+      "source": "skills.volces.com",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "kshanxs/resume-sensei/resume-sensei",
+      "name": "resume-sensei",
+      "source": "kshanxs/resume-sensei",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "xfstudio/skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "xfstudio/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "thearchitectit/awesome-cline-skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "thearchitectit/awesome-cline-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "touricks/fanshi_personal_skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "touricks/fanshi_personal_skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wexxwuther/job-hunter/cover-letter",
+      "name": "cover-letter",
+      "source": "wexxwuther/job-hunter",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "danielrosehill/claude-career-plugin/tailor-resume",
+      "name": "tailor-resume",
+      "source": "danielrosehill/claude-career-plugin",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/tamar-resume-tailor",
+      "name": "tamar-resume-tailor",
+      "source": "skills.volces.com",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "protosphinx/sphinxstack/tailor-resume",
+      "name": "tailor-resume",
+      "source": "protosphinx/sphinxstack",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "tomrobison/brightline/tailor-resume",
+      "name": "tailor-resume",
+      "source": "tomrobison/brightline",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jnk234/claude-agentic-files/tailor-resume",
+      "name": "tailor-resume",
+      "source": "jnk234/claude-agentic-files",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "andreacadonna/skills/tailor-resume",
+      "name": "tailor-resume",
+      "source": "andreacadonna/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/jd-resume-tailor",
+      "name": "jd-resume-tailor",
+      "source": "skills.volces.com",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "dr-code/beacon/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "dr-code/beacon",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "bcastelino/agent-skills-kit/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "bcastelino/agent-skills-kit",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "gopinav/resume-agent-skills/tailor-resume",
+      "name": "tailor-resume",
+      "source": "gopinav/resume-agent-skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "doyoonear/skills-and-agents/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "doyoonear/skills-and-agents",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "evolving-machines-lab/evolve/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "evolving-machines-lab/evolve",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "meowdicine/codex-job-search-skills-template/ats-resume-tailor",
+      "name": "ats-resume-tailor",
+      "source": "meowdicine/codex-job-search-skills-template",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "firstsun-dev/skills/tailored-resume-generator",
+      "name": "tailored-resume-generator",
+      "source": "firstsun-dev/skills",
+      "queries": [
+        "resume tailoring"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-bullet-writer",
+      "name": "resume-bullet-writer",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/tech-resume-optimizer",
+      "name": "tech-resume-optimizer",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-quantifier",
+      "name": "resume-quantifier",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/resume-section-builder",
+      "name": "resume-section-builder",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "paramchoudhary/resumeskills/executive-resume-writer",
+      "name": "executive-resume-writer",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "claude-office-skills/skills/resume-tailor",
+      "name": "resume-tailor",
+      "source": "claude-office-skills/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "alirezarezvani/claude-skills/resume",
+      "name": "resume",
+      "source": "alirezarezvani/claude-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "phuryn/pm-skills/review-resume",
+      "name": "review-resume",
+      "source": "phuryn/pm-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "paramchoudhary/resumeskills/cover-letter-generator",
+      "name": "cover-letter-generator",
+      "source": "paramchoudhary/resumeskills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "reactive-resume/reactive-resume/resume-builder",
+      "name": "resume-builder",
+      "source": "reactive-resume/reactive-resume",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "rahulbsw/resume-builder/resume-intelligence",
+      "name": "resume-intelligence",
+      "source": "rahulbsw/resume-builder",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jezweb/claude-skills/resume-cover-letter",
+      "name": "resume-cover-letter",
+      "source": "jezweb/claude-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "ailabs-393/ai-labs-claude-skills/resume-manager",
+      "name": "resume-manager",
+      "source": "ailabs-393/ai-labs-claude-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "parcadei/continuous-claude-v3/resume-handoff",
+      "name": "resume-handoff",
+      "source": "parcadei/continuous-claude-v3",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wyh0626/resume-optimizer/resume-optimizer",
+      "name": "resume-optimizer",
+      "source": "wyh0626/resume-optimizer",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "bitwize-music-studio/claude-ai-music-skills/resume",
+      "name": "resume",
+      "source": "bitwize-music-studio/claude-ai-music-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "rebecha1227-a11y/careerforge/resume-craft",
+      "name": "resume-craft",
+      "source": "rebecha1227-a11y/careerforge",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "eachlabs/skills/resume-design-generation",
+      "name": "resume-design-generation",
+      "source": "eachlabs/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "rebecha1227-a11y/careerforge/resume-match",
+      "name": "resume-match",
+      "source": "rebecha1227-a11y/careerforge",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/glmv-resume-screen",
+      "name": "glmv-resume-screen",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "guia-matthieu/clawfu-skills/resume-screener",
+      "name": "resume-screener",
+      "source": "guia-matthieu/clawfu-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "chasen-liao/resume-skills/resume-builder",
+      "name": "resume-builder",
+      "source": "chasen-liao/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "chasen-liao/resume-skills/resume-workflow",
+      "name": "resume-workflow",
+      "source": "chasen-liao/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hacktivist123/agent-session-resume/agent-session-resume",
+      "name": "agent-session-resume",
+      "source": "hacktivist123/agent-session-resume",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "chasen-liao/resume-skills/resume-bullet-writer",
+      "name": "resume-bullet-writer",
+      "source": "chasen-liao/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "chasen-liao/resume-skills/resume-version-manager",
+      "name": "resume-version-manager",
+      "source": "chasen-liao/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "resumx/skills/resume-writing",
+      "name": "resume-writing",
+      "source": "resumx/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "trainwithshubham/skills/resume-review",
+      "name": "resume-review",
+      "source": "trainwithshubham/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "yonatangross/orchestkit/checkpoint-resume",
+      "name": "checkpoint-resume",
+      "source": "yonatangross/orchestkit",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "opensensenova/sensenova-skills/sn-image-resume",
+      "name": "sn-image-resume",
+      "source": "opensensenova/sensenova-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/pincaimao-resume-optimize",
+      "name": "pincaimao-resume-optimize",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "skills.volces.com/resume-generator-cn",
+      "name": "resume-generator-cn",
+      "source": "skills.volces.com",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "can4hou6joeng4/boss-agent-cli/boss-resume-downloader",
+      "name": "boss-resume-downloader",
+      "source": "can4hou6joeng4/boss-agent-cli",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "shoootyou/get-shit-done-multi/gsd-resume-work",
+      "name": "gsd-resume-work",
+      "source": "shoootyou/get-shit-done-multi",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "weaiclub/resume-skills/resume-builder-skills",
+      "name": "resume builder skills",
+      "source": "weaiclub/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "lingfengqaq/webnovel-writer/webnovel-resume",
+      "name": "webnovel-resume",
+      "source": "lingfengqaq/webnovel-writer",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/pincaimao-resume-diagnosis",
+      "name": "pincaimao-resume-diagnosis",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wind-alice/alicemarket/trading_halt_resume_tracker_skill",
+      "name": "trading_halt_resume_tracker_skill",
+      "source": "wind-alice/alicemarket",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "dkyazzentwatwa/chatgpt-skills/resume-builder",
+      "name": "resume-builder",
+      "source": "dkyazzentwatwa/chatgpt-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "hisn00w/asu-skills/resume",
+      "name": "resume",
+      "source": "hisn00w/asu-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jackjin1997/clawforge/resume-optimizer",
+      "name": "resume-optimizer",
+      "source": "jackjin1997/clawforge",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "joeseesun/qiaomu-campus-resume/qiaomu-campus-resume",
+      "name": "qiaomu-campus-resume",
+      "source": "joeseesun/qiaomu-campus-resume",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "coinluu/resume-jd-optimizer-cn/resume-jd-optimizer-cn",
+      "name": "resume-jd-optimizer-cn",
+      "source": "coinluu/resume-jd-optimizer-cn",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wangyafu/resume-skills/resume-master",
+      "name": "resume-master",
+      "source": "wangyafu/resume-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hisn00w/asu-skills/asu-resume",
+      "name": "asu-resume",
+      "source": "hisn00w/asu-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wufeihalf/cn-resume-optimizer/cn-resume-optimizer",
+      "name": "cn-resume-optimizer",
+      "source": "wufeihalf/cn-resume-optimizer",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hisn00w/asu-skills/make-resume",
+      "name": "make-resume",
+      "source": "hisn00w/asu-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "fabricioctelles/skills/resume-ats-beater",
+      "name": "resume-ats-beater",
+      "source": "fabricioctelles/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "modelscope.cn/resume-assistant",
+      "name": "resume-assistant",
+      "source": "modelscope.cn",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "wangfupeng1988/skills/dev-resume-opt",
+      "name": "dev-resume-opt",
+      "source": "wangfupeng1988/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "hisn00w/asu-skills/great-resume",
+      "name": "great-resume",
+      "source": "hisn00w/asu-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "alexgreensh/token-optimizer/resume-checkpoint",
+      "name": "resume-checkpoint",
+      "source": "alexgreensh/token-optimizer",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "jackjin1997/clawforge/resume-builder",
+      "name": "resume-builder",
+      "source": "jackjin1997/clawforge",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "q00/ouroboros/resume-session",
+      "name": "resume-session",
+      "source": "q00/ouroboros",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "somarkai/skills/resume-parser",
+      "name": "resume-parser",
+      "source": "somarkai/skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "zai-org/glm-skills/glmv-resume-screen",
+      "name": "glmv-resume-screen",
+      "source": "zai-org/glm-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "h-mmer/pentest-agents/resume",
+      "name": "resume",
+      "source": "h-mmer/pentest-agents",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "nexu-io/html-anything/resume-modern",
+      "name": "resume-modern",
+      "source": "nexu-io/html-anything",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "yennanliu/ai_experiment/resume-writer",
+      "name": "resume-writer",
+      "source": "yennanliu/ai_experiment",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "huifer/claude-code-interview/resume-optimizer",
+      "name": "resume-optimizer",
+      "source": "huifer/claude-code-interview",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": true
+    },
+    {
+      "id": "nyldn/claude-octopus/skill-resume",
+      "name": "skill-resume",
+      "source": "nyldn/claude-octopus",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "art2url/career-agent-skills/resume-customizer",
+      "name": "resume-customizer",
+      "source": "art2url/career-agent-skills",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    },
+    {
+      "id": "caioariede/claude-plugins/ws-resume",
+      "name": "ws-resume",
+      "source": "caioariede/claude-plugins",
+      "queries": [
+        "resume"
+      ],
+      "sourceReviewed": false
+    }
+  ]
+}

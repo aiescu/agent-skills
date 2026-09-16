@@ -1,6 +1,6 @@
 # Sources and attribution
 
-Generated 2026-09-04. Every entry links to its upstream repository; nothing is vendored here.
+Generated 2026-09-04. Every catalog entry links to its upstream repository; no catalog skill is vendored here.
 If you recognize your work and the credit is wrong, open an issue and it will be fixed first.
 
 | Repository | Author | License | Notes |
@@ -15,3 +15,9 @@ If you recognize your work and the credit is wrong, open an issue and it will be
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Leonxlnx](https://github.com/Leonxlnx) | MIT | - |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | [Composio](https://github.com/ComposioHQ) | Unlicensed (README says Apache-2.0) | No LICENSE file. Contains vendored copies of Anthropic's restricted document skills. We link only. |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | [ayghri](https://github.com/ayghri) | MIT | - |
+
+## Original Aiescu skills
+
+`skills/geekbye-cv-kit/` is original work maintained by Aiescu, separate from this curated catalog.
+Its license and source credits ship inside the skill; ecosystem research is in
+[research.md](skills/geekbye-cv-kit/references/research.md). No upstream skill was copied for this kit.

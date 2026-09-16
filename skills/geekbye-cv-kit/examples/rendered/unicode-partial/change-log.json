@@ -1,0 +1,81 @@
+{
+  "masterCanonicalSha256": "63532168733e6dbe6e8bbd755dccfce1b50e0a7752a75551ac2f6cf45eafae8e",
+  "masterInputSha256": "c7575f86f09d895a773ceb5195f3d99018996634211727577ef8dbec1531793b",
+  "changedPaths": [
+    "/objective"
+  ],
+  "selectedSourceRecords": {
+    "experience": [
+      "/experience/0",
+      "/experience/1",
+      "/experience/2"
+    ],
+    "education": [
+      "/education/0",
+      "/education/1"
+    ],
+    "skills": [
+      "/skills/0",
+      "/skills/1",
+      "/skills/2",
+      "/skills/3",
+      "/skills/4",
+      "/skills/5",
+      "/skills/6",
+      "/skills/7",
+      "/skills/8",
+      "/skills/9"
+    ],
+    "projects": [
+      "/projects/0",
+      "/projects/1"
+    ],
+    "publications": [
+      "/publications/0"
+    ]
+  },
+  "summaryEvidence": {
+    "text": "Software engineer with versioned Node.js API, database profiling and Python import-tool experience. Builds accessible interfaces and tests for contracts, Unicode and dates.",
+    "evidence": [
+      "/experience/1/description",
+      "/experience/2/description"
+    ],
+    "reviewed": true
+  },
+  "letterEvidence": [
+    {
+      "text": "I am applying for the Senior Software Engineer role at Example Hiring Team. My experience includes versioned Node.js APIs, contract tests, database profiling and an accessible console for reviewing failed jobs. I am interested in the service reliability work described in your advert and would welcome a conversation about these contributions. The API and import-tool work in my CV provide concrete examples to discuss with you.",
+      "evidence": [
+        "/experience/1",
+        "/experience/2",
+        "/objective"
+      ],
+      "reviewed": true
+    },
+    {
+      "text": "At Sample Cloud, I implemented contract tests to keep customer integrations working through API releases. I also profiled production-like database workloads and checked query plans before adding indexes. The React console supported review of failed jobs and retries of affected work. I would be glad to walk through the contract-testing approach, the query-plan checks and the purpose of the console. Each offers a practical starting point for discussing how changes are checked and how failed work can be reviewed.",
+      "evidence": [
+        "/experience/1/description"
+      ],
+      "reviewed": true
+    },
+    {
+      "text": "At Demo Works, I developed Python import tools that preserved source identifiers and rejected ambiguous records for manual review. I added integration tests around CSV exports, Unicode names and date handling to prevent silent data corruption. I would welcome the chance to explain the import behaviour and the tests around it, including why ambiguous input was directed to review rather than silently converted. That work gives us another concrete example of validation and data preservation to discuss.",
+      "evidence": [
+        "/experience/2/description"
+      ],
+      "reviewed": true
+    },
+    {
+      "text": "My CV includes a publication citation and link for reference. In a conversation, I would be glad to discuss the API, interface and import-tool implementations, walk through their tests and explain their different contexts. Thank you for considering my application; I welcome the opportunity to discuss the role and how the engineering experience described here could contribute to its service reliability work.",
+      "evidence": [
+        "/publications/0",
+        "/experience/1/description",
+        "/experience/2/description"
+      ],
+      "reviewed": true
+    }
+  ],
+  "rewrites": {},
+  "factPolicy": "Metadata exact; evidence-reviewed description rewrites and summary/letter prose in derived output only."
+}

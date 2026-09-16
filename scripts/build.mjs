@@ -20,7 +20,7 @@ const outputs = {
     .replaceAll('{{UPDATED}}', updated)
     .replace('{{TABLE}}', renderTable(entries, stars))
     .replace('{{SECTIONS}}', sorted.map(e => renderSection(e, stars)).join('\n\n')),
-  'SOURCES.md': `# Sources and attribution\n\nGenerated ${updated}. Every entry links to its upstream repository; nothing is vendored here.\nIf you recognize your work and the credit is wrong, open an issue and it will be fixed first.\n\n${renderSources(sorted)}\n`,
+  'SOURCES.md': `# Sources and attribution\n\nGenerated ${updated}. Every catalog entry links to its upstream repository; no catalog skill is vendored here.\nIf you recognize your work and the credit is wrong, open an issue and it will be fixed first.\n\n${renderSources(sorted)}\n\n## Original Aiescu skills\n\n\`skills/geekbye-cv-kit/\` is original work maintained by Aiescu, separate from this curated catalog.\nIts license and source credits ship inside the skill; ecosystem research is in\n[research.md](skills/geekbye-cv-kit/references/research.md). No upstream skill was copied for this kit.\n`,
   '.claude-plugin/marketplace.json': marketplace,
   '.agents/plugins/marketplace.json': marketplace,
 };

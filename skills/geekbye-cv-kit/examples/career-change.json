@@ -1,0 +1,48 @@
+{
+  "name": "Zoë Șerban",
+  "title": "Career changer — Junior Software Engineer",
+  "email": "zoe.serban@example.com",
+  "phone": "+40 700 000 001",
+  "location": "Cluj-Napoca, Romania",
+  "links": [
+    "https://example.com/zoe",
+    "https://github.com/example-zoe"
+  ],
+  "objective": "Programme coordinator transitioning into software engineering, with an independent appointment scheduler project.",
+  "skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Python",
+    "Git"
+  ],
+  "experience": [
+    {
+      "company": "Example Community Centre",
+      "title": "Programme Coordinator",
+      "startDate": "2021-04",
+      "endDate": "2025-05",
+      "description": "Coordinated appointment schedules and documented booking-conflict resolution for colleagues.\nCollected accessibility feedback from participants and recorded issues for the programme team."
+    }
+  ],
+  "education": [
+    {
+      "school": "Example Technical University",
+      "degree": "BSc",
+      "field": "Computer Science",
+      "graduationDate": "2026-06"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Booking Lab",
+      "startDate": "2026-02",
+      "endDate": "Present",
+      "description": "Built an independent appointment scheduler with persistent storage and automated tests for booking conflicts.\nDocumented the tradeoff between database constraints and application validation; added a reproducible local demo.",
+      "technologies": "TypeScript, React, Node.js, PostgreSQL",
+      "url": "https://example.com/booking-lab"
+    }
+  ],
+  "publications": []
+}

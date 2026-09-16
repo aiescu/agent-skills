@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=14mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,Ligatures=NoCommon,RawFeature={-kern}]
+\setsansfont{lmsans10-regular.otf}[BoldFont=lmsans10-bold.otf,ItalicFont=lmsans10-oblique.otf,Ligatures=NoCommon,RawFeature={-kern}]
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=13pt,nosep,label=\textbullet}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\begin{document}
+\sffamily
+
+{\LARGE\bfseries Zoë Șerban}\par
+Software Engineer\par
+Email: zoe.serban@example.com\par
+Phone: +40 700 000 001\par
+Location: Cluj-Napoca, Romania\par
+Link: https://example.com/zoe\par
+Link: https://github.com/example-zoe\par
+\section*{Summary}
+Software engineer building accessible web applications and tested backend services. Interested in reliable APIs and clear user workflows.
+\section*{Experience}
+\needspace{5\baselineskip}
+\textbf{Software Engineering Intern | Example Studio}\par
+2025-06 - 2025-09\par
+\begin{itemize}
+\item Implemented Node.js API validation for overlapping appointments and added booking-conflict regression tests.
+\item Replaced an inaccessible date picker with a keyboard-operated booking flow after testing with the product team.
+\end{itemize}
+\section*{Education}
+BSc | Computer Science | Example Technical University\par
+Education date: 2026-06\par
+\section*{Skills}
+TypeScript; React; Node.js; PostgreSQL; Python; Git
+\needspace{9\baselineskip}
+\section*{Projects}
+\needspace{6\baselineskip}
+\textbf{Booking Lab}\par
+2026-02 - Present\par
+Technologies: TypeScript, React, Node.js, PostgreSQL\par
+URL: https://example.com/booking-lab\par
+\begin{itemize}
+\item Built an independent appointment scheduler with persistent storage and automated tests for booking conflicts.
+\item Documented the tradeoff between database constraints and application validation; added a reproducible local demo.
+\end{itemize}
+\end{document}

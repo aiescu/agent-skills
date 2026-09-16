@@ -1,0 +1,4 @@
+interface:
+  display_name: "GeekBye CV Kit"
+  short_description: "Create grounded job-specific CVs and cover letters"
+  default_prompt: "Use $geekbye-cv-kit to create a factual CV and matching cover letter from my career record and target job."

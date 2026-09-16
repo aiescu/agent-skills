@@ -1,0 +1,88 @@
+{
+  "name": "Renée Ionescu",
+  "title": "",
+  "email": "renee.ionescu@example.com",
+  "phone": "",
+  "location": "București, Romania",
+  "links": [
+    "https://example.com/renee",
+    "https://github.com/example-renee"
+  ],
+  "objective": "Software engineer leading reliable API and data-platform work. Builds observable services, documents operational tradeoffs and mentors engineers through delivery and incident review.",
+  "skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Python",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "OpenTelemetry"
+  ],
+  "experience": [
+    {
+      "company": "Example Systems",
+      "title": "Senior Software Engineer",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "description": ""
+    },
+    {
+      "company": "Sample Cloud",
+      "title": "Software Engineer",
+      "startDate": "2020-01",
+      "endDate": "2023-02",
+      "description": "Implemented versioned Node.js APIs and contract tests to keep customer integrations working through releases.\nReworked database queries after profiling production-like workloads; verified query plans before adding indexes.\nBuilt an accessible React console for reviewing failed jobs and retrying only the affected work."
+    },
+    {
+      "company": "Demo Works",
+      "title": "Junior Software Engineer",
+      "startDate": "2017-07",
+      "endDate": "2019-12",
+      "description": "Developed Python import tools that preserved source identifiers and rejected ambiguous records for manual review.\nAdded integration tests around CSV exports, Unicode names and date handling to prevent silent data corruption."
+    }
+  ],
+  "education": [
+    {
+      "school": "Example Technical University",
+      "degree": "MSc",
+      "field": "Distributed Systems",
+      "graduationDate": ""
+    },
+    {
+      "school": "Example Technical University",
+      "degree": "BSc",
+      "field": "Computer Science",
+      "graduationDate": "2017-06"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Queue Observatory",
+      "startDate": "",
+      "endDate": "",
+      "description": "",
+      "technologies": "",
+      "url": ""
+    },
+    {
+      "name": "Accessible Booking Lab",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "description": "Created a keyboard-accessible booking demo with time-zone conversion and appointment-conflict tests.\nDocumented browser support and known limitations so contributors could reproduce failures.",
+      "technologies": "TypeScript, React, Node.js",
+      "url": "https://example.com/accessible-booking"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Synthetic Șerban publication",
+      "authors": "Zoë Șerban; Renée Ionescu",
+      "venue": "Example Research Workshop",
+      "date": "2024-01",
+      "url": "https://example.com/synthetic-publication"
+    }
+  ]
+}

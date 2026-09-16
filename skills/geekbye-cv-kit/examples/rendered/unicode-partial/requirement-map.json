@@ -1,0 +1,33 @@
+{
+  "requirements": [
+    {
+      "id": "reliability",
+      "text": "reliable services and recovery tests",
+      "sourceQuote": "reliable services and recovery tests"
+    },
+    {
+      "id": "tracing",
+      "text": "OpenTelemetry tracing",
+      "sourceQuote": "OpenTelemetry tracing"
+    }
+  ],
+  "mapping": [
+    {
+      "requirementId": "reliability",
+      "evidence": [
+        "/experience/1/description"
+      ],
+      "status": "partial",
+      "note": "API contract tests and failed-job review are documented; explicit recovery tests are not present in this partial source."
+    },
+    {
+      "requirementId": "tracing",
+      "evidence": [],
+      "status": "unsupported",
+      "note": "Not established in the supplied master; do not claim it."
+    }
+  ],
+  "evidence": {
+    "/experience/1/description": "Implemented versioned Node.js APIs and contract tests to keep customer integrations working through releases.\nReworked database queries after profiling production-like workloads; verified query plans before adding indexes.\nBuilt an accessible React console for reviewing failed jobs and retrying only the affected work."
+  }
+}

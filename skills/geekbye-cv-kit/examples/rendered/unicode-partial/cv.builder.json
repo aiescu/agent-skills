@@ -1,0 +1,119 @@
+{
+  "name": "Renée Ionescu",
+  "title": "",
+  "email": "renee.ionescu@example.com",
+  "phone": "",
+  "location": "București, Romania",
+  "objective": "Software engineer with versioned Node.js API, database profiling and Python import-tool experience. Builds accessible interfaces and tests for contracts, Unicode and dates.",
+  "experience": [
+    {
+      "company": "Example Systems",
+      "title": "Senior Software Engineer",
+      "startDate": "2023-03",
+      "endDate": "Present",
+      "description": ""
+    },
+    {
+      "company": "Sample Cloud",
+      "title": "Software Engineer",
+      "startDate": "2020-01",
+      "endDate": "2023-02",
+      "description": "Implemented versioned Node.js APIs and contract tests to keep customer integrations working through releases.\nReworked database queries after profiling production-like workloads; verified query plans before adding indexes.\nBuilt an accessible React console for reviewing failed jobs and retrying only the affected work."
+    },
+    {
+      "company": "Demo Works",
+      "title": "Junior Software Engineer",
+      "startDate": "2017-07",
+      "endDate": "2019-12",
+      "description": "Developed Python import tools that preserved source identifiers and rejected ambiguous records for manual review.\nAdded integration tests around CSV exports, Unicode names and date handling to prevent silent data corruption."
+    }
+  ],
+  "education": [
+    {
+      "school": "Example Technical University",
+      "degree": "MSc",
+      "field": "Distributed Systems",
+      "graduationDate": ""
+    },
+    {
+      "school": "Example Technical University",
+      "degree": "BSc",
+      "field": "Computer Science",
+      "graduationDate": "2017-06"
+    }
+  ],
+  "website": "https://example.com/renee",
+  "links": [
+    "https://example.com/renee",
+    "https://github.com/example-renee"
+  ],
+  "publications": [
+    {
+      "title": "Synthetic Șerban publication",
+      "authors": "Zoë Șerban; Renée Ionescu",
+      "venue": "Example Research Workshop",
+      "date": "2024-01",
+      "url": "https://example.com/synthetic-publication"
+    }
+  ],
+  "skills": [
+    {
+      "id": "0",
+      "name": "TypeScript"
+    },
+    {
+      "id": "1",
+      "name": "React"
+    },
+    {
+      "id": "2",
+      "name": "Node.js"
+    },
+    {
+      "id": "3",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "4",
+      "name": "Python"
+    },
+    {
+      "id": "5",
+      "name": "Git"
+    },
+    {
+      "id": "6",
+      "name": "Docker"
+    },
+    {
+      "id": "7",
+      "name": "Kubernetes"
+    },
+    {
+      "id": "8",
+      "name": "Redis"
+    },
+    {
+      "id": "9",
+      "name": "OpenTelemetry"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Queue Observatory",
+      "technologies": "",
+      "startDate": "",
+      "endDate": "",
+      "url": "",
+      "description": " - \n\n"
+    },
+    {
+      "name": "Accessible Booking Lab",
+      "technologies": "TypeScript, React, Node.js",
+      "startDate": "2022-04",
+      "endDate": "2022-10",
+      "url": "https://example.com/accessible-booking",
+      "description": "2022-04 - 2022-10\nhttps://example.com/accessible-booking\nCreated a keyboard-accessible booking demo with time-zone conversion and appointment-conflict tests.\nDocumented browser support and known limitations so contributors could reproduce failures."
+    }
+  ]
+}

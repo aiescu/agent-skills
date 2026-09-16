@@ -1,0 +1,814 @@
+{
+  "date": "2026-09-16",
+  "scope": "Actual copied-install deterministic rendering and field extraction; no model evaluation or ATS score.",
+  "command": "python scripts/verify_examples.py --output <fresh-external-directory> --compile required",
+  "copiedInstall": true,
+  "pythonVersion": "3.14.6",
+  "sourceSha256": {
+    "scripts/application.py": "7648eac689d339f49bd24ecd821d3f026f79c4f53396861f34d3c02b168dac09",
+    "scripts/pack.py": "a30b150df3e3e94063158b185ebe40bbeec75b5827826a942979590761b4df2a",
+    "scripts/test_application.py": "ab107c6a89c15edb71eb46b08310e79850c096dcb501dd7ef894763e72569f52",
+    "scripts/verify_examples.py": "e1be340ea7a1f157817abae296074a26fa8af2d2be156cde11afaa23215eb296"
+  },
+  "cases": [
+    {
+      "fixture": "early-career",
+      "layout": "compact",
+      "exitCode": 0,
+      "masterSha256": "004d9c54b4b02e2a549acb37e55389ea67069fa24ab27eb59a690493f0fd7bce",
+      "applicationSha256": "75a592a2aad4c54a8252df51e657a018d0563089cea3c2367619ce50ac697baa",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+          "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 277,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "f9e4376fe9370de4e4c92c7294fc6e92351a249b0365869a11c57ebffecc7c55",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 1
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "75a592a2aad4c54a8252df51e657a018d0563089cea3c2367619ce50ac697baa",
+        "change-log.json": "f9eb741c2290185b6461ba33dd3cbd589b2e93f2b849a15880a213446f0a4c74",
+        "cv.builder.json": "5a6a6b522be6b7fde031933b9721afa5fa8e623321684ce3c5c07762584f3ae9",
+        "cv.compile.txt": "a12e523e25fc55df6b85ed45aea0029d9c2ce97d54b6b1a00aad1c65df288423",
+        "cv.json": "5bf06413d61aa81695ff391ec0fa23436c4e2cbf7f95066d8f620c95e4a3f7ec",
+        "cv.log": "1b33aca98659a2df1b1ca62fe922c2df56aa4ff514fbfed765c8177eb02ad447",
+        "cv.md": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "cv.pdf": "f9e4376fe9370de4e4c92c7294fc6e92351a249b0365869a11c57ebffecc7c55",
+        "cv.poppler.txt": "a319b7736a5ea7d89326d5ec70b7e7f0a320acf3c19b25a5b5aa5ae7d4f4538a",
+        "cv.pypdf.txt": "78f6264ef0d07d51862a60a6e3995c244c580a26758ebcd9874abd80c897ee1c",
+        "cv.tex": "65c7985494b69655ad5909a7ed3899e57d2cf5104db2a0af0d28bc23b2577f68",
+        "cv.txt": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "letter.compile.txt": "fed7312a17f3470234adaf8516e4e4a78615e7cfaba179265de64b1000844da4",
+        "letter.log": "be43169b0f25b0f2c136878fda32ce7613ef7e01d79c6d7d1665b114c2417c91",
+        "letter.md": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "letter.pdf": "0c72f62f730d71826754695e4c87c3d655fcb5cb9c5475c426527fcf308c2cc0",
+        "letter.tex": "e2a062862545698bcf26a3623b87408bd4c4d1409e7abd42e2750543dc6f4606",
+        "letter.txt": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "master.json": "4f8c3bd6a2e2807bf101ae7f68fe653143665ec77ea780b9bd922a6022264424",
+        "questions.json": "0b97e2a977780b5c8828ae5ed871b1691d24faede27d61afb088d13ae58bdc8d",
+        "requirement-map.json": "083802a299913b111259d2ecfae0f910e6d3b7644ffdee5878aa64d025bc83f9",
+        "validation.json": "22838797d6179939ed76b452ac8a7f95615705012c44f16dade38a9faad15d3b"
+      }
+    },
+    {
+      "fixture": "early-career",
+      "layout": "research",
+      "exitCode": 0,
+      "masterSha256": "004d9c54b4b02e2a549acb37e55389ea67069fa24ab27eb59a690493f0fd7bce",
+      "applicationSha256": "aa98cae439f7dcacf041a9c861221f939260a8674b2894f49c53fb1080084c5c",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+          "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 277,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "c7d697792deea77c00a19e375fb6c2347129c3e3f6e697a4f419fd5b507efdd0",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 1
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "aa98cae439f7dcacf041a9c861221f939260a8674b2894f49c53fb1080084c5c",
+        "change-log.json": "f9eb741c2290185b6461ba33dd3cbd589b2e93f2b849a15880a213446f0a4c74",
+        "cv.builder.json": "5a6a6b522be6b7fde031933b9721afa5fa8e623321684ce3c5c07762584f3ae9",
+        "cv.compile.txt": "fba9463e439fd7cb16b8053eda00cebafad275a31c6cb9b71c942ee249941d13",
+        "cv.json": "5bf06413d61aa81695ff391ec0fa23436c4e2cbf7f95066d8f620c95e4a3f7ec",
+        "cv.log": "13dc292a567d07d8cc1a6c6e14a000d232250dda2c062e2a46ed634984113db1",
+        "cv.md": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "cv.pdf": "c7d697792deea77c00a19e375fb6c2347129c3e3f6e697a4f419fd5b507efdd0",
+        "cv.poppler.txt": "5232039b5dfb3d49da6502b19ad0a364633a97c437459337cc023760efba5805",
+        "cv.pypdf.txt": "4992630895ffdf33284424935a97e0f84100be7813a0dcc79202616d16498567",
+        "cv.tex": "df8dabe1462a23f1bc5b90bcc9e87108be577f925802779209bdf9766d260f6c",
+        "cv.txt": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "letter.compile.txt": "442daa299824061216ea94ca47787b8e55698693fbb8eb60e136fe9b1e835818",
+        "letter.log": "be43169b0f25b0f2c136878fda32ce7613ef7e01d79c6d7d1665b114c2417c91",
+        "letter.md": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "letter.pdf": "21ad0b1da5845dbe50f1c8393828eae98be46bbe60761c4daaeb820e69ca4ccf",
+        "letter.tex": "e2a062862545698bcf26a3623b87408bd4c4d1409e7abd42e2750543dc6f4606",
+        "letter.txt": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "master.json": "4f8c3bd6a2e2807bf101ae7f68fe653143665ec77ea780b9bd922a6022264424",
+        "questions.json": "0b97e2a977780b5c8828ae5ed871b1691d24faede27d61afb088d13ae58bdc8d",
+        "requirement-map.json": "083802a299913b111259d2ecfae0f910e6d3b7644ffdee5878aa64d025bc83f9",
+        "validation.json": "7cbc49d30641bc7ea381f9b3caf31e3db8cf738e9503503805d8911bcdc22207"
+      }
+    },
+    {
+      "fixture": "early-career",
+      "layout": "extended",
+      "exitCode": 0,
+      "masterSha256": "004d9c54b4b02e2a549acb37e55389ea67069fa24ab27eb59a690493f0fd7bce",
+      "applicationSha256": "d0ca5a0f6ed2fa32ae09dd47bb90c655be556137289820a0d04710acba1dae3b",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+          "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 277,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "0018bb08d7319e97235c61c8a527694cc2620cdb61e8df505654fa0ad9d28438",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 1
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "d0ca5a0f6ed2fa32ae09dd47bb90c655be556137289820a0d04710acba1dae3b",
+        "change-log.json": "f9eb741c2290185b6461ba33dd3cbd589b2e93f2b849a15880a213446f0a4c74",
+        "cv.builder.json": "5a6a6b522be6b7fde031933b9721afa5fa8e623321684ce3c5c07762584f3ae9",
+        "cv.compile.txt": "a86e62317e7921f76019cd004a917d6b06a44aeda33cc623023276715db28141",
+        "cv.json": "5bf06413d61aa81695ff391ec0fa23436c4e2cbf7f95066d8f620c95e4a3f7ec",
+        "cv.log": "b9e762b0c8e1b9e58757e4b4e61c35d5b49bf3d2828070b22bf02596c35e24aa",
+        "cv.md": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "cv.pdf": "0018bb08d7319e97235c61c8a527694cc2620cdb61e8df505654fa0ad9d28438",
+        "cv.poppler.txt": "eb9deae6d5228004b17f79b15ee94b3ff398a26f0c5ec2d45828e6d782664538",
+        "cv.pypdf.txt": "2ff0e519b2d0f53b523405004fa3affad64dd25e5ba22aa90311835bccfbaba8",
+        "cv.tex": "6b8747682e6c2bd6a31c883cfc8b5f1c9d3e8eb3b699189891302b267a118e34",
+        "cv.txt": "e1871441f79d7b02aaddd72c2f60e8a000792c90962e19cd3bb40432da8daacf",
+        "letter.compile.txt": "75181c7800e692ff7c1eda5322506d30da97c3e928ba4f71943c883bc4514afc",
+        "letter.log": "be43169b0f25b0f2c136878fda32ce7613ef7e01d79c6d7d1665b114c2417c91",
+        "letter.md": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "letter.pdf": "bf0c250f649229bc1b2d437858e59ee08068063e35162e4ab6454c21d2a3ed10",
+        "letter.tex": "e2a062862545698bcf26a3623b87408bd4c4d1409e7abd42e2750543dc6f4606",
+        "letter.txt": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "master.json": "4f8c3bd6a2e2807bf101ae7f68fe653143665ec77ea780b9bd922a6022264424",
+        "questions.json": "0b97e2a977780b5c8828ae5ed871b1691d24faede27d61afb088d13ae58bdc8d",
+        "requirement-map.json": "083802a299913b111259d2ecfae0f910e6d3b7644ffdee5878aa64d025bc83f9",
+        "validation.json": "60b43b611d439f61a997c8968f57895500e0da5fdbed53cb3fd4733af476b536"
+      }
+    },
+    {
+      "fixture": "senior",
+      "layout": "compact",
+      "exitCode": 0,
+      "masterSha256": "72e1fca248366d3701d62f914a21f6dd0f9e728921fb3bacc7bc28b3b830eeef",
+      "applicationSha256": "9245729fc5ac17495aaf1e5e1e7ee0ad413cab8cc8ce1d8821cc9e71057b2527",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/1: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/2: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/1: no measured outcome supplied; do not manufacture metrics."
+        ],
+        "letterBodyWords": 279,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "221e0c0e8e0e41c1bd931a6720d1cbce01a30767f8349edcf4813c7ea795f7b9",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 1
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "9245729fc5ac17495aaf1e5e1e7ee0ad413cab8cc8ce1d8821cc9e71057b2527",
+        "change-log.json": "a01c8d1f21350fc86936a58beb27c5e601c54c97a99a9cade101995b82d8ac73",
+        "cv.builder.json": "caa7548248d72a989f098a463bbe1925bb854d1cb61db9828930548ff346a897",
+        "cv.compile.txt": "9d7f1f094bbdf4c11d1181a155ae648271ed39c1c73a41cbf1ccfe9a01e01ad1",
+        "cv.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "cv.log": "4b79e7ad7357cf738f9cae262209541ea27d02599573a1220bb723b13336a365",
+        "cv.md": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "cv.pdf": "221e0c0e8e0e41c1bd931a6720d1cbce01a30767f8349edcf4813c7ea795f7b9",
+        "cv.poppler.txt": "af36adabf3dc41dc31c3dfad95a71ea3fb37aa8c4c7796ffad6ccc3bc6c25b69",
+        "cv.pypdf.txt": "84d2344862065821bf7916e2935edefcf9d44279b06ac2666fb0dac50b6e1b22",
+        "cv.tex": "49510656331029996f7073fdf977836ab8e01c9f9a28ae76ecc16848a0fbd72e",
+        "cv.txt": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "letter.compile.txt": "2a8bbd6aac74e2688ddc51a80dff4ce3579d1cd178b24c7f1ed6efd039aceff8",
+        "letter.log": "aedcf1c28df8b519ed7dd2cebef1b6283c89d90ce8cc7fd9aca924637425e5bc",
+        "letter.md": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "letter.pdf": "82b3177e19d414f10ac0d7d7b81dc4ba5ebfc2322becfd6d7cd75979aec67a8d",
+        "letter.tex": "ad09cb5ede40b8df27d51652b4c1eea358ee79206b5d411ecbaab0545db83553",
+        "letter.txt": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "master.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "questions.json": "b0c307989ed69fcc5c77c669bbbfeaf7d815dea98938086b9c02605fedb85269",
+        "requirement-map.json": "65045c49e81c73a576537a43f18da4582869dfa8dc8d18be7e4027b68f943bb1",
+        "validation.json": "633dfa68e1c2337a29a46aaaeeb338f6a986b569d9ed12c572967b72532c1eb1"
+      }
+    },
+    {
+      "fixture": "senior",
+      "layout": "research",
+      "exitCode": 0,
+      "masterSha256": "72e1fca248366d3701d62f914a21f6dd0f9e728921fb3bacc7bc28b3b830eeef",
+      "applicationSha256": "a18ad4de189138bcbb37f106d2d9b16a580dbc5b2b3d39953d6bad762a438bb8",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/1: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/2: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/1: no measured outcome supplied; do not manufacture metrics."
+        ],
+        "letterBodyWords": 279,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "09ecfebfe6c10609de8b46791cad9c510504b6b677e992965c7dcee225f6dabd",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 2
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "a18ad4de189138bcbb37f106d2d9b16a580dbc5b2b3d39953d6bad762a438bb8",
+        "change-log.json": "a01c8d1f21350fc86936a58beb27c5e601c54c97a99a9cade101995b82d8ac73",
+        "cv.builder.json": "caa7548248d72a989f098a463bbe1925bb854d1cb61db9828930548ff346a897",
+        "cv.compile.txt": "35745a7fc1a1811f38f22eddce11beda4d46c39770ffa519704913baa80bc0d1",
+        "cv.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "cv.log": "9c3cdd2b43e03a9142ffb818726eb84976b337ccf1608a110de1cffc008fc3df",
+        "cv.md": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "cv.pdf": "09ecfebfe6c10609de8b46791cad9c510504b6b677e992965c7dcee225f6dabd",
+        "cv.poppler.txt": "94c6b548feb3896b23c4f0cb1dc64d522addf278be193394d14cdb4c1e480db8",
+        "cv.pypdf.txt": "09432e5e712f3a7cd286249748406c07ae541bb312f42eed0304a7f6ba2eeb48",
+        "cv.tex": "6401c7b8c075cc4761b9a84aba0d2249913347d7919ad1575ea491e96c5ee9b3",
+        "cv.txt": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "letter.compile.txt": "deb9a22a2b8c21a277a8b184e91a431996095e176d0cda8771d9d48e0223d3f8",
+        "letter.log": "aedcf1c28df8b519ed7dd2cebef1b6283c89d90ce8cc7fd9aca924637425e5bc",
+        "letter.md": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "letter.pdf": "b168a93595075cdf80b7a9d0aa5fdf322311f550174ce9993d4c517b43f794c9",
+        "letter.tex": "ad09cb5ede40b8df27d51652b4c1eea358ee79206b5d411ecbaab0545db83553",
+        "letter.txt": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "master.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "questions.json": "b0c307989ed69fcc5c77c669bbbfeaf7d815dea98938086b9c02605fedb85269",
+        "requirement-map.json": "65045c49e81c73a576537a43f18da4582869dfa8dc8d18be7e4027b68f943bb1",
+        "validation.json": "5743817efcf9481a52488833bf75d3186f81d53b425eefba729c4275eceafc4b"
+      }
+    },
+    {
+      "fixture": "senior",
+      "layout": "extended",
+      "exitCode": 0,
+      "masterSha256": "72e1fca248366d3701d62f914a21f6dd0f9e728921fb3bacc7bc28b3b830eeef",
+      "applicationSha256": "b555762b4cb59af6d8a14ad8ea1e76018ba0cb29629c01661a83932c8b90900b",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/1: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/2: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/1: no measured outcome supplied; do not manufacture metrics."
+        ],
+        "letterBodyWords": 279,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "850dcc12bc21ff557283a39ba23ecbcaa0988494fa94c348980efd1b872f2ad1",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 2
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "b555762b4cb59af6d8a14ad8ea1e76018ba0cb29629c01661a83932c8b90900b",
+        "change-log.json": "a01c8d1f21350fc86936a58beb27c5e601c54c97a99a9cade101995b82d8ac73",
+        "cv.builder.json": "caa7548248d72a989f098a463bbe1925bb854d1cb61db9828930548ff346a897",
+        "cv.compile.txt": "3d9155d60988806a019daa5840a9f631a5cbdcb9f27ef48196f58253e1436114",
+        "cv.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "cv.log": "869baa4578460276b87b715bc672d2d44632b36cab2d38d86e349cf92801ffd1",
+        "cv.md": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "cv.pdf": "850dcc12bc21ff557283a39ba23ecbcaa0988494fa94c348980efd1b872f2ad1",
+        "cv.poppler.txt": "c4a0ff8b291814b5ccf092d795737fe22c380be0e3afef137d1b444ef9a6814e",
+        "cv.pypdf.txt": "7be851f8173e2fc2b35a38062adc9231010af23bc6f3c172f5d995505d6b413b",
+        "cv.tex": "80bdcecf11a5d6035476e17728f87b76cf38d6177fedfe6865f7c0d4f81a5769",
+        "cv.txt": "a0ec73df9885b3e3b7efc856ae5d40bc7a1b3347df1be45fd5e74f90ea942b8a",
+        "letter.compile.txt": "f81c45f3e9d25447bc699a6a91142401ca6541dca57dd8b5d6b17c2beecbe617",
+        "letter.log": "aedcf1c28df8b519ed7dd2cebef1b6283c89d90ce8cc7fd9aca924637425e5bc",
+        "letter.md": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "letter.pdf": "edc58221291112cdfdeee5e8e4ff35cca1b960356c4f3f584e907f1f1f491492",
+        "letter.tex": "ad09cb5ede40b8df27d51652b4c1eea358ee79206b5d411ecbaab0545db83553",
+        "letter.txt": "b4850a3202ca275b2bbee726ad0590ef4fa8d3e6a24fae0ec33c3c0af1f8850b",
+        "master.json": "d456bdacf646b8c3578fd4a8477f68829f8cbdd5f695fb34ee3910dfeb059018",
+        "questions.json": "b0c307989ed69fcc5c77c669bbbfeaf7d815dea98938086b9c02605fedb85269",
+        "requirement-map.json": "65045c49e81c73a576537a43f18da4582869dfa8dc8d18be7e4027b68f943bb1",
+        "validation.json": "c034aa6de98de22d954fca64fad1b8b214c6be7063d8a095bb61e9a7c947449b"
+      }
+    },
+    {
+      "fixture": "unicode-partial",
+      "layout": "research",
+      "exitCode": 0,
+      "masterSha256": "c7575f86f09d895a773ceb5195f3d99018996634211727577ef8dbec1531793b",
+      "applicationSha256": "fd57765ed9ef2a5ff9a64fed846e19ee30a25922c24e7da4b7c56b56d30905d2",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/1: no measured outcome supplied; do not manufacture metrics.",
+          "/experience/2: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: incomplete dates; confirm rather than infer.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/1: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement reliability is partial: API contract tests and failed-job review are documented; explicit recovery tests are not present in this partial source.",
+          "Requirement tracing is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 284,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "36f2672e67956a6b801b12e8449605ae26319b0d39784a8bcc774fe24a7db9a1",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 2
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "fd57765ed9ef2a5ff9a64fed846e19ee30a25922c24e7da4b7c56b56d30905d2",
+        "change-log.json": "3ed21157b6a9b7d468efc6f1237473ddb690433f8d083cde22d503af9bac24ec",
+        "cv.builder.json": "568643aa0ad41dcb42a12d91f5f76c0ca7136ef4e469c37fefdf3ca11b3361fd",
+        "cv.compile.txt": "f17ac3fd1b04980945ca6119f7c6d25f87bbd8a0b25d41026d94c8189c68aa7f",
+        "cv.json": "d2215da1c979cb3a7ac70634bad7675d3d1324b6babe0a19fb30ba2a45a5b5fa",
+        "cv.log": "a9cf8dbc8f720de5b61c24c2942da6084baa4d5e7989281dec3f819a2596abcd",
+        "cv.md": "d7ee77e4629627dcf651b2b9e71dca2afca6d127c18ae3e1a258e8b2b782bf40",
+        "cv.pdf": "36f2672e67956a6b801b12e8449605ae26319b0d39784a8bcc774fe24a7db9a1",
+        "cv.poppler.txt": "27c680a07d6bfda580296f7ff5cfff500d58d561eb174e575beabbb46f805ec2",
+        "cv.pypdf.txt": "03140d792ad888809b89429ccda9f95aa74d1e004cc59079e664b7a50a18799d",
+        "cv.tex": "a5e34b57674afc80fd94b95d93b18deb3de692832e544b02815e7db48c871057",
+        "cv.txt": "d7ee77e4629627dcf651b2b9e71dca2afca6d127c18ae3e1a258e8b2b782bf40",
+        "letter.compile.txt": "011af2eb678781b155455f7d74e8852965b73fdd258131d69f6fb65dbd299b0d",
+        "letter.log": "2e875dfba0d9076b5118ce95eeee1c8c37ef816e3d94f7f50e0098e1e9733220",
+        "letter.md": "f42d9f35ab5e0783e99b027c4689e43b9d7db0cca8981a6209bbe38ca94d49f1",
+        "letter.pdf": "0beb081eb4b1dc90ab058a4a9d6f340900ec82a1f1e6dff96ca1d4e93a4e80ae",
+        "letter.tex": "0ecad28e3e451fdaab334123fa182018f3673493ef8e816d6c7d0d87fc802f26",
+        "letter.txt": "f42d9f35ab5e0783e99b027c4689e43b9d7db0cca8981a6209bbe38ca94d49f1",
+        "master.json": "c7575f86f09d895a773ceb5195f3d99018996634211727577ef8dbec1531793b",
+        "questions.json": "067f863c18ad634085b27ede52e4df0e21da045d7ebba1656bea3cbe6c6bb93e",
+        "requirement-map.json": "79d27f2ab7b3684b329deda9ffa7a45e38d6fcf1047b6feb4d05c798e91e54a7",
+        "validation.json": "be508e8372f76dd89764c6e1352443759d9959d1ab6dbe64bb97aacc3e6f9815"
+      }
+    },
+    {
+      "fixture": "career-change",
+      "layout": "compact",
+      "exitCode": 0,
+      "masterSha256": "8864f9e7700b6e54069e89365e787bdfff277d89355fd6ce63e35f8721a06e40",
+      "applicationSha256": "7d330578ca65aac58c55bfea8ea694f041e99cc544bbdbf43a86d0bf6c2a0964",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement api is partial: Node.js and booking-conflict tests are documented in the project, but its description does not explicitly establish an API.",
+          "Requirement accessibility is partial: Accessibility feedback belongs to the coordination role; React belongs to the independent project. Implementation of an accessible React interface is not established.",
+          "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 283,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "passed"
+        },
+        "compile": {
+          "status": "passed",
+          "pdfCreated": true,
+          "compiler": "tectonic",
+          "artifacts": [
+            {
+              "artifact": "cv",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            },
+            {
+              "artifact": "letter",
+              "returncode": 0,
+              "overflow": false,
+              "missingGlyphs": false,
+              "pdfCreated": true
+            }
+          ]
+        },
+        "pdfRoundtrip": {
+          "status": "passed",
+          "sha256": "0da1028b7edccc1c37f313e500dd39dd719b1af2693a2f0a38131c4dcd3eeb5c",
+          "extractors": [
+            {
+              "extractor": "Poppler",
+              "status": "passed",
+              "differences": []
+            },
+            {
+              "extractor": "pypdf",
+              "status": "passed",
+              "differences": [],
+              "pages": 1
+            }
+          ],
+          "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+        }
+      },
+      "artifacts": {
+        "application.json": "7d330578ca65aac58c55bfea8ea694f041e99cc544bbdbf43a86d0bf6c2a0964",
+        "change-log.json": "f80b17a6c4f8e40d6fc9c0fe542761ea195d0fc5914b6c67a02a46f7f52ae84b",
+        "cv.builder.json": "8495f1fc09d15c9ad5467ad4ad708969351b4ec6bf44e14e0a725494fb36b48c",
+        "cv.compile.txt": "7ac8331e1bab5d1cceab521534e9d1d5a2d566b2ce64b96f23bb42bce870c46a",
+        "cv.json": "8864f9e7700b6e54069e89365e787bdfff277d89355fd6ce63e35f8721a06e40",
+        "cv.log": "479115a9b79a1ba868c1a9a79a1b6c82aa5ac2adf5f517dac926ce32560fdf59",
+        "cv.md": "4adf2897df5334bc9e0878edfdd5ec0bde588a21489aa922c9d2c4c7a7c991e9",
+        "cv.pdf": "0da1028b7edccc1c37f313e500dd39dd719b1af2693a2f0a38131c4dcd3eeb5c",
+        "cv.poppler.txt": "b5eba59bac00a475abc37c6d7504cf49f3cd3e8a65aebda6db4e0ab2632bb327",
+        "cv.pypdf.txt": "4bac5234ffe11c696f01dca355eb57e7a89a609740666059fce1d0bcab30e139",
+        "cv.tex": "fa0b9e645e455a4c2aaa1347e8fdd47eb29bbe757c2968303bfbb562f70bcdea",
+        "cv.txt": "4adf2897df5334bc9e0878edfdd5ec0bde588a21489aa922c9d2c4c7a7c991e9",
+        "letter.compile.txt": "66d22a66752baf194506a3832f644ed66920e9b619f2caa8b0e6d135eee8fc1e",
+        "letter.log": "ad0fbed09d85f93656bedf4bc3379f9f4ebd3c7a32323262d1ee470a2d08ef2a",
+        "letter.md": "28818a5477a6402ceb23a65c03c4b243b66241c0dc56a492a4618a8552567b65",
+        "letter.pdf": "dddd8d3832bd5a7041bb6b32d4fabdafd7f8cb1b448a98295b61029594923506",
+        "letter.tex": "e3f31524fa8b19a5008974b9f2537cf60f27bde86fe4d25e8bfc968c341cd11e",
+        "letter.txt": "28818a5477a6402ceb23a65c03c4b243b66241c0dc56a492a4618a8552567b65",
+        "master.json": "8864f9e7700b6e54069e89365e787bdfff277d89355fd6ce63e35f8721a06e40",
+        "questions.json": "982e436de6f20a5c872a545a80a23a7536845a6dee273e19771338dc4ca7e296",
+        "requirement-map.json": "d1416eb2d5e66627672efc513702b1805fcb9833c3d7d058ec1fcdaba1049519",
+        "validation.json": "59fc33094e75996ef8fdc7c5e430acc88f53f98438a4f1ddba894562dc05631d"
+      }
+    },
+    {
+      "fixture": "ambiguous-dates",
+      "layout": "compact",
+      "exitCode": 0,
+      "masterSha256": "3f3e63cb7b98a26a1c8767016eba167d74d21abc77e1950c62434f3137607320",
+      "applicationSha256": "406dfe2eea07e0b4255eba0fd2e3162d85f2c4f1dc8a4c155f704cf7352424a4",
+      "validation": {
+        "status": "validated-with-warnings",
+        "warnings": [
+          "/experience/0/startDate: ambiguous date retained verbatim; resolve before strict parsing.",
+          "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+          "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+          "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+          "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+        ],
+        "letterBodyWords": 277,
+        "checks": {
+          "schema": true,
+          "sourcePointers": true,
+          "jobQuotes": true,
+          "metadataPreserved": true,
+          "newNumericTokensAbsent": true
+        },
+        "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+        "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+        "textRoundtrip": {
+          "status": "requires-review",
+          "reason": "Achievement has no associated entry"
+        },
+        "compile": {
+          "status": "not-requested",
+          "pdfCreated": false
+        },
+        "pdfRoundtrip": {
+          "status": "unavailable",
+          "reason": "No compiled CV PDF"
+        }
+      },
+      "artifacts": {
+        "application.json": "406dfe2eea07e0b4255eba0fd2e3162d85f2c4f1dc8a4c155f704cf7352424a4",
+        "change-log.json": "9e78927c904c95ae49c211bd0eb97d85b68dbf50f00a06263a7a223159ef3c76",
+        "cv.builder.json": "475dc98f80c38dced679f8b828433509cb8e536cbd65535a0e43659f9fa38174",
+        "cv.json": "3f3e63cb7b98a26a1c8767016eba167d74d21abc77e1950c62434f3137607320",
+        "cv.md": "634e23661c988570f7b31d1297afd9bb75fadbd1ec59a195e17ae06caf22292d",
+        "cv.tex": "59fd8a534986e0b6d61fe040ab0e5c2cf9ace4dbdef72fcb0ec88f190a9f4a62",
+        "cv.txt": "634e23661c988570f7b31d1297afd9bb75fadbd1ec59a195e17ae06caf22292d",
+        "letter.md": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "letter.tex": "e2a062862545698bcf26a3623b87408bd4c4d1409e7abd42e2750543dc6f4606",
+        "letter.txt": "a88d863c6d71ded4e20fdc0fee4747be9c62e39788ee7772151f5bc4cd8d1c55",
+        "master.json": "3f3e63cb7b98a26a1c8767016eba167d74d21abc77e1950c62434f3137607320",
+        "questions.json": "641b1e09703ad0012238790c294cb6ed1f762dd1be3d2b2436e1d611176db0ee",
+        "requirement-map.json": "083802a299913b111259d2ecfae0f910e6d3b7644ffdee5878aa64d025bc83f9",
+        "validation.json": "91d7167c81236722cfa49a59e7f03d1a45af6a47bf0f01d40ec0946d7ceb6f19"
+      }
+    }
+  ]
+}

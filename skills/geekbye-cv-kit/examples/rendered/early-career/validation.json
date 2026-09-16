@@ -1,0 +1,61 @@
+{
+  "status": "validated-with-warnings",
+  "warnings": [
+    "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+    "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+    "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+    "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+  ],
+  "letterBodyWords": 277,
+  "checks": {
+    "schema": true,
+    "sourcePointers": true,
+    "jobQuotes": true,
+    "metadataPreserved": true,
+    "newNumericTokensAbsent": true
+  },
+  "factualSupport": "Host-reviewed prose. Pointer and numeric checks do not prove semantic entailment.",
+  "ats": "Not scored; pack-specific parser checks are not vendor ATS evidence.",
+  "textRoundtrip": {
+    "status": "passed"
+  },
+  "compile": {
+    "status": "passed",
+    "pdfCreated": true,
+    "compiler": "tectonic",
+    "artifacts": [
+      {
+        "artifact": "cv",
+        "returncode": 0,
+        "overflow": false,
+        "missingGlyphs": false,
+        "pdfCreated": true
+      },
+      {
+        "artifact": "letter",
+        "returncode": 0,
+        "overflow": false,
+        "missingGlyphs": false,
+        "pdfCreated": true
+      }
+    ]
+  },
+  "pdfRoundtrip": {
+    "status": "passed",
+    "sha256": "f9e4376fe9370de4e4c92c7294fc6e92351a249b0365869a11c57ebffecc7c55",
+    "extractors": [
+      {
+        "extractor": "Poppler",
+        "status": "passed",
+        "differences": []
+      },
+      {
+        "extractor": "pypdf",
+        "status": "passed",
+        "differences": [],
+        "pages": 1
+      }
+    ],
+    "scope": "Exact pack grammar/field comparison; not a vendor ATS assessment."
+  }
+}

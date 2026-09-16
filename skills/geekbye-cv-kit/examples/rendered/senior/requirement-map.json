@@ -1,0 +1,35 @@
+{
+  "requirements": [
+    {
+      "id": "reliability",
+      "text": "reliable services and recovery tests",
+      "sourceQuote": "reliable services and recovery tests"
+    },
+    {
+      "id": "tracing",
+      "text": "OpenTelemetry tracing",
+      "sourceQuote": "OpenTelemetry tracing"
+    }
+  ],
+  "mapping": [
+    {
+      "requirementId": "reliability",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Source record describes the corresponding implementation work; host review still checks scope."
+    },
+    {
+      "requirementId": "tracing",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Source record describes the corresponding implementation work; host review still checks scope."
+    }
+  ],
+  "evidence": {
+    "/experience/0/description": "Designed a PostgreSQL-backed job queue with idempotent workers and recovery tests for interrupted tasks.\nIntroduced OpenTelemetry traces across API and worker boundaries so on-call engineers could isolate slow requests.\nLed design reviews for a staged migration from synchronous processing to background jobs, documenting rollback criteria.\nMentored engineers through incident reviews and paired on regression tests for duplicate delivery and partial failure."
+  }
+}

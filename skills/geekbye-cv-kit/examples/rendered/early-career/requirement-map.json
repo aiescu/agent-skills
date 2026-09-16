@@ -1,0 +1,48 @@
+{
+  "requirements": [
+    {
+      "id": "api",
+      "text": "Node.js API testing",
+      "sourceQuote": "Node.js API testing"
+    },
+    {
+      "id": "accessibility",
+      "text": "accessible React interfaces",
+      "sourceQuote": "accessible React interfaces"
+    },
+    {
+      "id": "kubernetes",
+      "text": "Kubernetes operations",
+      "sourceQuote": "Kubernetes operations"
+    }
+  ],
+  "mapping": [
+    {
+      "requirementId": "api",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Internship explicitly documents a Node.js API and overlapping-booking regression tests."
+    },
+    {
+      "requirementId": "accessibility",
+      "evidence": [
+        "/experience/0/description",
+        "/projects/0/technologies"
+      ],
+      "status": "partial",
+      "note": "Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React."
+    },
+    {
+      "requirementId": "kubernetes",
+      "evidence": [],
+      "status": "unsupported",
+      "note": "Not established in the supplied master; do not claim it."
+    }
+  ],
+  "evidence": {
+    "/experience/0/description": "Built appointment-conflict validation in a Node.js API and added regression tests for overlapping bookings.\nReplaced an inaccessible date picker with a keyboard-operated booking flow after testing it with the product team.",
+    "/projects/0/technologies": "TypeScript, React, Node.js, PostgreSQL"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Zoë Șerban",
+  "title": "Software Engineer",
+  "email": "zoe.serban@example.com",
+  "phone": "+40 700 000 001",
+  "location": "Cluj-Napoca, Romania",
+  "links": [
+    "https://example.com/zoe",
+    "https://github.com/example-zoe"
+  ],
+  "objective": "Software engineer building accessible web applications and tested backend services. Interested in reliable APIs and clear user workflows.",
+  "skills": [
+    "TypeScript",
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Python",
+    "Git"
+  ],
+  "experience": [
+    {
+      "company": "Example Studio",
+      "title": "Software Engineering Intern",
+      "startDate": "2025-06",
+      "endDate": "2025-09",
+      "description": "Implemented Node.js API validation for overlapping appointments and added booking-conflict regression tests.\nReplaced an inaccessible date picker with a keyboard-operated booking flow after testing with the product team."
+    }
+  ],
+  "education": [
+    {
+      "school": "Example Technical University",
+      "degree": "BSc",
+      "field": "Computer Science",
+      "graduationDate": "2026-06"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Booking Lab",
+      "startDate": "2026-02",
+      "endDate": "Present",
+      "description": "Built an independent appointment scheduler with persistent storage and automated tests for booking conflicts.\nDocumented the tradeoff between database constraints and application validation; added a reproducible local demo.",
+      "technologies": "TypeScript, React, Node.js, PostgreSQL",
+      "url": "https://example.com/booking-lab"
+    }
+  ],
+  "publications": []
+}
