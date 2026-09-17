@@ -45,7 +45,7 @@
         "url": "https://github.com/multica-ai"
       },
       "homepage": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "license": "Unlicensed (README says MIT)",
+      "license": "MIT (README declaration)",
       "source": {
         "source": "url",
         "url": "https://github.com/multica-ai/andrej-karpathy-skills.git"
@@ -59,7 +59,7 @@
         "url": "https://github.com/nextlevelbuilder"
       },
       "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "license": "MIT",
+      "license": "MIT / Apache-2.0 (per-skill)",
       "source": {
         "source": "url",
         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"

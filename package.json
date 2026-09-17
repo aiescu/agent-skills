@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "node --test tests/*.test.mjs && bash tests/install.test.sh",
     "build": "node scripts/build.mjs",
     "build:check": "node scripts/build.mjs --check",
     "stars": "node scripts/fetch-stars.mjs",
-    "test:cv-kit-install": "node tests/cv-kit-cli-install.mjs"
+    "test:cv-kit-install": "node tests/cv-kit-cli-install.mjs",
+    "test:distribution-install": "node tests/distribution-cli-install.mjs"
   }
 }
