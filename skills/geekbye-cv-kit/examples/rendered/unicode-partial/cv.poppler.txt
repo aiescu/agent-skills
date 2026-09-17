@@ -1,0 +1,59 @@
+Renée Ionescu
+Email: renee.ionescu@example.com
+Phone:
+Location: București, Romania
+Link: https://example.com/renee
+Link: https://github.com/example-renee
+
+Summary
+Software engineer with versioned Node.js API, database profiling and Python import-tool experience.
+Builds accessible interfaces and tests for contracts, Unicode and dates.
+
+Experience
+Senior Software Engineer | Example Systems
+2023-03 - Present
+Software Engineer | Sample Cloud
+2020-01 - 2023-02
+• Implemented versioned Node.js APIs and contract tests to keep customer integrations working through
+releases.
+• Reworked database queries after profiling production-like workloads; verified query plans before
+adding indexes.
+• Built an accessible React console for reviewing failed jobs and retrying only the affected work.
+Junior Software Engineer | Demo Works
+2017-07 - 2019-12
+• Developed Python import tools that preserved source identifiers and rejected ambiguous records for
+manual review.
+• Added integration tests around CSV exports, Unicode names and date handling to prevent silent data
+corruption.
+
+Education
+MSc | Distributed Systems | Example Technical University
+Education date:
+BSc | Computer Science | Example Technical University
+Education date: 2017-06
+
+Skills
+TypeScript; React; Node.js; PostgreSQL; Python; Git; Docker; Kubernetes; Redis; OpenTelemetry
+
+Projects
+Queue Observatory
+Dates: not provided
+Technologies:
+URL:
+
+Accessible Booking Lab
+2022-04 - 2022-10
+Technologies: TypeScript, React, Node.js
+URL: https://example.com/accessible-booking
+• Created a keyboard-accessible booking demo with time-zone conversion and appointment-conflict
+tests.
+• Documented browser support and known limitations so contributors could reproduce failures.
+
+Publications
+Title: Synthetic Șerban publication
+Authors: Zoë Șerban; Renée Ionescu
+Venue: Example Research Workshop
+Date: 2024-01
+URL: https://example.com/synthetic-publication
+
+

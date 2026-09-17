@@ -1,0 +1,126 @@
+{
+  "job": {
+    "title": "Senior Software Engineer",
+    "company": "Example Hiring Team",
+    "description": "We seek a Senior Software Engineer. Requirements: reliable services and recovery tests; OpenTelemetry tracing.",
+    "requirements": [
+      {
+        "id": "reliability",
+        "text": "reliable services and recovery tests",
+        "sourceQuote": "reliable services and recovery tests"
+      },
+      {
+        "id": "tracing",
+        "text": "OpenTelemetry tracing",
+        "sourceQuote": "OpenTelemetry tracing"
+      }
+    ]
+  },
+  "preferences": {
+    "language": "English",
+    "region": "Romania / EU",
+    "cvLength": "1–2 pages; inspect actual PDF",
+    "letterWords": [
+      250,
+      300
+    ],
+    "paper": "a4",
+    "layout": "research"
+  },
+  "selections": {
+    "experience": [
+      "/experience/0",
+      "/experience/1",
+      "/experience/2"
+    ],
+    "education": [
+      "/education/0",
+      "/education/1"
+    ],
+    "skills": [
+      "/skills/0",
+      "/skills/1",
+      "/skills/2",
+      "/skills/3",
+      "/skills/4",
+      "/skills/5",
+      "/skills/6",
+      "/skills/7",
+      "/skills/8",
+      "/skills/9"
+    ],
+    "projects": [
+      "/projects/0",
+      "/projects/1"
+    ],
+    "publications": [
+      "/publications/0"
+    ]
+  },
+  "summary": {
+    "text": "Software engineer with versioned Node.js API, database profiling and Python import-tool experience. Builds accessible interfaces and tests for contracts, Unicode and dates.",
+    "evidence": [
+      "/experience/1/description",
+      "/experience/2/description"
+    ],
+    "reviewed": true
+  },
+  "letter": {
+    "salutation": "Dear Hiring Team,",
+    "paragraphs": [
+      {
+        "text": "I am applying for the Senior Software Engineer role at Example Hiring Team. My experience includes versioned Node.js APIs, contract tests, database profiling and an accessible console for reviewing failed jobs. I am interested in the service reliability work described in your advert and would welcome a conversation about these contributions. The API and import-tool work in my CV provide concrete examples to discuss with you.",
+        "evidence": [
+          "/experience/1",
+          "/experience/2",
+          "/objective"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "At Sample Cloud, I implemented contract tests to keep customer integrations working through API releases. I also profiled production-like database workloads and checked query plans before adding indexes. The React console supported review of failed jobs and retries of affected work. I would be glad to walk through the contract-testing approach, the query-plan checks and the purpose of the console. Each offers a practical starting point for discussing how changes are checked and how failed work can be reviewed.",
+        "evidence": [
+          "/experience/1/description"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "At Demo Works, I developed Python import tools that preserved source identifiers and rejected ambiguous records for manual review. I added integration tests around CSV exports, Unicode names and date handling to prevent silent data corruption. I would welcome the chance to explain the import behaviour and the tests around it, including why ambiguous input was directed to review rather than silently converted. That work gives us another concrete example of validation and data preservation to discuss.",
+        "evidence": [
+          "/experience/2/description"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "My CV includes a publication citation and link for reference. In a conversation, I would be glad to discuss the API, interface and import-tool implementations, walk through their tests and explain their different contexts. Thank you for considering my application; I welcome the opportunity to discuss the role and how the engineering experience described here could contribute to its service reliability work.",
+        "evidence": [
+          "/publications/0",
+          "/experience/1/description",
+          "/experience/2/description"
+        ],
+        "reviewed": true
+      }
+    ],
+    "closing": "Kind regards,"
+  },
+  "requirementMap": [
+    {
+      "requirementId": "reliability",
+      "evidence": [
+        "/experience/1/description"
+      ],
+      "status": "partial",
+      "note": "API contract tests and failed-job review are documented; explicit recovery tests are not present in this partial source."
+    },
+    {
+      "requirementId": "tracing",
+      "evidence": [],
+      "status": "unsupported",
+      "note": "Not established in the supplied master; do not claim it."
+    }
+  ],
+  "questions": [
+    "Which contributions should be included for the current Example Systems role? Its description is missing.",
+    "What dates and implementation details can be confirmed for Queue Observatory? Its incomplete record must not be used as evidence of additional work."
+  ]
+}

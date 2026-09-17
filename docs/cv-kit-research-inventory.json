@@ -1,0 +1,866 @@
+[
+  {
+    "requested": "Paramchoudhary/ResumeSkills",
+    "canonical": "Paramchoudhary/ResumeSkills",
+    "sha": "74ae19e7c62b0516d1c298328e5544976c12da5d",
+    "truncated": false,
+    "paths": [
+      ".agents/skills/executive-resume-writer/SKILL.md",
+      ".agents/skills/job-description-analyzer/SKILL.md",
+      "skills/academic-cv-builder/SKILL.md",
+      "skills/application-form-filler/SKILL.md",
+      "skills/career-changer-translator/SKILL.md",
+      "skills/cover-letter-generator/SKILL.md",
+      "skills/creative-portfolio-resume/SKILL.md",
+      "skills/executive-resume-writer/SKILL.md",
+      "skills/job-description-analyzer/SKILL.md",
+      "skills/resume-ats-optimizer/SKILL.md",
+      "skills/resume-bullet-writer/SKILL.md",
+      "skills/resume-formatter/SKILL.md",
+      "skills/resume-quantifier/SKILL.md",
+      "skills/resume-section-builder/SKILL.md",
+      "skills/resume-tailor/SKILL.md",
+      "skills/resume-version-manager/SKILL.md",
+      "skills/tech-resume-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/academic-cv-builder/SKILL.md",
+        "sha256": "7b15396ae8c284e5cb090d543c8009279269c922f944b2b535089cae0726bd23"
+      },
+      {
+        "path": "skills/application-form-filler/SKILL.md",
+        "sha256": "c5804ccbc6e34d05edd59a86f3246259a73f96f1fcd7ba253fd9e48c1ddca8d8"
+      },
+      {
+        "path": "skills/career-changer-translator/SKILL.md",
+        "sha256": "d1b6d39a9031ef2c4b493c6cccf6227144621729f059044173b658200455eecc"
+      },
+      {
+        "path": "skills/cover-letter-generator/SKILL.md",
+        "sha256": "1b84e3d487f982700ab69fab1cf945fa785bf4a4266e8946e47401b1fe5ebc6c"
+      },
+      {
+        "path": "skills/creative-portfolio-resume/SKILL.md",
+        "sha256": "71301ed4cc3a4c4b026619d606762b72ac2724888884a711936e7ea85c4a54f5"
+      },
+      {
+        "path": "skills/executive-resume-writer/SKILL.md",
+        "sha256": "74fc63ac5b836f3bf994a3100c03eb2f3f4a9d67e64cbb0df6e973e06e9d95c0"
+      },
+      {
+        "path": "skills/job-description-analyzer/SKILL.md",
+        "sha256": "9898051a4a54ddeb82115778e4dfe24dbf226a6457dcb7be6c94bddca15479d5"
+      },
+      {
+        "path": "skills/resume-ats-optimizer/SKILL.md",
+        "sha256": "03ad07d45afa209a41f8a0acdfc4286bc61ededd8371ced5242b5caf97d86702"
+      },
+      {
+        "path": "skills/resume-bullet-writer/SKILL.md",
+        "sha256": "49ea6a533a72112cc4935c40924830d13979b86321e593892a45244fef0a14fb"
+      },
+      {
+        "path": "skills/resume-formatter/SKILL.md",
+        "sha256": "387522dc9a48ea948fc44c73189fce0676dc12b694186d4d44957ae02bd6becf"
+      },
+      {
+        "path": "skills/resume-quantifier/SKILL.md",
+        "sha256": "6cdf56f990ff1f67154ea99c256654d35eeb5048f13af76da396dcb3b9d2d68d"
+      },
+      {
+        "path": "skills/resume-section-builder/SKILL.md",
+        "sha256": "63e9972a7b1b4a184f7f4e7a992f17c3590a0da19a4389631bdbbeb3b94dd68b"
+      },
+      {
+        "path": "skills/resume-tailor/SKILL.md",
+        "sha256": "96853a389e2043cd3cc46667b89576cd3755bbef2c72ebeafc486230609b0981"
+      },
+      {
+        "path": "skills/resume-version-manager/SKILL.md",
+        "sha256": "ddf1acc97694e7710c9091dc547942a424f16601b2c8b35ce1c317f3b19b94f7"
+      },
+      {
+        "path": "skills/tech-resume-optimizer/SKILL.md",
+        "sha256": "38cbc83d7d143ec3432be19e8179c5992b55b20765c478f575b0200ed357339a"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "779da7ca4855d53a7800c744fef206c6265ace2e1eefef8ab608a0ccfb6d751d"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Prompt suite; inspected tailoring, ATS, application answers and letter workflows. Useful master/version separation and field-specific answers. Reject unsupported rejection statistics, speculative scores and unconfirmed metric estimates. No browser autofill implementation demonstrated.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "jezweb/claude-skills",
+    "canonical": "jezweb/claude-skills",
+    "sha": "e875a6bfff809e5d42c584104031e36e1f014f18",
+    "truncated": false,
+    "paths": [
+      "plugins/writing/skills/resume-cover-letter/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "plugins/writing/skills/resume-cover-letter/SKILL.md",
+        "sha256": "adaa35a36ae0bfa6b1ce14104aebcbfe8a51c65434087056facf4f8f45217b96"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "4530f92f44fe545e18773c7bbe0c312b0f04b78c161bdb784ff24f0ace9a5592"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full combined prompt reviewed. Regional preferences and both documents; explicitly Markdown/text only, no PDF/DOCX generation. Ask instead of adopting rigid regional rules or unconfirmed qualitative outcomes.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "github/awesome-copilot",
+    "canonical": "github/awesome-copilot",
+    "sha": "9ce814859eaa473178a1463ee3aa0c54a8860b86",
+    "truncated": false,
+    "paths": [
+      "skills/technical-job-search/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/technical-job-search/SKILL.md",
+        "sha256": "b24b015e51c01407c079328f5cd5878e887e002b9f975bb3509a4d099dfc6df8"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "e32449d23085399adc1222f7a17408b730550258e51627c153cb108ca9955823"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full technical-job-search prompt reviewed. Separate required/preferred requirements and concise letters. Quantification requests are prompts for verified facts, not permission to create results. No renderer or extraction test.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "onewave-ai/claude-skills",
+    "canonical": "OneWave-AI/claude-skills",
+    "sha": "82859c0ebaff803889be6ca2efa0834ba8787773",
+    "truncated": false,
+    "paths": [
+      "job-application-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "job-application-optimizer/SKILL.md",
+        "sha256": "7c696f227cf37cd0746619be57086db2ce3763df2dc58cba0d3ea7f0f74ec5f9"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "197dce10493396d12cd5e7e6d424d01a794bebe20135bdc0bbc10c0feab1d460"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full main prompt reviewed. Current path EXISTS, correcting initial issue finding. Referenced optimization/letter/interview templates not executed. Requirement categories useful; no measured ATS implementation established.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "didixuxu/didi-skills",
+    "canonical": "didixuxu/didi-skills",
+    "sha": "716b37ddbf9430f0f960c2f1d150defcffe324a9",
+    "truncated": false,
+    "paths": [
+      "tailor-resume/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": "tailor-resume/SKILL.md",
+        "sha256": "9aaccba881d0d9588855776a0580234b8452a60d7ee0b72efd39d959ae8bbb4e"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full prompt reviewed, link-only. Hardcoded ~/Documents and ~/.claude path; pdflatex. No root license found; do not copy.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "reactive-resume/reactive-resume",
+    "canonical": "reactive-resume/reactive-resume",
+    "sha": "fd3494ccac6ef4c47d01614a8a5dcdea08df85eb",
+    "truncated": false,
+    "paths": [
+      "skills/resume-builder/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/resume-builder/SKILL.md",
+        "sha256": "2d8f20a1f488a8957faec3c3c339f3ab4f10991197fba63af8e17607f9efbecb"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "d7839f5fa862720b1501a54bcc0d6a2566b59cee221738640bf1508630f73cc1"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full main prompt reviewed. User-only facts, schema JSON and application MCP tools. Requires Reactive Resume schema/platform for its workflow; MCP and linked schema not tested. No portable LaTeX renderer established.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "trfi/skills",
+    "canonical": "trfi/skills",
+    "sha": "4c9ae46d5228f58fe158c409897a208d8736951b",
+    "truncated": false,
+    "paths": [
+      "skills/cv-resume/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": "skills/cv-resume/SKILL.md",
+        "sha256": "17554422c04157e3453608a562bc746fd0d1f72e8d7b0c99bf461a51a0d8e016"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Not reviewed; no reuse",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "artificialguybr/resume-ats-linkedin-optimizer",
+    "canonical": "artificialguybr/resume-ats-linkedin-optimizer",
+    "sha": "210486f1d14013f740a067ad24652a6dae51523f",
+    "truncated": false,
+    "paths": [
+      "SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "SKILL.md",
+        "sha256": "3e690d67853f59cd1a0216032db1ccc5d298cc6e0e03e29101359aa4d34c10fc"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "4167924222ab925bfb700da5219df3850970dff79e09a6a2c1f64b6490c2295c"
+      },
+      {
+        "path": "scripts/resume_tools.py",
+        "sha256": "1af76b03b8626f24dee414dc8243006bfd0b2f08a7bf81c6de302581bab8ee3e"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main prompt and renderer/validation excerpts reviewed. scripts/resume_tools.py implements DOCX via python-docx and PDF via reportlab; validation is structural and warnings can permit title/date differences. Useful code/layout separation and labeled keyword coverage, not proof of factual correctness or all ATS compatibility. No code reused.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "trainwithshubham/skills",
+    "canonical": "TrainWithShubham/skills",
+    "sha": "236099bf32d0e83fa4bcc6e01768f081226136d9",
+    "truncated": false,
+    "paths": [
+      "skills/resume-review/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/resume-review/SKILL.md",
+        "sha256": "b6c709aadb1eb2597992413f82ec8d1607a58d8f53d4a539ccc1c7772097e8dc"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "88dbb0dc2d3109a75e96ed6439cc2a0edcea152cc733f6da61297d0edc37a557"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main rubric excerpts reviewed. Recruiter verdict and ATS score rubric; claims of auto-rejection and mandatory metrics are not measured parser evidence. Reject these assumptions; reference files not executed.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "wyh0626/resume-optimizer",
+    "canonical": "wyh0626/resume-optimizer",
+    "sha": "fb16670c07bf22cce8c8a9b8494bbd693ea4651c",
+    "truncated": false,
+    "paths": [
+      "SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "SKILL.md",
+        "sha256": "8b995cdcdc5d6aa41838e4e5f6c274f163607836121b35f36476ae0e03c04e65"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "74e68217ab8e861eb82d9c54836fbfbcf89c22e552a26948fc5400108d0818af"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main prompt reviewed. Simplified-Chinese evidence-focused audit and optional one-page compression; external reference files not exercised. No shared renderer dependency adopted.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "huifer/claude-code-interview",
+    "canonical": "huifer/claude-code-interview",
+    "sha": "5671f082b3751be51b5e6208a25dc55f808dfc45",
+    "truncated": false,
+    "paths": [
+      ".claude/skills/resume-optimizer/skill.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": ".claude/skills/resume-optimizer/skill.md",
+        "sha256": "a6521934439cc305b1c645891a625b534134cef250c167117af41c4cb1485b55"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "7cea5fd3ea52d8aee83a07378f4cf9d20e1b8a9514579ce6e14b83064bb231cf"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Source fetched; only path/frontmatter discovery inspected. Lowercase skill.md is not the exact SKILL.md name searched by current CLI on case-sensitive hosts; do not rely on listing alone.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "modu-ai/moai-cowork",
+    "canonical": "modu-ai/moai-cowork",
+    "sha": "d71addc1fc3059641dfa3f664261ced29419743a",
+    "truncated": false,
+    "paths": [
+      "plugins/moai-career/skills/career-resume/SKILL.md",
+      "plugins/moai-recruiter/skills/hr-resume-screener/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE",
+      "LICENSE-OUTPUT.md"
+    ],
+    "reviewFiles": [
+      {
+        "path": "plugins/moai-career/skills/career-resume/SKILL.md",
+        "sha256": "9d07d245122cf64b667335c331a41b6ab563b801be5b88af5aed426117d6407a"
+      },
+      {
+        "path": "plugins/moai-recruiter/skills/hr-resume-screener/SKILL.md",
+        "sha256": "6f28c38aba22908629e320564021abf8b46c1e335c222b4bdf08d2f24f6f3b87"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "LICENSE-OUTPUT.md",
+        "sha256": "719e9182f1ee4b7d054162a3453689efd6c0e0c9d5bca33d6be3fbe6db4b6e65"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Career/recruiter prompt excerpts reviewed. Current career-resume differs from listed resume-builder. Plugin and document-tool assumptions; not installed/executed. Apache-2.0 repo license plus separate output notice, no reuse.",
+    "licenseSpdx": "Apache-2.0"
+  },
+  {
+    "requested": "dkyazzentwatwa/chatgpt-skills",
+    "canonical": "dkyazzentwatwa/chatgpt-skills",
+    "sha": "103b4308f65df393e76765cb1ce12395d9cf5106",
+    "truncated": false,
+    "paths": [],
+    "licensePaths": [],
+    "reviewFiles": [],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Complete nontruncated GitHub tree checked: no matching CV SKILL.md discovered. No root license found. Listing-only candidate, reject reuse.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "proficientlyjobs/proficiently-claude-skills",
+    "canonical": "proficientlyjobs/proficiently-claude-skills",
+    "sha": "9bc1f6fd7af532fe0cd4a1843e06ab2b474d0d53",
+    "truncated": false,
+    "paths": [
+      "skills/cover-letter/SKILL.md",
+      "skills/tailor-resume/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": "skills/cover-letter/SKILL.md",
+        "sha256": "72a8bc8a29f64eab76ef5d666f717b1d598060cdac9534b6d866c173a977b384"
+      },
+      {
+        "path": "skills/tailor-resume/SKILL.md",
+        "sha256": "953e23079edd28a2ae7cd4db1098b77dcd1846fc98385a1e1123d94b9b80bd54"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main tailoring/letter excerpts reviewed. Shared priority/profile/subagent references outside skill; undeclared helper dependencies for standalone installation. No root license found; link only.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "eigent-ai/agent-skills",
+    "canonical": "eigent-ai/agent-skills",
+    "sha": "9be8efc71d49b0712653e34542638f89baf860e8",
+    "truncated": false,
+    "paths": [
+      "skills/productivity-and-tasks/resume-tailoring/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/productivity-and-tasks/resume-tailoring/SKILL.md",
+        "sha256": "b628f235271552ebc13ef92a111ec7a5019220049042295d5bf20923a0757593"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "dc1400b738a63d9abe7dc1de5c29135b35afb6340fcb9c917547c588d22cc400"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Full wrapper reviewed; explicitly credits varunr89/resume-tailoring-skill. Deduplicate to that canonical source. DOCX/PDF delegated to other skills, not standalone rendering.",
+    "licenseSpdx": "Apache-2.0"
+  },
+  {
+    "requested": "splash0047/resume-generator",
+    "canonical": "splash0047/resume-generator",
+    "sha": "35689155d4bb568c331bb1b9d0f2876ed4530b79",
+    "truncated": false,
+    "paths": [
+      ".agents/skills/academic-cv-builder/SKILL.md",
+      ".agents/skills/career-changer-translator/SKILL.md",
+      ".agents/skills/cover-letter-generator/SKILL.md",
+      ".agents/skills/creative-portfolio-resume/SKILL.md",
+      ".agents/skills/executive-resume-writer/SKILL.md",
+      ".agents/skills/job-description-analyzer/SKILL.md",
+      ".agents/skills/resume-ats-optimizer/SKILL.md",
+      ".agents/skills/resume-bullet-writer/SKILL.md",
+      ".agents/skills/resume-critic/SKILL.md",
+      ".agents/skills/resume-formatter/SKILL.md",
+      ".agents/skills/resume-humanizer/SKILL.md",
+      ".agents/skills/resume-quantifier/SKILL.md",
+      ".agents/skills/resume-section-builder/SKILL.md",
+      ".agents/skills/resume-tailor/SKILL.md",
+      ".agents/skills/resume-version-manager/SKILL.md",
+      ".agents/skills/tech-resume-optimizer/SKILL.md",
+      "skills/academic-cv-builder/SKILL.md",
+      "skills/career-changer-translator/SKILL.md",
+      "skills/cover-letter-generator/SKILL.md",
+      "skills/creative-portfolio-resume/SKILL.md",
+      "skills/executive-resume-writer/SKILL.md",
+      "skills/job-description-analyzer/SKILL.md",
+      "skills/resume-ats-optimizer/SKILL.md",
+      "skills/resume-bullet-writer/SKILL.md",
+      "skills/resume-critic/SKILL.md",
+      "skills/resume-formatter/SKILL.md",
+      "skills/resume-humanizer/SKILL.md",
+      "skills/resume-quantifier/SKILL.md",
+      "skills/resume-section-builder/SKILL.md",
+      "skills/resume-tailor/SKILL.md",
+      "skills/resume-version-manager/SKILL.md",
+      "skills/tech-resume-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": ".agents/skills/resume-tailor/SKILL.md",
+        "sha256": "6ac454dc9b50b417c6f7a30040ec2f1916321061ab646c7fb6f6762efbf073a3"
+      },
+      {
+        "path": ".agents/skills/tech-resume-optimizer/SKILL.md",
+        "sha256": "e5a3780e3a93f70eda15904c700684e64b52868d7d4e1630cb8cd858f699fd7e"
+      },
+      {
+        "path": "skills/resume-tailor/SKILL.md",
+        "sha256": "6ac454dc9b50b417c6f7a30040ec2f1916321061ab646c7fb6f6762efbf073a3"
+      },
+      {
+        "path": "skills/tech-resume-optimizer/SKILL.md",
+        "sha256": "e5a3780e3a93f70eda15904c700684e64b52868d7d4e1630cb8cd858f699fd7e"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "779da7ca4855d53a7800c744fef206c6265ace2e1eefef8ab608a0ccfb6d751d"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Tailoring/tech prompt files fetched; compared exact hashes against Paramchoudhary. Overlapping distribution, no independent feature count; no copying.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "tstapler/dotfiles",
+    "canonical": "tstapler/dotfiles",
+    "sha": "a5bc60ecfcc20c28284ea6ace6aee85a0df31392",
+    "truncated": false,
+    "paths": [
+      ".claude/skills/academic-cv-builder/SKILL.md",
+      ".claude/skills/career-changer-translator/SKILL.md",
+      ".claude/skills/cover-letter-generator/SKILL.md",
+      ".claude/skills/creative-portfolio-resume/SKILL.md",
+      ".claude/skills/executive-resume-writer/SKILL.md",
+      ".claude/skills/job-description-analyzer/SKILL.md",
+      ".claude/skills/resume-ats-optimizer/SKILL.md",
+      ".claude/skills/resume-bullet-writer/SKILL.md",
+      ".claude/skills/resume-formatter/SKILL.md",
+      ".claude/skills/resume-quantifier/SKILL.md",
+      ".claude/skills/resume-section-builder/SKILL.md",
+      ".claude/skills/resume-tailor/SKILL.md",
+      ".claude/skills/resume-version-manager/SKILL.md",
+      ".claude/skills/tech-resume-optimizer/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": ".claude/skills/resume-tailor/SKILL.md",
+        "sha256": "577480678675a4da384134e115f4666c6f5984dfcca89bafc3268a3dd1c08362"
+      },
+      {
+        "path": ".claude/skills/tech-resume-optimizer/SKILL.md",
+        "sha256": "f3044132ac626c03f2865eb599a65f7bcc61a3332c0022ab4789163b9e7228cb"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Tailoring/tech prompt files fetched; compared hashes against Paramchoudhary. Overlapping distribution; no root license found, no copying.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "davila7/claude-code-templates",
+    "canonical": "davila7/claude-code-templates",
+    "sha": "de178edc12048d06f097e6cc25798ba4e52c0b89",
+    "truncated": false,
+    "paths": [
+      "cli-tool/components/skills/career/academic-cv-builder/SKILL.md",
+      "cli-tool/components/skills/career/career-changer-translator/SKILL.md",
+      "cli-tool/components/skills/career/cover-letter-generator/SKILL.md",
+      "cli-tool/components/skills/career/creative-portfolio-resume/SKILL.md",
+      "cli-tool/components/skills/career/executive-resume-writer/SKILL.md",
+      "cli-tool/components/skills/career/job-description-analyzer/SKILL.md",
+      "cli-tool/components/skills/career/resume-ats-optimizer/SKILL.md",
+      "cli-tool/components/skills/career/resume-bullet-writer/SKILL.md",
+      "cli-tool/components/skills/career/resume-formatter/SKILL.md",
+      "cli-tool/components/skills/career/resume-quantifier/SKILL.md",
+      "cli-tool/components/skills/career/resume-section-builder/SKILL.md",
+      "cli-tool/components/skills/career/resume-tailor/SKILL.md",
+      "cli-tool/components/skills/career/resume-version-manager/SKILL.md",
+      "cli-tool/components/skills/career/tech-resume-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "cli-tool/components/skills/career/resume-tailor/SKILL.md",
+        "sha256": "26699a009ece27af462d9689e311bb118a6ea79f674f539a30a606c252d88c4a"
+      },
+      {
+        "path": "cli-tool/components/skills/career/tech-resume-optimizer/SKILL.md",
+        "sha256": "937d5f6b01f37a4de62a63e52af3432f239607adc073ba1918bdd0b907bbe6b0"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "15cc073ffa3a01bb7da145aeae2a842b473860d142c92485536ee9c91195a705"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Tailoring/tech prompt files fetched; compared hashes against Paramchoudhary. Aggregated distribution; preserve original author credit, no independent feature count.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "infrasity-labs/dev-gtm-claude-skills",
+    "canonical": "Infrasity-Labs/dev-gtm-claude-skills",
+    "sha": "02cfefb3a213041de8b80bc659ebc5f17b5e746a",
+    "truncated": false,
+    "paths": [
+      ".claude/skills/academic-cv-builder/SKILL.md",
+      ".claude/skills/application-form-filler/SKILL.md",
+      ".claude/skills/career-changer-translator/SKILL.md",
+      ".claude/skills/cover-letter-generator/SKILL.md",
+      ".claude/skills/cover-letter/SKILL.md",
+      ".claude/skills/creative-portfolio-resume/SKILL.md",
+      ".claude/skills/executive-resume-writer/SKILL.md",
+      ".claude/skills/job-description-analyzer/SKILL.md",
+      ".claude/skills/resume-ats-optimizer/SKILL.md",
+      ".claude/skills/resume-bullet-writer/SKILL.md",
+      ".claude/skills/resume-formatter/SKILL.md",
+      ".claude/skills/resume-quantifier/SKILL.md",
+      ".claude/skills/resume-section-builder/SKILL.md",
+      ".claude/skills/resume-tailor/SKILL.md",
+      ".claude/skills/resume-version-manager/SKILL.md",
+      ".claude/skills/tailor-resume/SKILL.md",
+      ".claude/skills/tech-resume-optimizer/SKILL.md",
+      "job-search/academic-cv-builder/SKILL.md",
+      "job-search/application-form-filler/SKILL.md",
+      "job-search/career-changer-translator/SKILL.md",
+      "job-search/cover-letter-generator/SKILL.md",
+      "job-search/cover-letter/SKILL.md",
+      "job-search/creative-portfolio-resume/SKILL.md",
+      "job-search/executive-resume-writer/SKILL.md",
+      "job-search/job-description-analyzer/SKILL.md",
+      "job-search/resume-ats-optimizer/SKILL.md",
+      "job-search/resume-bullet-writer/SKILL.md",
+      "job-search/resume-formatter/SKILL.md",
+      "job-search/resume-quantifier/SKILL.md",
+      "job-search/resume-section-builder/SKILL.md",
+      "job-search/resume-tailor/SKILL.md",
+      "job-search/resume-version-manager/SKILL.md",
+      "job-search/tailor-resume/SKILL.md",
+      "job-search/tech-resume-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": ".claude/skills/resume-tailor/SKILL.md",
+        "sha256": "96853a389e2043cd3cc46667b89576cd3755bbef2c72ebeafc486230609b0981"
+      },
+      {
+        "path": ".claude/skills/tailor-resume/SKILL.md",
+        "sha256": "008d244c00efcdbd262a33ef743af37cef60595d98adb5fb4b806e500dacb1ff"
+      },
+      {
+        "path": ".claude/skills/tech-resume-optimizer/SKILL.md",
+        "sha256": "38cbc83d7d143ec3432be19e8179c5992b55b20765c478f575b0200ed357339a"
+      },
+      {
+        "path": "job-search/resume-tailor/SKILL.md",
+        "sha256": "96853a389e2043cd3cc46667b89576cd3755bbef2c72ebeafc486230609b0981"
+      },
+      {
+        "path": "job-search/tailor-resume/SKILL.md",
+        "sha256": "008d244c00efcdbd262a33ef743af37cef60595d98adb5fb4b806e500dacb1ff"
+      },
+      {
+        "path": "job-search/tech-resume-optimizer/SKILL.md",
+        "sha256": "38cbc83d7d143ec3432be19e8179c5992b55b20765c478f575b0200ed357339a"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "cf4ac8befec328dd7e3f6f344f8f08bd8259f92fcac35f9db4424f72ebb96647"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Tailoring/tech files fetched and hashes compared; source overlaps Paramchoudhary and Proficiently. Treat as distribution context rather than distinct implementations; no copying.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "vercel-labs/skills",
+    "canonical": "vercel-labs/skills",
+    "sha": "d6b37f62ae23c3825b0ed16c73e123eee0a41fdc",
+    "truncated": false,
+    "paths": [],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "README.md",
+        "sha256": "d321cdbab26e4971cd9edf6a4a28c8860cc60389bb11ca66d978b30cec5cd789"
+      },
+      {
+        "path": "package.json",
+        "sha256": "f470abd6c10566893cd17b20f41ff48436c5cf92a70f9af617b7340034a3f8a1"
+      },
+      {
+        "path": "src/skills.ts",
+        "sha256": "6ec366e2a4f48767b3532c3dfa09cfb31857c8bb7c94ab109d5dfff0855ab371"
+      },
+      {
+        "path": "src/installer.ts",
+        "sha256": "cdb32fd6cce3af962ad961677dea5fbe18f26091af6e7d627d9e6933aa8fe16a"
+      },
+      {
+        "path": "src/telemetry.ts",
+        "sha256": "a1d64dc35ae9ad4fd1d80e116a83fb74f08aa9f610964cc6e15b8ee5d6570844"
+      },
+      {
+        "path": "src/source-parser.ts",
+        "sha256": "d498dbe96231b85d6bab7412d3f16173d0f52f5756360a906fd6efdc4a906b75"
+      },
+      {
+        "path": "src/add.ts",
+        "sha256": "656f4ba40d7a6b7f85e8f31967a9c5655ec50de78017c56dd24f4e37874a4bae"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "661142e53c313d2bb5e1b055f5c0a39001450ff1b5e27b89dc4bc7de9a6352ca"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Primary README/package, discovery and installer excerpts, telemetry flags and source parsing inspected. CLI 1.5.26 Node >=22.20.0; discovers skills/<name>/SKILL.md; copies skill directory assets and excludes metadata/build dirs. Local installation and external indexing are separate.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "varunr89/resume-tailoring-skill",
+    "canonical": "varunr89/resume-tailoring-skill",
+    "sha": "9a4a0f20f5983d1b533627b8c5191acd1ca0cd89",
+    "truncated": false,
+    "paths": [
+      "skills/resume-tailoring/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "skills/resume-tailoring/SKILL.md",
+        "sha256": "c4d233bb4d9b80e78d000fef1b50122fccc260fc863cf5147aabe979c01f9572"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "b46d91766c0bdc47b00423400460c2c279b4806683372f171a37ef96042b4518"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main workflow excerpts reviewed (long prompt, not every section). Resume library, gap discovery, per-job reports and conditional user-approved library updates. DOCX/PDF helpers and numerical confidence/coverage not executed; preserve exact titles instead of adopting title reframing.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "marswangyang/roger",
+    "canonical": "marswangyang/Roger",
+    "sha": "eb807a904ac8fe70c54664e5901c6ec725732fc2",
+    "truncated": false,
+    "paths": [
+      ".gemini/skills/cover-letter-writer/SKILL.md",
+      ".gemini/skills/resume-latex-pdf-generator/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": ".gemini/skills/cover-letter-writer/SKILL.md",
+        "sha256": "23829192edd73a3bd9453f9eb21893cd70fd195bb4f9ed3f5c9a731082a1406f"
+      },
+      {
+        "path": ".gemini/skills/resume-latex-pdf-generator/SKILL.md",
+        "sha256": "266111c24a7317a677b241cc9116de2e5d49af92691babbdf0ad7e9cc3755026"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "534da26229eddddb08336b8fb75c4f5557771593309895b5cc5052f003d670e0"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "LaTeX/letter prompt excerpts reviewed. Generator requires mcp-latex-server, ./templates and ExperienceSelector; strict one-page US Letter. AGPL-3.0, no copied text/code; separate rendering dependency not adopted.",
+    "licenseSpdx": "AGPL-3.0"
+  },
+  {
+    "requested": "rendercv/rendercv-skill",
+    "canonical": "rendercv/rendercv-skill",
+    "sha": "fc14e727b2d4a36c612ef0989726bd18411218d7",
+    "truncated": false,
+    "paths": [
+      "skills/rendercv/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": "skills/rendercv/SKILL.md",
+        "sha256": "4565cadfdaf0373f3725cc9fac465ef399d2fabfd1ffa58ba1d34e22af5a4e4e"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main quick-start/schema excerpts reviewed; YAML and RenderCV v2.8 Typst output, not LaTeX. uv tool install rendercv[full]. No root license found in skill repo; RenderCV application license does not automatically license this skill text. No reuse.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "composiohq/awesome-claude-skills",
+    "canonical": "ComposioHQ/awesome-claude-skills",
+    "sha": "be2a406907dbc61b73e6827ded415c96139d13a2",
+    "truncated": false,
+    "paths": [
+      "tailored-resume-generator/SKILL.md"
+    ],
+    "licensePaths": [],
+    "reviewFiles": [
+      {
+        "path": "tailored-resume-generator/SKILL.md",
+        "sha256": "7a64d9aa79a21a24f50c90a10d1a30f3c8a686d4869648e976ef69a784ba16e6"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "Main tailored-resume prompt fetched; path/frontmatter only inspected. No root license found; link-only candidate. Workflow not executed.",
+    "licenseSpdx": "UNVERIFIED"
+  },
+  {
+    "requested": "claude-office-skills/skills",
+    "canonical": "claude-office-skills/skills",
+    "sha": "9c4c7d5cd2813a8936bf2c9fdb174ea883b85a11",
+    "truncated": false,
+    "paths": [
+      "cover-letter/SKILL.md",
+      "cv-builder/SKILL.md",
+      "resume-tailor/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": "cover-letter/SKILL.md",
+        "sha256": "f7448946f90383c93668d0d43011a79a660fce40904e9af3ad005c7e66e02319"
+      },
+      {
+        "path": "cv-builder/SKILL.md",
+        "sha256": "dd91a4eb1eb19512f68bb0b788b20203046acdaec56fa95285b92c07da4a91ed"
+      },
+      {
+        "path": "resume-tailor/SKILL.md",
+        "sha256": "cb0e00295a1dfe8705140cdab1f4e7d80c1f40ded253c3dae110b0f94bc925e6"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "bdb849ebddad5579203d4a84fe8e15b865cd2e2991cab0c588a66a48a36d7398"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "CV/tailoring/letter prompts fetched; path/frontmatter only inspected. MIT root notice. No runtime execution or reuse.",
+    "licenseSpdx": "MIT"
+  },
+  {
+    "requested": "curiositech/some_claude_skills",
+    "canonical": "curiositech/some_claude_skills",
+    "sha": "6713fc7a6451c8dee5903b98cd2063ff4cbf7317",
+    "truncated": false,
+    "paths": [
+      ".claude/skills/cv-creator/SKILL.md",
+      ".claude/skills/job-application-optimizer/SKILL.md"
+    ],
+    "licensePaths": [
+      "LICENSE"
+    ],
+    "reviewFiles": [
+      {
+        "path": ".claude/skills/cv-creator/SKILL.md",
+        "sha256": "38a368ff393cdf9d726b87cd45296b555fc9e62b766142e064918a45ed5de317"
+      },
+      {
+        "path": ".claude/skills/job-application-optimizer/SKILL.md",
+        "sha256": "62358f7f8c28b3653d2556e95b8223d85a354532e631c8996a8296920586eb03"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "e63fc1f714ed1365777e2479f4618a5be27d63a246f4b73f4deec0d3292ad33c"
+      }
+    ],
+    "checkedAt": "2026-09-16",
+    "reviewSummary": "CV/optimizer prompts fetched; path/frontmatter only inspected. MIT root notice. No runtime execution or reuse.",
+    "licenseSpdx": "MIT"
+  }
+]

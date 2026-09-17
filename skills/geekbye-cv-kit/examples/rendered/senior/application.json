@@ -1,0 +1,118 @@
+{
+  "job": {
+    "title": "Senior Software Engineer",
+    "company": "Example Hiring Team",
+    "description": "We seek a Senior Software Engineer. Requirements: reliable services and recovery tests; OpenTelemetry tracing.",
+    "requirements": [
+      {
+        "id": "reliability",
+        "text": "reliable services and recovery tests",
+        "sourceQuote": "reliable services and recovery tests"
+      },
+      {
+        "id": "tracing",
+        "text": "OpenTelemetry tracing",
+        "sourceQuote": "OpenTelemetry tracing"
+      }
+    ]
+  },
+  "preferences": {
+    "language": "English",
+    "region": "Romania / EU",
+    "cvLength": "1–2 pages; inspect actual PDF",
+    "letterWords": [
+      250,
+      300
+    ],
+    "paper": "a4",
+    "layout": "research"
+  },
+  "selections": {
+    "experience": [
+      "/experience/0",
+      "/experience/1",
+      "/experience/2"
+    ],
+    "education": [
+      "/education/0",
+      "/education/1"
+    ],
+    "skills": [
+      "/skills/0",
+      "/skills/1",
+      "/skills/2",
+      "/skills/3",
+      "/skills/4",
+      "/skills/5",
+      "/skills/6",
+      "/skills/7",
+      "/skills/8",
+      "/skills/9"
+    ],
+    "projects": [
+      "/projects/0",
+      "/projects/1"
+    ],
+    "publications": []
+  },
+  "summary": {
+    "text": "Software engineer leading reliable API and data-platform work. Builds observable services, documents operational tradeoffs and mentors engineers through delivery and incident review.",
+    "evidence": [
+      "/objective"
+    ],
+    "reviewed": true
+  },
+  "letter": {
+    "salutation": "Dear Hiring Team,",
+    "paragraphs": [
+      {
+        "text": "I am applying for the Senior Software Engineer role at Example Hiring Team. My work at Example Systems includes a PostgreSQL-backed job queue, recovery tests for interrupted tasks and OpenTelemetry traces across API and worker boundaries. The service reliability and tracing requirements in your advert are a strong reason for my interest. I would welcome a discussion of the implementation choices and operational tradeoffs behind that work.",
+        "evidence": [
+          "/experience/0"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "I designed idempotent workers and recovery tests, then led design reviews for a staged migration from synchronous processing to background jobs. The review notes included rollback criteria. I also mentored engineers through incident reviews and paired on regression tests covering duplicate delivery and partial failure. I would be glad to walk through the migration approach, the purpose of the tracing work and the failure scenarios covered by the tests. These examples would give us a concrete basis for discussing reliability decisions.",
+        "evidence": [
+          "/experience/0/description"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "At Sample Cloud, I implemented versioned Node.js APIs and contract tests to keep customer integrations working through releases. I profiled production-like database workloads and checked query plans before adding indexes. I also built an accessible React console for reviewing failed jobs and retrying the affected work. I would welcome a conversation about the API contracts and query-plan checks, as well as the interface choices behind the console.",
+        "evidence": [
+          "/experience/1"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "My independent Queue Observatory project reproduces worker crashes and compares retry policies. Its runnable test cases and design notes explain idempotency-key expiry and recovery verification. I would be glad to demonstrate the simulator and discuss its assumptions and limitations in relation to the role. Thank you for considering my application; I look forward to exploring the reliability and observability work described in your advert.",
+        "evidence": [
+          "/projects/0"
+        ],
+        "reviewed": true
+      }
+    ],
+    "closing": "Kind regards,"
+  },
+  "requirementMap": [
+    {
+      "requirementId": "reliability",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Source record describes the corresponding implementation work; host review still checks scope."
+    },
+    {
+      "requirementId": "tracing",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Source record describes the corresponding implementation work; host review still checks scope."
+    }
+  ],
+  "questions": []
+}

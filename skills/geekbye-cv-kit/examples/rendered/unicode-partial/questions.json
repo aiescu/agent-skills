@@ -1,0 +1,16 @@
+{
+  "questions": [
+    "Which contributions should be included for the current Example Systems role? Its description is missing.",
+    "What dates and implementation details can be confirmed for Queue Observatory? Its incomplete record must not be used as evidence of additional work."
+  ],
+  "automaticReviewItems": [
+    "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+    "/experience/1: no measured outcome supplied; do not manufacture metrics.",
+    "/experience/2: no measured outcome supplied; do not manufacture metrics.",
+    "/projects/0: incomplete dates; confirm rather than infer.",
+    "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+    "/projects/1: no measured outcome supplied; do not manufacture metrics.",
+    "Requirement reliability is partial: API contract tests and failed-job review are documented; explicit recovery tests are not present in this partial source.",
+    "Requirement tracing is unsupported: Not established in the supplied master; do not claim it."
+  ]
+}

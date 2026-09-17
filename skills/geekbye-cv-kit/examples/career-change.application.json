@@ -1,0 +1,129 @@
+{
+  "job": {
+    "title": "Junior Software Engineer",
+    "company": "Example Hiring Team",
+    "description": "We seek a Junior Software Engineer. Requirements: Node.js API testing; accessible React interfaces; Kubernetes operations.",
+    "requirements": [
+      {
+        "id": "api",
+        "text": "Node.js API testing",
+        "sourceQuote": "Node.js API testing"
+      },
+      {
+        "id": "accessibility",
+        "text": "accessible React interfaces",
+        "sourceQuote": "accessible React interfaces"
+      },
+      {
+        "id": "kubernetes",
+        "text": "Kubernetes operations",
+        "sourceQuote": "Kubernetes operations"
+      }
+    ]
+  },
+  "preferences": {
+    "language": "English",
+    "region": "Romania / EU",
+    "cvLength": "1–2 pages; inspect actual PDF",
+    "letterWords": [
+      250,
+      300
+    ],
+    "paper": "a4",
+    "layout": "compact"
+  },
+  "selections": {
+    "experience": [
+      "/experience/0"
+    ],
+    "education": [
+      "/education/0"
+    ],
+    "skills": [
+      "/skills/0",
+      "/skills/1",
+      "/skills/2",
+      "/skills/3",
+      "/skills/4",
+      "/skills/5"
+    ],
+    "projects": [
+      "/projects/0"
+    ],
+    "publications": []
+  },
+  "summary": {
+    "text": "Programme coordinator transitioning into software engineering, with an independent appointment scheduler project.",
+    "evidence": [
+      "/objective"
+    ],
+    "reviewed": true
+  },
+  "letter": {
+    "salutation": "Dear Hiring Team,",
+    "paragraphs": [
+      {
+        "text": "I am applying for the Junior Software Engineer role at Example Hiring Team as I transition from programme coordination into software engineering. Appointment schedules, booking-conflict resolution and accessibility feedback were part of my coordination work. I have also built an independent appointment scheduler, Booking Lab, using TypeScript, React, Node.js and PostgreSQL. I would welcome the opportunity to discuss the project and the perspective I bring from working with booking workflows.",
+        "evidence": [
+          "/experience/0",
+          "/projects/0",
+          "/objective"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "At Example Community Centre, I coordinated appointment schedules and documented booking-conflict resolution for colleagues. I collected accessibility feedback from participants and recorded issues for the programme team. These responsibilities give me useful context for thinking about appointment workflows and the issues people encounter while using them. I would be glad to discuss those experiences alongside the software project, keeping the coordination work and the implementation work clear in our conversation.",
+        "evidence": [
+          "/experience/0/description"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "In Booking Lab, I built persistent storage and automated tests for booking conflicts. I documented the tradeoff between database constraints and application validation, and added a reproducible local demo. I would welcome the chance to demonstrate how the scheduler behaves, walk through the design notes and explain the cases covered by the tests. The project is also a concrete starting point for discussing how I approach booking rules, technical choices and the limitations of an independent implementation.",
+        "evidence": [
+          "/projects/0"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "The API testing and interface requirements in your advert are areas I would like to discuss in relation to that project and my career transition. I can bring the demo and its tests to a conversation about the technical expectations for the role. Thank you for considering my application; I would welcome the opportunity to contribute as a junior engineer and continue developing my engineering practice.",
+        "evidence": [
+          "/projects/0",
+          "/objective"
+        ],
+        "reviewed": true
+      }
+    ],
+    "closing": "Kind regards,"
+  },
+  "requirementMap": [
+    {
+      "requirementId": "api",
+      "evidence": [
+        "/projects/0/description",
+        "/projects/0/technologies"
+      ],
+      "status": "partial",
+      "note": "Node.js and booking-conflict tests are documented in the project, but its description does not explicitly establish an API."
+    },
+    {
+      "requirementId": "accessibility",
+      "evidence": [
+        "/experience/0/description",
+        "/projects/0/technologies"
+      ],
+      "status": "partial",
+      "note": "Accessibility feedback belongs to the coordination role; React belongs to the independent project. Implementation of an accessible React interface is not established."
+    },
+    {
+      "requirementId": "kubernetes",
+      "evidence": [],
+      "status": "unsupported",
+      "note": "Not established in the supplied master; do not claim it."
+    }
+  ],
+  "questions": [
+    "Does Booking Lab expose a Node.js API, and which tests cover that interface?",
+    "Have you implemented an accessible React interface in a documented project? If not, retain this partial match."
+  ]
+}

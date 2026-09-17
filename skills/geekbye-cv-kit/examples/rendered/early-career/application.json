@@ -1,0 +1,135 @@
+{
+  "job": {
+    "title": "Junior Software Engineer",
+    "company": "Example Hiring Team",
+    "description": "We seek a Junior Software Engineer. Requirements: Node.js API testing; accessible React interfaces; Kubernetes operations.",
+    "requirements": [
+      {
+        "id": "api",
+        "text": "Node.js API testing",
+        "sourceQuote": "Node.js API testing"
+      },
+      {
+        "id": "accessibility",
+        "text": "accessible React interfaces",
+        "sourceQuote": "accessible React interfaces"
+      },
+      {
+        "id": "kubernetes",
+        "text": "Kubernetes operations",
+        "sourceQuote": "Kubernetes operations"
+      }
+    ]
+  },
+  "preferences": {
+    "language": "English",
+    "region": "Romania / EU",
+    "cvLength": "1–2 pages; inspect actual PDF",
+    "letterWords": [
+      250,
+      300
+    ],
+    "paper": "a4",
+    "layout": "compact"
+  },
+  "selections": {
+    "experience": [
+      "/experience/0"
+    ],
+    "education": [
+      "/education/0"
+    ],
+    "skills": [
+      "/skills/0",
+      "/skills/1",
+      "/skills/2",
+      "/skills/3",
+      "/skills/4",
+      "/skills/5"
+    ],
+    "projects": [
+      "/projects/0"
+    ],
+    "publications": []
+  },
+  "summary": {
+    "text": "Software engineer building accessible web applications and tested backend services. Interested in reliable APIs and clear user workflows.",
+    "evidence": [
+      "/objective"
+    ],
+    "reviewed": true
+  },
+  "letter": {
+    "salutation": "Dear Hiring Team,",
+    "paragraphs": [
+      {
+        "text": "I am applying for the Junior Software Engineer role at Example Hiring Team. I am interested in work that connects reliable booking rules with interfaces people can use by keyboard. At Example Studio, I worked on Node.js appointment validation and a keyboard-operated booking flow. My independent Booking Lab project adds React and persistent-storage work that I would be glad to discuss alongside those contributions.",
+        "evidence": [
+          "/experience/0",
+          "/projects/0"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "In the internship, I built appointment-conflict validation in a Node.js API and added regression tests for overlapping bookings. I also replaced an inaccessible date picker with a keyboard-operated flow after testing it with the product team. That work connects directly to the API testing and interface requirements in your advert. I would welcome the opportunity to explain how the validation and the booking flow addressed different parts of the appointment workflow, and to walk through the regression tests.",
+        "evidence": [
+          "/experience/0/description"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "Booking Lab is an independent appointment scheduler with persistent storage and automated conflict tests. I documented the tradeoff between database constraints and application validation, and added a reproducible local demo. The project uses TypeScript, React, Node.js and PostgreSQL. I would be glad to demonstrate its booking behaviour, discuss the design notes and explain what the tests cover. The demo also offers a practical starting point for discussing changes to booking rules and the limitations of the current implementation.",
+        "evidence": [
+          "/projects/0"
+        ],
+        "reviewed": true
+      },
+      {
+        "text": "I would welcome the chance to contribute to the API and interface work described in this role. In a conversation, I can walk through the internship changes and Booking Lab, including their different contexts and implementation choices. Thank you for considering my application; I look forward to discussing the role and your expectations for a junior engineer.",
+        "evidence": [
+          "/experience/0/description",
+          "/projects/0"
+        ],
+        "reviewed": true
+      }
+    ],
+    "closing": "Kind regards,"
+  },
+  "requirementMap": [
+    {
+      "requirementId": "api",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "status": "supported",
+      "note": "Internship explicitly documents a Node.js API and overlapping-booking regression tests."
+    },
+    {
+      "requirementId": "accessibility",
+      "evidence": [
+        "/experience/0/description",
+        "/projects/0/technologies"
+      ],
+      "status": "partial",
+      "note": "Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React."
+    },
+    {
+      "requirementId": "kubernetes",
+      "evidence": [],
+      "status": "unsupported",
+      "note": "Not established in the supplied master; do not claim it."
+    }
+  ],
+  "questions": [
+    "Was the internship keyboard-operated booking interface implemented in React? Keep the match partial unless confirmed."
+  ],
+  "rewrites": {
+    "/experience/0/description": {
+      "text": "Implemented Node.js API validation for overlapping appointments and added booking-conflict regression tests.\nReplaced an inaccessible date picker with a keyboard-operated booking flow after testing with the product team.",
+      "evidence": [
+        "/experience/0/description"
+      ],
+      "reviewed": true
+    }
+  }
+}

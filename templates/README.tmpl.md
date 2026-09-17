@@ -11,8 +11,9 @@ one-command install for each.
 
 Web version of this list: [aiescu.com/agent-skills](https://aiescu.com/agent-skills?utm_source=github&utm_medium=readme&utm_campaign=agent-skills).
 
-**Nothing here is copied.** Every skill installs straight from its original repository, keeps
-its original license, and credits its original author. This repo is the map, not the territory.
+The **curated catalog** installs each upstream skill straight from its original repository,
+keeping its license and author credit. The original skill below is maintained separately;
+it does not change the catalog rankings or upstream installer.
 
 <sub>Maintained by <a href="https://github.com/aiescu">aiescu</a>. Star counts are fetched weekly from the GitHub API, never typed by hand.</sub>
 
@@ -30,6 +31,48 @@ npx skills@1 add obra/superpowers
 # As a Claude Code plugin marketplace (installs from upstream, nothing vendored)
 /plugin marketplace add aiescu/agent-skills
 ```
+
+## Original Aiescu skill: `geekbye-cv-kit`
+
+Turn verified candidate facts and a target job description into a tailored CV and matching
+cover letter, with editable LaTeX, Markdown, plain text, candidate JSON and an evidence map.
+Missing facts remain visible. The current Skills CLI needs Node.js 22.20 or newer.
+Python 3 runs the portable example; compiling PDFs also needs Tectonic and its TeX bundle.
+No account or provider key is required for rendering.
+
+From a repository checkout, run the complete example without network access:
+
+```bash
+python3 skills/geekbye-cv-kit/scripts/application.py render \
+  --master skills/geekbye-cv-kit/examples/early-career.json \
+  --application skills/geekbye-cv-kit/examples/early-career.application.json \
+  --output /tmp/my-cv-application --compile never
+```
+
+Use a fresh output directory for each job. Replace `never` with `auto` to try PDF compilation;
+read the validation report to confirm whether a PDF was produced.
+
+See [the skill](skills/geekbye-cv-kit/SKILL.md) for intake and usage,
+[research and source review](skills/geekbye-cv-kit/references/research.md) for the original
+synthesis, and [installation and publication evidence](docs/cv-kit-distribution.md) for
+local checks and release gates.
+
+```bash
+# After this skill is published on main: discover and install just the original kit
+npx skills@1 add aiescu/agent-skills --list
+npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
+
+# To opt out of CLI telemetry, prefix the install command
+DISABLE_TELEMETRY=1 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
+```
+
+The commands above require the published skill. A successful local install does not verify
+main-branch availability or a Skills.sh listing; the evidence document records those states
+separately. No directory badge is added until its actual listing is observed.
+
+Normal Skills CLI installs use its default telemetry settings; `DISABLE_TELEMETRY=1` or
+`DO_NOT_TRACK=1` opts out. The curated `install.sh` wrapper continues to disable telemetry
+for upstream installs. It installs the catalog, not this original kit.
 
 ## The list
 
@@ -66,7 +109,8 @@ It gets fixed first.
 ## Attribution
 
 Per-repo attribution and license notes are in [SOURCES.md](SOURCES.md). Code in this repo is MIT;
-the list and descriptions are CC BY 4.0. The skills themselves belong to their authors.
+the list and descriptions are CC BY 4.0. Upstream skills belong to their authors. The original
+CV kit includes its own license and source notes inside its installable directory.
 
 ## Built with these skills
 
@@ -94,6 +138,11 @@ Here is what each one does and which skills did the work.
 - [`frontend-design`](https://github.com/anthropics/skills/tree/main/skills/frontend-design) from Anthropic's skills: the docs hub layout.
 - [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) and [Taste Skill](https://github.com/Leonxlnx/taste-skill): landing page design.
 - [Caveman](https://github.com/JuliusBrussee/caveman): runs in every agent session to cut output tokens.
+
+The original [`geekbye-cv-kit`](skills/geekbye-cv-kit/SKILL.md) prepares CVs and letters.
+[Build and check your tailored CV](https://resume.geekbye.com/) and then use
+[GeekBye interview preparation](https://geekbye.com/interview-questions) for the next step.
+Campaign attribution for these links is pending verification; see the distribution evidence.
 
 **[Try GeekBye →](https://geekbye.com?utm_source=github&utm_medium=readme&utm_campaign=agent-skills&utm_content=card)**
 

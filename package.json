@@ -8,6 +8,7 @@
     "test": "node --test tests/*.test.mjs && bash tests/install.test.sh",
     "build": "node scripts/build.mjs",
     "build:check": "node scripts/build.mjs --check",
-    "stars": "node scripts/fetch-stars.mjs"
+    "stars": "node scripts/fetch-stars.mjs",
+    "test:cv-kit-install": "node tests/cv-kit-cli-install.mjs"
   }
 }

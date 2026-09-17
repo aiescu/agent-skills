@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=18mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{lmroman10-regular.otf}[BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf,Ligatures=NoCommon,RawFeature={-kern}]
+\setsansfont{lmsans10-regular.otf}[BoldFont=lmsans10-bold.otf,ItalicFont=lmsans10-oblique.otf,Ligatures=NoCommon,RawFeature={-kern}]
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=13pt,nosep,label=\textbullet}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=2em
+\begin{document}
+
+{\LARGE\bfseries Renée Ionescu}\par
+Senior Software Engineer\par
+Email: renee.ionescu@example.com\par
+Phone: +40 700 000 002\par
+Location: București, Romania\par
+Link: https://example.com/renee\par
+Link: https://github.com/example-renee\par
+\section*{Summary}
+Software engineer leading reliable API and data-platform work. Builds observable services, documents operational tradeoffs and mentors engineers through delivery and incident review.
+\section*{Experience}
+\needspace{5\baselineskip}
+\textbf{Senior Software Engineer | Example Systems}\par
+2023-03 - Present\par
+\begin{itemize}
+\item Designed a PostgreSQL-backed job queue with idempotent workers and recovery tests for interrupted tasks.
+\item Introduced OpenTelemetry traces across API and worker boundaries so on-call engineers could isolate slow requests.
+\item Led design reviews for a staged migration from synchronous processing to background jobs, documenting rollback criteria.
+\item Mentored engineers through incident reviews and paired on regression tests for duplicate delivery and partial failure.
+\end{itemize}
+\needspace{5\baselineskip}
+\textbf{Software Engineer | Sample Cloud}\par
+2020-01 - 2023-02\par
+\begin{itemize}
+\item Implemented versioned Node.js APIs and contract tests to keep customer integrations working through releases.
+\item Reworked database queries after profiling production-like workloads; verified query plans before adding indexes.
+\item Built an accessible React console for reviewing failed jobs and retrying only the affected work.
+\end{itemize}
+\needspace{5\baselineskip}
+\textbf{Junior Software Engineer | Demo Works}\par
+2017-07 - 2019-12\par
+\begin{itemize}
+\item Developed Python import tools that preserved source identifiers and rejected ambiguous records for manual review.
+\item Added integration tests around CSV exports, Unicode names and date handling to prevent silent data corruption.
+\end{itemize}
+\section*{Education}
+MSc | Distributed Systems | Example Technical University\par
+Education date: 2019-06\par
+BSc | Computer Science | Example Technical University\par
+Education date: 2017-06\par
+\section*{Skills}
+TypeScript; React; Node.js; PostgreSQL; Python; Git; Docker; Kubernetes; Redis; OpenTelemetry
+\needspace{9\baselineskip}
+\section*{Projects}
+\needspace{6\baselineskip}
+\textbf{Queue Observatory}\par
+2024-05 - Present\par
+Technologies: Python, PostgreSQL, Docker\par
+URL: https://example.com/queue-observatory\par
+\begin{itemize}
+\item Built an independent workload simulator that reproduces worker crashes and compares retry policies.
+\item Published runnable test cases and design notes explaining when idempotency keys expire and how recovery is verified.
+\end{itemize}
+\needspace{6\baselineskip}
+\textbf{Accessible Booking Lab}\par
+2022-04 - 2022-10\par
+Technologies: TypeScript, React, Node.js\par
+URL: https://example.com/accessible-booking\par
+\begin{itemize}
+\item Created a keyboard-accessible booking demo with time-zone conversion and appointment-conflict tests.
+\item Documented browser support and known limitations so contributors could reproduce failures.
+\end{itemize}
+\end{document}

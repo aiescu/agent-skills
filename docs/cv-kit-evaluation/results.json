@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-16",
+  "scope": "Five paired single-run content evaluations in fresh model sessions. Identical inputs/output schema; treatment adds captured skill/contracts. No PDF/ATS efficacy or statistical significance claim. Semantic review is separate.",
+  "runs": [
+    {
+      "case": "early-career",
+      "condition": "baseline",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 274,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 18733,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1165,
+        "reasoning_output_tokens": 376
+      },
+      "promptSha256": "063539c4c3bd19fa012138ffa6a16cd00feab8256210a9440dafb15a9f1cc079",
+      "outputSha256": "b07bc781098d2d5c0a0d0f806ec05913eebdfdda3841df4bc8adf1ba356f0a8b"
+    },
+    {
+      "case": "early-career",
+      "condition": "skill",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 260,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 21350,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3908,
+        "reasoning_output_tokens": 3064
+      },
+      "promptSha256": "2c3ee72c22f8621b545ec684bc297e0261db3e9aad15531791a42829ceae2486",
+      "outputSha256": "f89e9992d5da3689a8a611fd2d7f10e2d4ebbb72344a1c02f0dee574c020f887"
+    },
+    {
+      "case": "senior",
+      "condition": "baseline",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 264,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 18909,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2109,
+        "reasoning_output_tokens": 1034
+      },
+      "promptSha256": "3334ea9dc38d87080a7a6f0bb37b3d99b04c6b5422fda8fd40118e415e94a822",
+      "outputSha256": "8ad52208c18ab3652433c3c17fef10c4f44d69e54967907a3265f445ab852aec"
+    },
+    {
+      "case": "senior",
+      "condition": "skill",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 264,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 21858,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2996,
+        "reasoning_output_tokens": 1964
+      },
+      "promptSha256": "62065536d9291fcfbcd603d948d7175e946db328de8f5c6111cd0b0dbdd1384d",
+      "outputSha256": "889fa4af20d98f6a3cbb51aa220d1f5cae1f136d7844c8983dc3f6c0a4ff383f"
+    },
+    {
+      "case": "career-change",
+      "condition": "baseline",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 280,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 18720,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1364,
+        "reasoning_output_tokens": 510
+      },
+      "promptSha256": "40af84ff573a498b35e7fc8491f08b16c14c13cfbf3b73479a3d3c6759f338c1",
+      "outputSha256": "2551bd6f2bd0729826455cf3b19e982f0dd588482bbc0cb69931bd8cdd500d48"
+    },
+    {
+      "case": "career-change",
+      "condition": "skill",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 264,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 21337,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3388,
+        "reasoning_output_tokens": 2499
+      },
+      "promptSha256": "f17b42494dc92ac340849e59567a083c07572a5295e1f54c08cff0394fadd9a5",
+      "outputSha256": "2cf4b53388c1110221506e14b595be66146c8b52f0e9372cc25dd6f0c24741f2"
+    },
+    {
+      "case": "unicode-partial",
+      "condition": "baseline",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 255,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 18812,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3087,
+        "reasoning_output_tokens": 2068
+      },
+      "promptSha256": "6a64a7fb5e5535395d8b4f4640a5534481fd4c313a7cad8b59fb73598ded469a",
+      "outputSha256": "77227d59108db2c1781aee9fd49a00fe03fc12d8a6dd932145116a7795222d29"
+    },
+    {
+      "case": "unicode-partial",
+      "condition": "skill",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 275,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 21595,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2964,
+        "reasoning_output_tokens": 1552
+      },
+      "promptSha256": "5e9bb434d9503403b94c6fdad28548ad186bf9c29731092f682e3860508dbcfd",
+      "outputSha256": "287e887c2dd5d6fc3b17af8de041f4069b4f6221a5975279260326db63064887"
+    },
+    {
+      "case": "ambiguous-dates",
+      "condition": "baseline",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 253,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 18737,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1847,
+        "reasoning_output_tokens": 1034
+      },
+      "promptSha256": "a46e100602e03c77fb56b48d1f4ef54747c101a290e88f42a9d0454e912bec16",
+      "outputSha256": "68c59be1db12da3cdf92d43c065d109c8989ac01753325ff9c7a607a2c922f9d"
+    },
+    {
+      "case": "ambiguous-dates",
+      "condition": "skill",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "schemaValid": true,
+      "alteredIdentityOrMetadata": [],
+      "letterBodyWords": 268,
+      "wordRangePassed": true,
+      "toolCallsObserved": 0,
+      "usage": {
+        "input_tokens": 21520,
+        "cached_input_tokens": 15872,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2232,
+        "reasoning_output_tokens": 1429
+      },
+      "promptSha256": "34c931869d0614f4b0150bc216ecf293369c874c2e61973f5a7e6b2d0db6728c",
+      "outputSha256": "d6fea8650434e7e17c37cf251d13bd0d32efd3ee584f88ae3473f780ec1f3046"
+    }
+  ]
+}

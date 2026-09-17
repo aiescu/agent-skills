@@ -1,0 +1,11 @@
+{
+  "questions": [
+    "Was the internship keyboard-operated booking interface implemented in React? Keep the match partial unless confirmed."
+  ],
+  "automaticReviewItems": [
+    "/experience/0: no measured outcome supplied; do not manufacture metrics.",
+    "/projects/0: no measured outcome supplied; do not manufacture metrics.",
+    "Requirement accessibility is partial: Keyboard-accessible booking flow is documented in the internship; React appears in a separate project. No source ties that internship interface to React.",
+    "Requirement kubernetes is unsupported: Not established in the supplied master; do not claim it."
+  ]
+}
