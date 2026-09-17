@@ -34,6 +34,11 @@ npx skills@1 add obra/superpowers
 
 ## Original Aiescu skill: `geekbye-cv-kit`
 
+[![Skills.sh: geekbye-cv-kit](https://img.shields.io/badge/Skills.sh-geekbye--cv--kit-black)](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit)
+
+Browse [Aiescu skills on Skills.sh](https://www.skills.sh/aiescu/agent-skills)
+or open the [geekbye-cv-kit listing](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit).
+
 Turn verified candidate facts and a target job description into a tailored CV and matching
 cover letter, with editable LaTeX, Markdown, plain text, candidate JSON and an evidence map.
 Missing facts remain visible. The current Skills CLI needs Node.js 22.20 or newer.
@@ -58,7 +63,7 @@ synthesis, and [installation and publication evidence](docs/cv-kit-distribution.
 local checks and release gates.
 
 ```bash
-# After this skill is published on main: discover and install just the original kit
+# Discover and install just the original kit
 npx skills@1 add aiescu/agent-skills --list
 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 
@@ -66,9 +71,8 @@ npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 DISABLE_TELEMETRY=1 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 ```
 
-The commands above require the published skill. A successful local install does not verify
-main-branch availability or a Skills.sh listing; the evidence document records those states
-separately. No directory badge is added until its actual listing is observed.
+The skill is published on the main branch. Both Skills.sh directory links above were
+verified live on September 17, 2026.
 
 Normal Skills CLI installs use its default telemetry settings; `DISABLE_TELEMETRY=1` or
 `DO_NOT_TRACK=1` opts out. The curated `install.sh` wrapper continues to disable telemetry
