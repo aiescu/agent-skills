@@ -51,24 +51,29 @@ npx skills@1 add obra/superpowers
 
 ## Redistributed skills
 
-992 upstream skill packages are included, in addition to `geekbye-cv-kit`.
+Up to five of the most-installed redistributable skills from each collection, selected
+from Skills.sh’s upstream installation counts. Collections with fewer skills retain fewer;
+the original CV kit is included separately. This is a curated selection, not a complete
+copy of every upstream framework.
+
+42 upstream skill packages are included, in addition to `geekbye-cv-kit`.
 
 | Original repository | Included skills | Licenses |
 |---|---:|---|
-| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 25 | MIT |
-| [anthropics/skills](https://github.com/anthropics/skills) | 14 | Apache-2.0 |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 5 | MIT |
+| [anthropics/skills](https://github.com/anthropics/skills) | 5 | Apache-2.0 |
 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 1 | MIT |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 859 | Apache-2.0 |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 20 | MIT |
-| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 13 | MIT |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 38 | MIT |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 5 | Apache-2.0 |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 5 | MIT |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 5 | MIT |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 5 | MIT |
 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 1 | MIT |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 7 | Apache-2.0, MIT |
-| [obra/superpowers](https://github.com/obra/superpowers) | 14 | MIT |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 5 | Apache-2.0, MIT |
+| [obra/superpowers](https://github.com/obra/superpowers) | 5 | MIT |
 
 See [the complete distribution inventory](docs/DISTRIBUTION.md) for install names,
-original sources, pinned revisions, licenses and exclusions. Name collisions use an
-upstream-owner prefix; the inventory gives the exact `--skill` value.
+original sources, pinned revisions, licenses, selection dates and exclusions. Some names
+retain an upstream-owner prefix; the inventory gives the exact `--skill` value.
 
 These are skill packages, not copies of every upstream plugin, hook or runtime.
 Each package's `UPSTREAM.md` records packaging changes and external requirements.

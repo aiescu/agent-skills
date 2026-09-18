@@ -13,6 +13,3 @@ docs/*remote-install*.json
 *.local.md
 .env
 .env.*
-
-# Public upstream package documentation, covered by its retained license.
-!skills/caveman-learn/CLAUDE.md

@@ -18,7 +18,7 @@ export function distributionSummary(distribution) {
   ].join('\n');
 }
 
-export function distributionInventory(distribution) {
+export function distributionInventory(distribution, selection) {
   return [
     '# Redistributed skills',
     '',
@@ -26,7 +26,17 @@ export function distributionInventory(distribution) {
     'This inventory is generated from `catalog/distribution.json`; each package includes `UPSTREAM.md` and license terms.',
     '',
     'Install a package with `npx skills@1 add aiescu/agent-skills --skill <install-name>`. Use `--list` to discover the available names.',
-    'Duplicate names receive an upstream-owner prefix. This avoids silently installing a different author’s version.',
+    'Some install names retain an upstream-owner prefix to keep existing installation identifiers stable.',
+    '',
+    '## Selection by upstream installations',
+    '',
+    'Includes up to five audited redistributable skills per collection, ranked by the Skills.sh repository listings at the recorded check time. Collections with fewer eligible skills retain fewer. The original CV kit is included separately.',
+    'Counts below are rounded upstream installation counts, not Aiescu installations. Aliases are not counted twice. Restricted or unlicensed entries are skipped; selection details are recorded in `catalog/selection.json`.',
+    'Framework skills may refer to companion skills outside this selection. For the complete framework and its hooks, use the upstream repository linked below.',
+    '',
+    '| Collection | Selected skills (upstream installs) | Checked (UTC) |',
+    '|---|---|---|',
+    ...selection.collections.map(c => `| [${c.sourceRepo}](${c.url}) | ${c.selected.map(s => `[${s.name}](${s.url}) (${s.installsDisplay})`).join(', ')} | ${c.checkedAt.slice(0, 10)} |`),
     '',
     'The CLI installs instructions and assets; it does not install every upstream plugin, hook, external service or runtime.',
     'Read the chosen skill and its source notes before use. Service-backed automation skills require the provider accounts, connections and tools described in their instructions.',

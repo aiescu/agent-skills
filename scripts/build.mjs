@@ -15,6 +15,7 @@ const stars = loadStars();
 const updated = stars.fetchedAt ?? 'unknown';
 const sorted = sortByStars(entries, stars);
 const distribution = JSON.parse(readFileSync(path.join(ROOT, 'catalog/distribution.json'), 'utf8'));
+const selection = JSON.parse(readFileSync(path.join(ROOT, 'catalog/selection.json'), 'utf8'));
 const marketplace = JSON.stringify(buildMarketplace(sorted), null, 2) + '\n';
 
 const outputs = {
@@ -24,7 +25,7 @@ const outputs = {
     .replace('{{TABLE}}', renderTable(entries, stars))
     .replace('{{SECTIONS}}', sorted.map(e => renderSection(e, stars)).join('\n\n')),
   'SOURCES.md': `# Sources and attribution\n\nGenerated ${updated}. Every catalog entry links to its upstream repository. Redistributed skill packages retain their upstream licenses and notices; see [the pinned distribution inventory](docs/DISTRIBUTION.md).\nIf you recognize your work and the credit is wrong, open an issue and it will be fixed first.\n\n${renderSources(sorted)}\n\n## Original Aiescu skills\n\n\`skills/geekbye-cv-kit/\` is original work maintained by Aiescu, separate from this curated catalog.\nIts license and source credits ship inside the skill; ecosystem research is in\n[research.md](skills/geekbye-cv-kit/references/research.md). No upstream skill was copied for this kit.\n`,
-  'docs/DISTRIBUTION.md': distributionInventory(distribution),
+  'docs/DISTRIBUTION.md': distributionInventory(distribution, selection),
   '.claude-plugin/marketplace.json': marketplace,
   '.agents/plugins/marketplace.json': marketplace,
 };
