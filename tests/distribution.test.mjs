@@ -46,3 +46,27 @@ test('redistributed packages have unique install names, provenance, licenses and
   }
   assert.deepEqual(readdirSync(path.join(root, 'skills')).sort(), [...names, 'geekbye-cv-kit'].sort());
 });
+
+test('selection retains at most five ranked packages from each catalog collection', () => {
+  const selection = JSON.parse(readFileSync(path.join(root, 'catalog/selection.json'), 'utf8'));
+  const catalog = JSON.parse(readFileSync(path.join(root, 'catalog/skills.json'), 'utf8'));
+  assert.deepEqual(selection.collections.map(c => c.sourceRepo).sort(), catalog.entries.map(e => e.repo).sort());
+  const selected = [];
+  for (const collection of selection.collections) {
+    assert.ok(collection.selected.length > 0 && collection.selected.length <= 5);
+    assert.ok(Number.isFinite(Date.parse(collection.checkedAt)));
+    let previous = Infinity;
+    for (const item of collection.selected) {
+      const entry = distribution.skills.find(e => e.name === item.name);
+      assert.equal(entry?.sourceRepo, collection.sourceRepo);
+      assert.equal(entry.originalName, item.upstreamName);
+      const match = item.installsDisplay.match(/^([\d.,]+)([KM]?)$/);
+      assert.ok(match, 'recorded install count missing');
+      const count = Number(match[1].replaceAll(',', '')) * ({ K: 1000, M: 1000000 }[match[2]] || 1);
+      assert.ok(count <= previous, 'selection must follow descending upstream installs');
+      previous = count;
+      selected.push(item.name);
+    }
+  }
+  assert.deepEqual(selected.sort(), distribution.skills.map(e => e.name).sort());
+});

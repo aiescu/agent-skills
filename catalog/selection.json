@@ -1,0 +1,379 @@
+{
+  "method": "Up to five audited redistributable skills per repository, ordered by the live Skills.sh repository listing. Canonical names only; alias counts are not combined. Displayed counts are rounded by Skills.sh and are upstream counts, not Aiescu installations.",
+  "collections": [
+    {
+      "sourceRepo": "obra/superpowers",
+      "url": "https://www.skills.sh/obra/superpowers",
+      "checkedAt": "2026-09-18T09:59:33.976459+00:00",
+      "selected": [
+        {
+          "name": "brainstorming",
+          "upstreamName": "brainstorming",
+          "installsDisplay": "367.0K",
+          "url": "https://www.skills.sh/obra/superpowers/brainstorming"
+        },
+        {
+          "name": "systematic-debugging",
+          "upstreamName": "systematic-debugging",
+          "installsDisplay": "262.8K",
+          "url": "https://www.skills.sh/obra/superpowers/systematic-debugging"
+        },
+        {
+          "name": "writing-plans",
+          "upstreamName": "writing-plans",
+          "installsDisplay": "251.8K",
+          "url": "https://www.skills.sh/obra/superpowers/writing-plans"
+        },
+        {
+          "name": "using-superpowers",
+          "upstreamName": "using-superpowers",
+          "installsDisplay": "246.4K",
+          "url": "https://www.skills.sh/obra/superpowers/using-superpowers"
+        },
+        {
+          "name": "requesting-code-review",
+          "upstreamName": "requesting-code-review",
+          "installsDisplay": "231.2K",
+          "url": "https://www.skills.sh/obra/superpowers/requesting-code-review"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "mattpocock/skills",
+      "url": "https://www.skills.sh/mattpocock/skills",
+      "checkedAt": "2026-09-18T09:59:33.950534+00:00",
+      "selected": [
+        {
+          "name": "grill-me",
+          "upstreamName": "grill-me",
+          "installsDisplay": "1.2M",
+          "url": "https://www.skills.sh/mattpocock/skills/grill-me"
+        },
+        {
+          "name": "grill-with-docs",
+          "upstreamName": "grill-with-docs",
+          "installsDisplay": "998.7K",
+          "url": "https://www.skills.sh/mattpocock/skills/grill-with-docs"
+        },
+        {
+          "name": "improve-codebase-architecture",
+          "upstreamName": "improve-codebase-architecture",
+          "installsDisplay": "951.6K",
+          "url": "https://www.skills.sh/mattpocock/skills/improve-codebase-architecture"
+        },
+        {
+          "name": "tdd",
+          "upstreamName": "tdd",
+          "installsDisplay": "924.0K",
+          "url": "https://www.skills.sh/mattpocock/skills/tdd"
+        },
+        {
+          "name": "setup-matt-pocock-skills",
+          "upstreamName": "setup-matt-pocock-skills",
+          "installsDisplay": "853.1K",
+          "url": "https://www.skills.sh/mattpocock/skills/setup-matt-pocock-skills"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://www.skills.sh/multica-ai/andrej-karpathy-skills",
+      "checkedAt": "2026-09-18T09:59:34.515207+00:00",
+      "selected": [
+        {
+          "name": "karpathy-guidelines",
+          "upstreamName": "karpathy-guidelines",
+          "installsDisplay": "36.8K",
+          "url": "https://www.skills.sh/multica-ai/andrej-karpathy-skills/karpathy-guidelines"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "anthropics/skills",
+      "url": "https://www.skills.sh/anthropics/skills",
+      "checkedAt": "2026-09-18T09:59:34.133633+00:00",
+      "selected": [
+        {
+          "name": "frontend-design",
+          "upstreamName": "frontend-design",
+          "installsDisplay": "898.4K",
+          "url": "https://www.skills.sh/anthropics/skills/frontend-design"
+        },
+        {
+          "name": "anthropics-skill-creator",
+          "upstreamName": "skill-creator",
+          "installsDisplay": "384.5K",
+          "url": "https://www.skills.sh/anthropics/skills/skill-creator"
+        },
+        {
+          "name": "anthropics-webapp-testing",
+          "upstreamName": "webapp-testing",
+          "installsDisplay": "158.9K",
+          "url": "https://www.skills.sh/anthropics/skills/webapp-testing"
+        },
+        {
+          "name": "anthropics-mcp-builder",
+          "upstreamName": "mcp-builder",
+          "installsDisplay": "115.8K",
+          "url": "https://www.skills.sh/anthropics/skills/mcp-builder"
+        },
+        {
+          "name": "anthropics-canvas-design",
+          "upstreamName": "canvas-design",
+          "installsDisplay": "108.7K",
+          "url": "https://www.skills.sh/anthropics/skills/canvas-design"
+        }
+      ],
+      "skippedBeforeCutoff": [
+        {
+          "slug": "pptx",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "pdf",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "docx",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "xlsx",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        }
+      ]
+    },
+    {
+      "sourceRepo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill",
+      "checkedAt": "2026-09-18T09:59:34.129540+00:00",
+      "selected": [
+        {
+          "name": "ui-ux-pro-max",
+          "upstreamName": "ui-ux-pro-max",
+          "installsDisplay": "361.3K",
+          "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max"
+        },
+        {
+          "name": "design-system",
+          "upstreamName": "design-system",
+          "installsDisplay": "29.5K",
+          "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design-system"
+        },
+        {
+          "name": "design",
+          "upstreamName": "design",
+          "installsDisplay": "28.5K",
+          "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design"
+        },
+        {
+          "name": "ui-styling",
+          "upstreamName": "ui-styling",
+          "installsDisplay": "27.9K",
+          "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/ui-styling"
+        },
+        {
+          "name": "brand",
+          "upstreamName": "brand",
+          "installsDisplay": "27.3K",
+          "url": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/brand"
+        }
+      ],
+      "skippedBeforeCutoff": [
+        {
+          "slug": "ckm:design-system",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "ckm:design",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "ckm:ui-styling",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "ckm:brand",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "ckm:banner-design",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        },
+        {
+          "slug": "ckm:slides",
+          "reason": "Not a separately packaged, licensed canonical skill in the audited source snapshot."
+        }
+      ]
+    },
+    {
+      "sourceRepo": "JuliusBrussee/caveman",
+      "url": "https://www.skills.sh/juliusbrussee/caveman",
+      "checkedAt": "2026-09-18T09:59:34.555991+00:00",
+      "selected": [
+        {
+          "name": "caveman",
+          "upstreamName": "caveman",
+          "installsDisplay": "519.5K",
+          "url": "https://www.skills.sh/juliusbrussee/caveman/caveman"
+        },
+        {
+          "name": "caveman-commit",
+          "upstreamName": "caveman-commit",
+          "installsDisplay": "364.6K",
+          "url": "https://www.skills.sh/juliusbrussee/caveman/caveman-commit"
+        },
+        {
+          "name": "caveman-review",
+          "upstreamName": "caveman-review",
+          "installsDisplay": "361.0K",
+          "url": "https://www.skills.sh/juliusbrussee/caveman/caveman-review"
+        },
+        {
+          "name": "caveman-compress",
+          "upstreamName": "caveman-compress",
+          "installsDisplay": "359.5K",
+          "url": "https://www.skills.sh/juliusbrussee/caveman/caveman-compress"
+        },
+        {
+          "name": "caveman-help",
+          "upstreamName": "caveman-help",
+          "installsDisplay": "351.8K",
+          "url": "https://www.skills.sh/juliusbrussee/caveman/caveman-help"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "addyosmani/agent-skills",
+      "url": "https://www.skills.sh/addyosmani/agent-skills",
+      "checkedAt": "2026-09-18T09:59:34.646764+00:00",
+      "selected": [
+        {
+          "name": "code-review-and-quality",
+          "upstreamName": "code-review-and-quality",
+          "installsDisplay": "44.3K",
+          "url": "https://www.skills.sh/addyosmani/agent-skills/code-review-and-quality"
+        },
+        {
+          "name": "security-and-hardening",
+          "upstreamName": "security-and-hardening",
+          "installsDisplay": "40.1K",
+          "url": "https://www.skills.sh/addyosmani/agent-skills/security-and-hardening"
+        },
+        {
+          "name": "frontend-ui-engineering",
+          "upstreamName": "frontend-ui-engineering",
+          "installsDisplay": "39.9K",
+          "url": "https://www.skills.sh/addyosmani/agent-skills/frontend-ui-engineering"
+        },
+        {
+          "name": "planning-and-task-breakdown",
+          "upstreamName": "planning-and-task-breakdown",
+          "installsDisplay": "38.9K",
+          "url": "https://www.skills.sh/addyosmani/agent-skills/planning-and-task-breakdown"
+        },
+        {
+          "name": "spec-driven-development",
+          "upstreamName": "spec-driven-development",
+          "installsDisplay": "38.8K",
+          "url": "https://www.skills.sh/addyosmani/agent-skills/spec-driven-development"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "Leonxlnx/taste-skill",
+      "url": "https://www.skills.sh/leonxlnx/taste-skill",
+      "checkedAt": "2026-09-18T09:59:34.644567+00:00",
+      "selected": [
+        {
+          "name": "design-taste-frontend",
+          "upstreamName": "design-taste-frontend",
+          "installsDisplay": "491.4K",
+          "url": "https://www.skills.sh/leonxlnx/taste-skill/design-taste-frontend"
+        },
+        {
+          "name": "high-end-visual-design",
+          "upstreamName": "high-end-visual-design",
+          "installsDisplay": "361.5K",
+          "url": "https://www.skills.sh/leonxlnx/taste-skill/high-end-visual-design"
+        },
+        {
+          "name": "redesign-existing-projects",
+          "upstreamName": "redesign-existing-projects",
+          "installsDisplay": "358.0K",
+          "url": "https://www.skills.sh/leonxlnx/taste-skill/redesign-existing-projects"
+        },
+        {
+          "name": "minimalist-ui",
+          "upstreamName": "minimalist-ui",
+          "installsDisplay": "332.5K",
+          "url": "https://www.skills.sh/leonxlnx/taste-skill/minimalist-ui"
+        },
+        {
+          "name": "full-output-enforcement",
+          "upstreamName": "full-output-enforcement",
+          "installsDisplay": "317.2K",
+          "url": "https://www.skills.sh/leonxlnx/taste-skill/full-output-enforcement"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://www.skills.sh/composiohq/awesome-claude-skills",
+      "checkedAt": "2026-09-18T09:59:34.779662+00:00",
+      "selected": [
+        {
+          "name": "tailored-resume-generator",
+          "upstreamName": "tailored-resume-generator",
+          "installsDisplay": "9.4K",
+          "url": "https://www.skills.sh/composiohq/awesome-claude-skills/tailored-resume-generator"
+        },
+        {
+          "name": "content-research-writer",
+          "upstreamName": "content-research-writer",
+          "installsDisplay": "7.3K",
+          "url": "https://www.skills.sh/composiohq/awesome-claude-skills/content-research-writer"
+        },
+        {
+          "name": "changelog-generator",
+          "upstreamName": "changelog-generator",
+          "installsDisplay": "6.6K",
+          "url": "https://www.skills.sh/composiohq/awesome-claude-skills/changelog-generator"
+        },
+        {
+          "name": "file-organizer",
+          "upstreamName": "file-organizer",
+          "installsDisplay": "6.0K",
+          "url": "https://www.skills.sh/composiohq/awesome-claude-skills/file-organizer"
+        },
+        {
+          "name": "youtube-downloader",
+          "upstreamName": "youtube-downloader",
+          "installsDisplay": "5.4K",
+          "url": "https://www.skills.sh/composiohq/awesome-claude-skills/youtube-downloader"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    },
+    {
+      "sourceRepo": "ayghri/i-have-adhd",
+      "url": "https://www.skills.sh/ayghri/i-have-adhd",
+      "checkedAt": "2026-09-18T09:59:34.988203+00:00",
+      "selected": [
+        {
+          "name": "i-have-adhd",
+          "upstreamName": "i-have-adhd",
+          "installsDisplay": "19.1K",
+          "url": "https://www.skills.sh/ayghri/i-have-adhd/i-have-adhd"
+        }
+      ],
+      "skippedBeforeCutoff": []
+    }
+  ]
+}

@@ -51,11 +51,16 @@ npx skills@1 add obra/superpowers
 
 ## Redistributed skills
 
+Up to five of the most-installed redistributable skills from each collection, selected
+from Skills.sh’s upstream installation counts. Collections with fewer skills retain fewer;
+the original CV kit is included separately. This is a curated selection, not a complete
+copy of every upstream framework.
+
 {{DISTRIBUTION_SUMMARY}}
 
 See [the complete distribution inventory](docs/DISTRIBUTION.md) for install names,
-original sources, pinned revisions, licenses and exclusions. Name collisions use an
-upstream-owner prefix; the inventory gives the exact `--skill` value.
+original sources, pinned revisions, licenses, selection dates and exclusions. Some names
+retain an upstream-owner prefix; the inventory gives the exact `--skill` value.
 
 These are skill packages, not copies of every upstream plugin, hook or runtime.
 Each package's `UPSTREAM.md` records packaging changes and external requirements.
