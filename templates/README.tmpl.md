@@ -1,4 +1,4 @@
-# Agent skills curated and distributed by Aiescu
+# Aiescu-maintained distribution of upstream skills
 
 [![Stars refreshed](https://img.shields.io/badge/stars_refreshed-{{UPDATED}}-blue)](catalog/stars.json)
 [![CI](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml)
@@ -8,6 +8,8 @@
 Install reusable **agent skills** for Claude Code, Codex, Gemini CLI, Cursor, Copilot,
 OpenCode and other supported agents. This repository distributes licensed upstream
 skills with their original credits, alongside the original Aiescu CV kit.
+Upstream skills remain the work of their original authors; inclusion does not imply
+authorship by Aiescu or endorsement by the upstream maintainers.
 
 Web version of this list: [aiescu.com/agent-skills](https://aiescu.com/agent-skills?utm_source=github&utm_medium=readme&utm_campaign=agent-skills).
 
@@ -18,7 +20,7 @@ maintains this distribution.
 
 <sub>Maintained by <a href="https://github.com/aiescu">aiescu</a>. Star counts are fetched weekly from the GitHub API, never typed by hand.</sub>
 
-We use these skills every day. [See what we built with them ↓](#built-with-these-skills)
+[See what we built with agent skills ↓](#built-with-these-skills)
 
 ## Quick start
 

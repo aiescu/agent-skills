@@ -22,7 +22,7 @@ export function distributionInventory(distribution) {
   return [
     '# Redistributed skills',
     '',
-    'Aiescu curates and distributes these packages. The upstream authors retain their credits and licenses.',
+    'This is an Aiescu-maintained distribution of upstream skills. Original authors retain their credits and licenses; inclusion does not imply their endorsement.',
     'This inventory is generated from `catalog/distribution.json`; each package includes `UPSTREAM.md` and license terms.',
     '',
     'Install a package with `npx skills@1 add aiescu/agent-skills --skill <install-name>`. Use `--list` to discover the available names.',
