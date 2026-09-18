@@ -1,3 +1,7 @@
+Scope: this license covers Aiescu-authored code. Redistributed third-party skill
+packages retain their own licenses and notices; see docs/DISTRIBUTION.md and each
+package’s LICENSE and UPSTREAM.md. Catalog prose is covered by LICENSE-CONTENT.
+
 MIT License
 
 Copyright (c) 2026 aiescu

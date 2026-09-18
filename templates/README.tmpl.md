@@ -1,38 +1,77 @@
-# Agent Skills: the 10 most popular skill repos, one install away
+# Aiescu-maintained distribution of upstream skills
 
 [![Stars refreshed](https://img.shields.io/badge/stars_refreshed-{{UPDATED}}-blue)](catalog/stars.json)
 [![CI](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC_BY_4.0-lightgrey.svg)](LICENSE-CONTENT)
 
-A curated showroom of the most-starred **agent skills** (SKILL.md instruction packs) for
-Claude Code, Codex, Gemini CLI, Cursor, Copilot, OpenCode and 70+ other agents, with a
-one-command install for each.
+Install reusable **agent skills** for Claude Code, Codex, Gemini CLI, Cursor, Copilot,
+OpenCode and other supported agents. This repository distributes licensed upstream
+skills with their original credits, alongside the original Aiescu CV kit.
+Upstream skills remain the work of their original authors; inclusion does not imply
+authorship by Aiescu or endorsement by the upstream maintainers.
 
 Web version of this list: [aiescu.com/agent-skills](https://aiescu.com/agent-skills?utm_source=github&utm_medium=readme&utm_campaign=agent-skills).
 
-The **curated catalog** installs each upstream skill straight from its original repository,
-keeping its license and author credit. The original skill below is maintained separately;
-it does not change the catalog rankings or upstream installer.
+The **Aiescu distribution** contains pinned copies of redistributable skills, each with
+its own license and source record. The **upstream catalog** below still links to the
+original projects and their full integrations. Original authors retain credit; Aiescu
+maintains this distribution.
 
 <sub>Maintained by <a href="https://github.com/aiescu">aiescu</a>. Star counts are fetched weekly from the GitHub API, never typed by hand.</sub>
 
-We use these skills every day. [See what we built with them ↓](#built-with-these-skills)
+[See what we built with agent skills ↓](#built-with-these-skills)
 
 ## Quick start
 
 ```bash
-# Everything, into the agent of your choice (interactive picker)
+# Discover skills distributed from this repository
+npx skills@1 add aiescu/agent-skills --list
+
+# Install one skill, preserving its original author and license
+npx skills@1 add aiescu/agent-skills --skill caveman
+
+# Or choose skills interactively
+npx skills@1 add aiescu/agent-skills
+```
+
+The Skills CLI requires Node.js 22.20 or newer. Review a skill before using it; scripts,
+external services and runtime requirements vary. For the complete upstream frameworks:
+
+```bash
+# Upstream catalog installer (interactive picker)
 curl -fsSL https://raw.githubusercontent.com/aiescu/agent-skills/main/install.sh | bash -s -- --agent claude-code
 
 # One repo, any agent, via the skills CLI
 npx skills@1 add obra/superpowers
 
-# As a Claude Code plugin marketplace (installs from upstream, nothing vendored)
+# Plugin marketplace (installs upstream plugins)
 /plugin marketplace add aiescu/agent-skills
 ```
 
+## Redistributed skills
+
+{{DISTRIBUTION_SUMMARY}}
+
+See [the complete distribution inventory](docs/DISTRIBUTION.md) for install names,
+original sources, pinned revisions, licenses and exclusions. Name collisions use an
+upstream-owner prefix; the inventory gives the exact `--skill` value.
+
+These are skill packages, not copies of every upstream plugin, hook or runtime.
+Each package's `UPSTREAM.md` records packaging changes and external requirements.
+Restricted skills remain available through their upstream links instead of being copied.
+
+Standard CLI installs can contribute to Skills.sh discovery. Set `DISABLE_TELEMETRY=1`
+or `DO_NOT_TRACK=1` to opt out. Automated installation checks disable telemetry and do
+not count as evidence of directory indexing. Individual directory pages appear through
+genuine user installations; inclusion here does not promise an indexing deadline.
+
 ## Original Aiescu skill: `geekbye-cv-kit`
+
+[![Skills.sh: geekbye-cv-kit](https://img.shields.io/badge/Skills.sh-geekbye--cv--kit-black)](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit)
+
+Browse [Aiescu skills on Skills.sh](https://www.skills.sh/aiescu/agent-skills)
+or open the [geekbye-cv-kit listing](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit).
 
 Turn verified candidate facts and a target job description into a tailored CV and matching
 cover letter, with editable LaTeX, Markdown, plain text, candidate JSON and an evidence map.
@@ -58,7 +97,7 @@ synthesis, and [installation and publication evidence](docs/cv-kit-distribution.
 local checks and release gates.
 
 ```bash
-# After this skill is published on main: discover and install just the original kit
+# Discover and install just the original kit
 npx skills@1 add aiescu/agent-skills --list
 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 
@@ -66,9 +105,8 @@ npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 DISABLE_TELEMETRY=1 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 ```
 
-The commands above require the published skill. A successful local install does not verify
-main-branch availability or a Skills.sh listing; the evidence document records those states
-separately. No directory badge is added until its actual listing is observed.
+The skill is published on the main branch. Both Skills.sh directory links above were
+verified live on September 17, 2026.
 
 Normal Skills CLI installs use its default telemetry settings; `DISABLE_TELEMETRY=1` or
 `DO_NOT_TRACK=1` opts out. The curated `install.sh` wrapper continues to disable telemetry

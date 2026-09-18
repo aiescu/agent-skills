@@ -1,38 +1,90 @@
-# Agent Skills: the 10 most popular skill repos, one install away
+# Aiescu-maintained distribution of upstream skills
 
 [![Stars refreshed](https://img.shields.io/badge/stars_refreshed-2026-09-04-blue)](catalog/stars.json)
 [![CI](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/aiescu/agent-skills/actions/workflows/ci.yml)
 [![Code: MIT](https://img.shields.io/badge/code-MIT-green.svg)](LICENSE)
 [![Content: CC BY 4.0](https://img.shields.io/badge/content-CC_BY_4.0-lightgrey.svg)](LICENSE-CONTENT)
 
-A curated showroom of the most-starred **agent skills** (SKILL.md instruction packs) for
-Claude Code, Codex, Gemini CLI, Cursor, Copilot, OpenCode and 70+ other agents, with a
-one-command install for each.
+Install reusable **agent skills** for Claude Code, Codex, Gemini CLI, Cursor, Copilot,
+OpenCode and other supported agents. This repository distributes licensed upstream
+skills with their original credits, alongside the original Aiescu CV kit.
+Upstream skills remain the work of their original authors; inclusion does not imply
+authorship by Aiescu or endorsement by the upstream maintainers.
 
 Web version of this list: [aiescu.com/agent-skills](https://aiescu.com/agent-skills?utm_source=github&utm_medium=readme&utm_campaign=agent-skills).
 
-The **curated catalog** installs each upstream skill straight from its original repository,
-keeping its license and author credit. The original skill below is maintained separately;
-it does not change the catalog rankings or upstream installer.
+The **Aiescu distribution** contains pinned copies of redistributable skills, each with
+its own license and source record. The **upstream catalog** below still links to the
+original projects and their full integrations. Original authors retain credit; Aiescu
+maintains this distribution.
 
 <sub>Maintained by <a href="https://github.com/aiescu">aiescu</a>. Star counts are fetched weekly from the GitHub API, never typed by hand.</sub>
 
-We use these skills every day. [See what we built with them ↓](#built-with-these-skills)
+[See what we built with agent skills ↓](#built-with-these-skills)
 
 ## Quick start
 
 ```bash
-# Everything, into the agent of your choice (interactive picker)
+# Discover skills distributed from this repository
+npx skills@1 add aiescu/agent-skills --list
+
+# Install one skill, preserving its original author and license
+npx skills@1 add aiescu/agent-skills --skill caveman
+
+# Or choose skills interactively
+npx skills@1 add aiescu/agent-skills
+```
+
+The Skills CLI requires Node.js 22.20 or newer. Review a skill before using it; scripts,
+external services and runtime requirements vary. For the complete upstream frameworks:
+
+```bash
+# Upstream catalog installer (interactive picker)
 curl -fsSL https://raw.githubusercontent.com/aiescu/agent-skills/main/install.sh | bash -s -- --agent claude-code
 
 # One repo, any agent, via the skills CLI
 npx skills@1 add obra/superpowers
 
-# As a Claude Code plugin marketplace (installs from upstream, nothing vendored)
+# Plugin marketplace (installs upstream plugins)
 /plugin marketplace add aiescu/agent-skills
 ```
 
+## Redistributed skills
+
+992 upstream skill packages are included, in addition to `geekbye-cv-kit`.
+
+| Original repository | Included skills | Licenses |
+|---|---:|---|
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 25 | MIT |
+| [anthropics/skills](https://github.com/anthropics/skills) | 14 | Apache-2.0 |
+| [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 1 | MIT |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 859 | Apache-2.0 |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 20 | MIT |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 13 | MIT |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 38 | MIT |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 1 | MIT |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 7 | Apache-2.0, MIT |
+| [obra/superpowers](https://github.com/obra/superpowers) | 14 | MIT |
+
+See [the complete distribution inventory](docs/DISTRIBUTION.md) for install names,
+original sources, pinned revisions, licenses and exclusions. Name collisions use an
+upstream-owner prefix; the inventory gives the exact `--skill` value.
+
+These are skill packages, not copies of every upstream plugin, hook or runtime.
+Each package's `UPSTREAM.md` records packaging changes and external requirements.
+Restricted skills remain available through their upstream links instead of being copied.
+
+Standard CLI installs can contribute to Skills.sh discovery. Set `DISABLE_TELEMETRY=1`
+or `DO_NOT_TRACK=1` to opt out. Automated installation checks disable telemetry and do
+not count as evidence of directory indexing. Individual directory pages appear through
+genuine user installations; inclusion here does not promise an indexing deadline.
+
 ## Original Aiescu skill: `geekbye-cv-kit`
+
+[![Skills.sh: geekbye-cv-kit](https://img.shields.io/badge/Skills.sh-geekbye--cv--kit-black)](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit)
+
+Browse [Aiescu skills on Skills.sh](https://www.skills.sh/aiescu/agent-skills)
+or open the [geekbye-cv-kit listing](https://www.skills.sh/aiescu/agent-skills/geekbye-cv-kit).
 
 Turn verified candidate facts and a target job description into a tailored CV and matching
 cover letter, with editable LaTeX, Markdown, plain text, candidate JSON and an evidence map.
@@ -58,7 +110,7 @@ synthesis, and [installation and publication evidence](docs/cv-kit-distribution.
 local checks and release gates.
 
 ```bash
-# After this skill is published on main: discover and install just the original kit
+# Discover and install just the original kit
 npx skills@1 add aiescu/agent-skills --list
 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 
@@ -66,9 +118,8 @@ npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 DISABLE_TELEMETRY=1 npx skills@1 add aiescu/agent-skills --skill geekbye-cv-kit
 ```
 
-The commands above require the published skill. A successful local install does not verify
-main-branch availability or a Skills.sh listing; the evidence document records those states
-separately. No directory badge is added until its actual listing is observed.
+The skill is published on the main branch. Both Skills.sh directory links above were
+verified live on September 17, 2026.
 
 Normal Skills CLI installs use its default telemetry settings; `DISABLE_TELEMETRY=1` or
 `DO_NOT_TRACK=1` opts out. The curated `install.sh` wrapper continues to disable telemetry
@@ -82,13 +133,13 @@ Sorted by stars as of 2026-09-04.
 |---|---|---:|---|---|---|
 | 1 | [obra/superpowers](https://github.com/obra/superpowers) | 281.7k | An opinionated software-development methodology delivered as composable skills: brainstorm, plan, TDD, debug, review, ship | `brainstorming` | MIT |
 | 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 249.4k | Small, composable engineering skills straight from Matt's .agents directory | `grill-with-docs` | MIT |
-| 3 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 210.1k | A single skill distilled from Karpathy's observations on LLM coding pitfalls: think first, simplicity, surgical changes, goal-driven execution | `karpathy-guidelines` | Unlicensed (README says MIT) |
+| 3 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 210.1k | A single skill distilled from Karpathy's observations on LLM coding pitfalls: think first, simplicity, surgical changes, goal-driven execution | `karpathy-guidelines` | MIT (README declaration) |
 | 4 | [anthropics/skills](https://github.com/anthropics/skills) | 174.0k | The official reference collection, the Agent Skills spec, and the skill template | `skill-creator` | Per-skill (Apache-2.0 / proprietary) |
-| 5 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 124.9k | Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator | `ui-ux-pro-max` | MIT |
+| 5 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 124.9k | Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator | `ui-ux-pro-max` | MIT / Apache-2.0 (per-skill) |
 | 6 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 103.4k | Cuts about 65% of output tokens by making the agent talk like a caveman while keeping technical accuracy | `caveman` | MIT (skills) / BSL-1.1 (engine, proxy) |
 | 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 92.2k | Production-grade engineering skills organized as a lifecycle: define, plan, build, verify, review, ship | `spec-driven-development` | MIT |
 | 8 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 84.3k | Gives your AI good taste: stops generic frontend slop with brief inference, variance/motion/density dials, and a design-system map | `design-taste-frontend` | MIT |
-| 9 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 74.5k | A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway | `connect-apps` | Unlicensed (README says Apache-2.0) |
+| 9 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 74.5k | A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway | `connect-apps` | Apache-2.0 (README declaration; individual overrides) |
 | 10 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 27.1k | Ten output rules that stop the agent burying the answer: lead with the next action, number steps, cap lists at five, no preamble | `i-have-adhd` | MIT |
 
 ## Each repo
@@ -144,7 +195,7 @@ claude plugins install mattpocock-skills
 
 ### Andrej Karpathy Skills ([multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills))
 
-by [multica-ai (formerly forrestchang)](https://github.com/multica-ai) · ⭐ 210.1k · 1 skill · Unlicensed (README says MIT)
+by [multica-ai (formerly forrestchang)](https://github.com/multica-ai) · ⭐ 210.1k · 1 skill · MIT (README declaration)
 
 A single skill distilled from Karpathy's observations on LLM coding pitfalls: think first, simplicity, surgical changes, goal-driven execution.
 
@@ -163,7 +214,7 @@ npx skills@1 add multica-ai/andrej-karpathy-skills
 Copy .cursor/rules/karpathy-guidelines.mdc from the repo
 ```
 
-> **License note:** No LICENSE file in the repo. We link only.
+> **License note:** The upstream README declares MIT. The redistributed package preserves that declaration and includes the full license terms.
 
 ### Anthropic Agent Skills ([anthropics/skills](https://github.com/anthropics/skills))
 
@@ -185,11 +236,11 @@ npx skills@1 add anthropics/skills
 
 > Not in our marketplace: the repo root has no plugin.json; use the command above.
 
-> **License note:** docx, pdf, pptx and xlsx are all-rights-reserved and may not be redistributed. We link only; nothing is copied.
+> **License note:** Redistributed packages retain individual permissive licenses. Restricted docx, pdf, pptx and xlsx skills are linked upstream only; exclusions are recorded in docs/DISTRIBUTION.md.
 
 ### UI/UX Pro Max ([nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill))
 
-by [nextlevelbuilder](https://github.com/nextlevelbuilder) · ⭐ 124.9k · 7 skills · MIT
+by [nextlevelbuilder](https://github.com/nextlevelbuilder) · ⭐ 124.9k · 7 skills · MIT / Apache-2.0 (per-skill)
 
 Design intelligence for building professional UI across platforms: 192 reasoning rules, 79 searchable styles, a design-system generator.
 
@@ -257,7 +308,7 @@ codex plugin marketplace add addyosmani/agent-skills
 gemini skills install https://github.com/addyosmani/agent-skills
 ```
 
-> **License note:** Per-skill npx install drops the shared references/ dir (upstream issue #361). Install the whole repo.
+> **License note:** Aiescu packages bundle referenced shared files. Complete upstream plugin integrations remain available from the original repository.
 
 ### Taste Skill ([Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill))
 
@@ -280,7 +331,7 @@ npx skills@1 add Leonxlnx/taste-skill --skill design-taste-frontend
 
 ### Awesome Claude Skills ([ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills))
 
-by [Composio](https://github.com/ComposioHQ) · ⭐ 74.5k · 865 skills · Unlicensed (README says Apache-2.0)
+by [Composio](https://github.com/ComposioHQ) · ⭐ 74.5k · 865 skills · Apache-2.0 (README declaration; individual overrides)
 
 A curated awesome-list of about 180 skills plus 800+ app-automation skills for Composio's MCP gateway.
 
@@ -295,7 +346,7 @@ git clone https://github.com/ComposioHQ/awesome-claude-skills && claude --plugin
 
 > Not in our marketplace: the repo root has no plugin.json; use the command above.
 
-> **License note:** No LICENSE file. Contains vendored copies of Anthropic's restricted document skills. We link only.
+> **License note:** The upstream README declares Apache-2.0 with per-skill overrides. The distribution preserves declarations and individual licenses; restricted document skills are excluded. Automation skills require external service connections.
 
 ### I Have ADHD ([ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd))
 

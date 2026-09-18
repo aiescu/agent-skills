@@ -41,13 +41,13 @@ test('original kit ships its callable runtime, schema, evidence and licensed exa
   markdownLinks(skill);
 });
 
-test('original-kit documentation keeps upstream installs and unobserved publication distinct', () => {
+test('original-kit documentation links its published listing and preserves telemetry choices', () => {
   const template = readFileSync(path.join(root, 'templates/README.tmpl.md'), 'utf8');
   const wrapper = readFileSync(path.join(root, 'install.sh'), 'utf8');
   assert.match(template, /npx skills@1 add aiescu\/agent-skills --skill geekbye-cv-kit/);
-  assert.match(template, /After this skill is published on main/);
+  assert.match(template, /https:\/\/www\.skills\.sh\/aiescu\/agent-skills\/geekbye-cv-kit/);
   assert.match(template, /DO_NOT_TRACK=1/);
-  assert.match(template, /not verify\nmain-branch availability or a Skills\.sh listing/);
+  assert.doesNotMatch(template, /After this skill is published on main|No directory badge is added/);
   assert.match(wrapper, /DISABLE_TELEMETRY=1 \$SKILLS_CLI add "\$repo"/);
   assert.doesNotMatch(wrapper, /add aiescu\/agent-skills/);
   const originalSection = template.split('## Original Aiescu skill:')[1].split('## The list')[0];

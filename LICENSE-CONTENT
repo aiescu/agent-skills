@@ -4,5 +4,6 @@ https://creativecommons.org/licenses/by/4.0/
 
 Attribution: "aiescu/agent-skills - https://github.com/aiescu/agent-skills"
 
-This does not cover the third-party skills listed here. They live in their own
-repositories under their own licenses. See SOURCES.md.
+This does not cover third-party skill packages or their bundled assets. Each retains
+its upstream license and copyright notices; see its LICENSE and UPSTREAM.md files,
+SOURCES.md and docs/DISTRIBUTION.md. The original CV kit has its own MIT license.
