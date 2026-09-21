@@ -1,6 +1,6 @@
 # Sources and attribution
 
-Generated 2026-09-04. Every catalog entry links to its upstream repository. Redistributed skill packages retain their upstream licenses and notices; see [the pinned distribution inventory](docs/DISTRIBUTION.md).
+Generated 2026-09-21. Every catalog entry links to its upstream repository. Redistributed skill packages retain their upstream licenses and notices; see [the pinned distribution inventory](docs/DISTRIBUTION.md).
 If you recognize your work and the credit is wrong, open an issue and it will be fixed first.
 
 | Repository | Author | License | Notes |

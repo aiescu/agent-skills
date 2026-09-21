@@ -1,54 +1,54 @@
 {
-  "fetchedAt": "2026-09-04",
+  "fetchedAt": "2026-09-21",
   "stars": {
     "obra/superpowers": {
-      "stars": 281692,
-      "pushedAt": "2026-09-03T18:00:53Z",
+      "stars": 289532,
+      "pushedAt": "2026-09-20T17:43:04Z",
       "spdx": "MIT"
     },
     "mattpocock/skills": {
-      "stars": 249413,
-      "pushedAt": "2026-09-04T08:45:43Z",
+      "stars": 266818,
+      "pushedAt": "2026-09-18T10:12:48Z",
       "spdx": "MIT"
     },
     "multica-ai/andrej-karpathy-skills": {
-      "stars": 210101,
+      "stars": 214438,
       "pushedAt": "2026-04-20T10:05:04Z",
       "spdx": null
     },
     "anthropics/skills": {
-      "stars": 173976,
-      "pushedAt": "2026-09-03T16:37:14Z",
+      "stars": 177406,
+      "pushedAt": "2026-09-10T19:44:11Z",
       "spdx": null
     },
     "nextlevelbuilder/ui-ux-pro-max-skill": {
-      "stars": 124927,
-      "pushedAt": "2026-09-03T14:13:39Z",
+      "stars": 129470,
+      "pushedAt": "2026-09-21T05:28:06Z",
       "spdx": "MIT"
     },
     "JuliusBrussee/caveman": {
-      "stars": 103432,
-      "pushedAt": "2026-09-04T00:31:14Z",
+      "stars": 107084,
+      "pushedAt": "2026-09-21T08:19:59Z",
       "spdx": "NOASSERTION"
     },
     "addyosmani/agent-skills": {
-      "stars": 92222,
-      "pushedAt": "2026-09-04T06:45:55Z",
+      "stars": 97974,
+      "pushedAt": "2026-09-20T19:31:54Z",
       "spdx": "MIT"
     },
     "Leonxlnx/taste-skill": {
-      "stars": 84269,
-      "pushedAt": "2026-08-24T15:23:56Z",
+      "stars": 88918,
+      "pushedAt": "2026-09-20T16:26:24Z",
       "spdx": "MIT"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "stars": 74459,
-      "pushedAt": "2026-08-10T21:45:44Z",
+      "stars": 75425,
+      "pushedAt": "2026-09-18T07:16:11Z",
       "spdx": null
     },
     "ayghri/i-have-adhd": {
-      "stars": 27069,
-      "pushedAt": "2026-09-01T20:49:17Z",
+      "stars": 49545,
+      "pushedAt": "2026-09-19T16:44:46Z",
       "spdx": "MIT"
     }
   }
